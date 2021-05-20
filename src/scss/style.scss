@@ -1,0 +1,141 @@
+:root{
+    --neve:#F9FAFC;
+    --Fumaca-Extra-Dark:#C0CCDA;
+    --neve-dark:#a0a4af;
+    --amarelo:#FFC82C;
+    --ui-color-primary-dark:#203f79;
+    --amarelo-dark:  #FFC460;
+    --primary-light:#3A95E9;
+   
+}
+*{
+    font-family: 'Lato', sans-serif;
+}
+header{
+    background: linear-gradient(#014180 100%, #014D99 43%);
+    z-index: 1;
+}
+.principal{
+    background: url(/src/img/gradient-top.svg), url(/src/img/gradient.svg), url(/src/img/seta.svg), url(/src/img/seta-2.svg) #01498F;
+    background-position: top, bottom,0 0,100% 0;
+    background-size: auto, auto,  auto,  auto;
+    background-repeat: no-repeat;
+    min-height: 1300px;
+}
+.pt-8{
+    padding-top: 8rem;
+}
+.pb-6{
+    padding-bottom: 6rem;
+}
+.mt-6{
+    margin-top: 6rem;
+}
+.fz-24{
+    font-size: 1.5em;
+}
+.fz-21{
+    font-size: 1.32em;
+}
+.fz-22{
+    font-size: 1.4em;
+}
+.fz-18{
+    font-size:1.12em;
+}
+.text-neve{
+    color: var(--neve);
+}
+.line-dev::after{
+    content: "";
+    display: block;
+    width: 133px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    height: 1px;
+    background: var(--neve-dark);
+}
+.line-plan::after{
+    content: "";
+    display: block;
+    width: 133px;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    height: 1px;
+    background: var(--neve-dark);
+}
+.line-dev::before{
+    content: "";
+    display: block;
+    width: 103px;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    height: 1px;
+    background: var(--neve-dark);
+}
+.line-plan::before{
+    content: "";
+    display: block;
+    width: 103px;
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    height: 1px;
+    background: var(--neve-dark);
+}
+.text-fumaca{
+    color: var(--Fumaca-Extra-Dark);
+}
+.bg-amarelo{
+    background: var(--amarelo);
+}
+.text-primary-dark{
+    color: var(--ui-color-primary-dark);
+}
+.text-amarelo-dark{
+    color: var(--amarelo-dark);
+}
+footer{
+    background: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+
+    .border-1{
+        border-bottom: 2px solid blanchedalmond;
+    }
+    
+}
+.text-primary-light{
+ color: var(--primary-light);
+}
+.color-on-hover:hover{
+    color: var(--amarelo);
+}
+
+@media (max-width:1200px){
+    footer{
+        font-size: 0.85rem;
+    }
+    .principal{
+        background: url(/src/img/gradient-top.svg), url(/src/img/gradient.svg), url(/src/img/seta.svg), url(/src/img/seta-2.svg) #01498F;
+        background-position: top, bottom,0 0,100% 100%;
+        background-size: auto, auto,  auto,  auto;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width:768px){
+    .align-self-center-md{
+        align-self: center!important;
+    }
+    
+}
+
+@media (max-width:576px){
+    .fz-22{
+        font-size: 1.1em;
+    }
+    header img{
+        width: 150px;
+    }
+}
