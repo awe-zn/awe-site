@@ -19,5 +19,4 @@ jobs:
         port: 22
         username: agenciaweb
         password: I2ai9uVBEX2nM
-        protocol: sftp
         server-dir: public_html/
