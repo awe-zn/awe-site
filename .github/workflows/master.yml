@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     
     - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@v2.0.0
+      uses: 
       with:
         server: santander.ifrn.edu.br
         port: 22
