@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Alegreya:400italic,400,700' rel='stylesheet' type='text/css'>
+    
+    <title>Aula 2 - Príncipios de RWD e Layouts Fluídos</title>
+    <meta name="author" content="Cesimar Xavier">
+    <meta property="og:title" content="Aula 2 - Príncipios de RWD e Layouts Fluídos"/>
+    <meta property="og:description" content="Aula 2 - Príncipios de RWD e Layouts Fluídos."/>
+    <meta property="og:site_name" content="Curso de Web Design Responsivo"/>
+    <meta property="og:locale" content="pt_BR"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="assets/img/rwd.png"/>
+    
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+	<header class="text-center padding-t">
+		<a href="index.html"><img class="logo" src="assets/img/rwd.svg" alt=""></a>
+	</header>
+	<main id="main">
+		<h1 class="b-b">
+			<div class="container">Aula 2 - Pr&iacute;ncipios de RWD e Layouts Flu&iacute;dos</div>
+		</h1>
+
+		<article class="container">
+			
+			<ol>
+				<li>
+
+					<h2>Pr&iacute;ncipios de Web Design Responsivo</h2>
+
+					<p>J&aacute; chegamos a comentar na Introdu&ccedil;&atilde;o o que &eacute; um web design responsivo, que &eacute;&nbsp;aquele web design que responde a quaisquer dispositivos/resolu&ccedil;&otilde;es e, devido a uma&nbsp;s&eacute;rie de caracter&iacute;sticas t&eacute;cnicas bem espec&iacute;cas, &eacute; bem apresentado em qualquer um<br />
+					deles.&nbsp;</p>
+
+					<p>Vamos nos aprofundar um pouco mais em suas origens, ra&iacute;zes e inspira&ccedil;&otilde;es, e&nbsp;em como aplic&aacute;-lo.</p>
+
+					<ol>
+						<li>
+							<h3>Surgimento do termo RWD</h3>
+
+							<p>Existe um site muito, muito bom e tradicional na web, que &eacute; o A List Apart: http://www.alistapart.com/.&nbsp;Ele existe desde 1998 e, com o passar dos anos, nunca deixou de brindar seus leitores com artigos e livros de excelente qualidade.</p>
+
+							<p>Um dos escritores do A List Apart &eacute; Ethan Marcotte que, em meados de 2010, publicou um artigo intitulado Responsive Web Design que mudaria, para sempre, a forma como se faz design para web.</p>
+
+							<p><a href="http://www.alistapart.com/articles/responsive-web-design/" target="_blank">http://www.alistapart.com/articles/responsive-web-design/</a></p>
+
+							<p>Numa tradu&ccedil;&atilde;o livre, este artigo come&ccedil;a assim:&nbsp;&quot;O controle que os designers t&ecirc;m no meio impresso e, muitas vezes, desejam ter no meio web, &eacute; simplesmente um reexo da limita&ccedil;&atilde;o da p&aacute;gina impressa. Devemos aceitar o fato de que a web n&atilde;o tem as mesmas restri&ccedil;&otilde;es e projetar (o web design) para essa exibilidade&rdquo;.</p>
+
+							<p>E, no decorrer do artigo, Ethan explica seus conceitos e sugest&otilde;es (usando tecnologia que j&aacute; era existente &agrave; &eacute;poca de sua publica&ccedil;&atilde;o) para que as p&aacute;ginas fossem projetadas usando o que ele chamou de web design responsivo. At&eacute; um site de exemplo foi mostrado no artigo (http://ow.ly/ate&Eacute;K), o que deixou a &nbsp;comunidade de desenvolvedores em polvorosa!</p>
+
+							<p>Inspirado por conceitos de arquitetura e losoa, a proposta de Ethan com a publica&ccedil;&atilde;o daquele artigo foi mostrar um conjunto de t&eacute;cnicas que garantem responsividade a um web design.&nbsp;Devido ao enorme feedback positivo e &agrave; &acirc;nsia da comunidade por maiores explica&ccedil;&otilde;es e pormenores sobre o assunto, no ano seguinte, foi lan&ccedil;ado o livro que, por raz&otilde;es &oacute;bvias, levou o mesmo nome do artigo que revolucionara a maneira de se fazer design na web: o ResponsiveWeb Design.<br />
+							&nbsp;</p>
+						</li>
+						<li>
+							<h3>Os 3 pilares da RWD</h3>
+							<p>Para conseguir desenvolver um design responsivo para a web, ì tecnologias principais (ou modos de aplicar essas tecnologias, se preferir) estão envolvidas:</p>
+							<ul>
+								<li>Layout fuído;</li>
+								<li>Imagens e recursos exíveis;</li>
+								<li>Media Queries.</li>
+							</ul>
+
+							<p>Desenvolver sites com <strong>layouts flu&iacute;dos</strong> (<em>fluent layout</em>, tamb&eacute;m chamados de <em>grids fex&iacute;veis)</em>, ou seja, desde a concep&ccedil;&atilde;o do projeto, primar pela n&atilde;o especica&ccedil;&atilde;o de&nbsp;medidas as no layout do projeto, torna poss&iacute;vel que haja uma adapta&ccedil;&atilde;o &ldquo;natural&rdquo;&nbsp;e autom&aacute;tica do que se apresenta na tela. Portanto, seja qual for a resolu&ccedil;&atilde;o do dispositivo&nbsp;que fez o acesso, evitamos barras de rolagem inconvenientes e/ou conte&uacute;dos&nbsp;&ldquo;cortados&rdquo;, n&atilde;o exibidos em sua completude.</p>
+
+							<p>Mas de nada adiantaria se o conte&uacute;do se adaptasse &agrave;s mais diferentes resolu&ccedil;&otilde;es&nbsp;se as imagens (e outros recursos) do site tamb&eacute;m n&atilde;o se adaptassem e n&atilde;o fossem&nbsp;ex&iacute;veis, n&atilde;o &eacute; verdade? Ent&atilde;o, atrav&eacute;s de t&eacute;cnicas variadas, &eacute; poss&iacute;vel fazer com que&nbsp;os assets (recursos como imagens, v&iacute;deos, etc) do site tamb&eacute;m sejam ex&iacute;veis para&nbsp;garantir que a experi&ecirc;ncia do visitante prime pela excel&ecirc;ncia, independentemente&nbsp;do dispositivo que esteja usando.</p>
+
+							<p>Para as mais diferentes resolu&ccedil;&otilde;es dos aparelhos, as necessidades e desejos de&nbsp;uso do site podem se alterar. Anal, uma pessoa n&atilde;o estaria errada ao imaginar que&nbsp;algu&eacute;m que acessa um site atrav&eacute;s de um celular, cuja tela n&atilde;o tenha uma boa resolu&ccedil;&atilde;o,&nbsp;n&atilde;o precisa de uma sidebar (menu na lateral). Oque esse usu&aacute;rio provavelmente&nbsp;est&aacute; procurando s&atilde;o os conte&uacute;dos principais; ent&atilde;o, nadamais justo que n&atilde;o onerar a&nbsp;visita coma exibi&ccedil;&atilde;o de uma barra lateral. As op&ccedil;&otilde;es presentes na sidebar poderiam,&nbsp;por exemplo, serem apresentadas no m de todo o conte&uacute;do.</p>
+
+							<p>&Eacute; com as <em>Media Queries</em> que &eacute; poss&iacute;vel ocultar, fazer aparecer e reposicionar elementos&nbsp;e intera&ccedil;&otilde;es conforme a resolu&ccedil;&atilde;o atual que esteja sendo usada nomomento&nbsp;da visita&ccedil;&atilde;o. Anal, o site n&atilde;o precisa (e, na verdade, n&atilde;o deve) ter, exatamente, a&nbsp;mesma apar&ecirc;ncia e disposi&ccedil;&atilde;o de seus elementos em qualquer resolu&ccedil;&atilde;o. Um iPad,&nbsp;um celular Nokia e um monitor de &oacute;&szlig; polegadas possuem espa&ccedil;os, resolu&ccedil;&otilde;es e necessidades&nbsp;bem diferentes.</p>
+
+							<p>Sabendo usar essa trinca tecnol&oacute;gica &eacute; poss&iacute;vel criar designs responsivos para a&nbsp;web. &Eacute; objeto deste livro fazer a apresenta&ccedil;&atilde;o e respectivas explica&ccedil;&otilde;es (e integra&ccedil;&otilde;es)&nbsp;de cada uma dessas principais tecnologias. Mas, antes, &eacute; interessante ter uma&nbsp;no&ccedil;&atilde;o de alguns problemas comuns que trouxeram os desenvolvedores web at&eacute; este&nbsp;ponto e conhecer alguns fatos not&aacute;veis sobre dispositivos, aweb, a rela&ccedil;&atilde;o entre estes.</p>
+
+						</li>
+					</ol>
+
+				
+			</li>
+			<li>
+				<h2>Layout fluído</h2>
+			</li>
+		</ol>
+
+		</article>
+	</main>
+	<footer id="footer" class="b-t padding-t bg-branco">
+		<div class="container">
+			&copy; IFRN - Campus Natal Zona Norte
+		</div>
+	</footer>
+
+	<script type="text/javascript">
+            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-35222899-1']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+            
+        </script>
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">Curso adiado!</h4>
+		      </div>
+		      <div class="modal-body">
+		        <p>Por motivos de saúde (minha), o curso terá seu início, marcado para hoje (11/01/2016), adiado.</p>
+		        <p>Att., <br> Cesimar Xavier</p>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div>
+		<script>
+		$(function(){
+			//$('#myModal').modal();
+		})
+		</script>
+  </body>
+</html>

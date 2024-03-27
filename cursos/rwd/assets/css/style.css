@@ -1,0 +1,66 @@
+body{
+    background: #F7F7F7;
+    font-size: 18px;
+    font-family: 'Alegreya', serif;
+}
+
+body.home{
+    background: #F7F7F7 url("../img/rwd-bg.png") bottom left no-repeat;    
+    background-attachment: fixed;
+}
+.logo{
+    height: 200px;
+}
+#ng-message{font-size: 16px;}
+.bg-branco{background-color: #FFF;}
+.padding-t{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.head-product {
+    padding: 80px 40px;
+    text-align: center;
+    background-color: #148E48;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.btn{
+    text-align: center;
+    color: #148E48;
+    border: 1px solid;
+    background-color: transparent;
+    font-size: 18px;
+
+}
+.btn:hover{
+    background-color: #148E48;
+	color: #FFF;
+}
+.form-control{
+    color: #148E48;	
+    border: 1px solid ;
+    padding: 24px;
+    border-radius: 0;
+    font-size: 18px;
+    resize: none;
+}
+.programa h3{margin-bottom: 20px;}
+.programa h3 span{border-bottom:1px solid;}
+.no-destaque{color: #AAA; border: 1px solid; border-radius: 5px;}
+.c-destaque{color: #148E48; border: 1px solid #148E48; border-radius: 5px; }
+.destaque-title{margin: 40px 0; text-align: center;}
+.destaque-title span{border-bottom: 1px solid #148E48; color: #148E48; }
+.bt-destaque{background-color: #148E48; border-color: #148E48; color: white;}
+.bt-destaque:hover{background-color: white; color: #148E48;}
+.container{max-width: 860px;}
+.container.extra{max-width: 1170px;}
+.b-t{border-top: 1px solid #148E48;}
+.b-b{border-bottom: 1px solid #148E48;}
+
+.b{border:1px solid #AAA;} 
+.b-vermelho{border-color: red;} 
+.b-verde{border-color: green;} 
+.b-cinza{border-color: #EEE;} 
+.p-3{padding: 0.9em;}
+.c-default{color: #148E48;}

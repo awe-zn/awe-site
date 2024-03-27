@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prova 3 Bimestre - Web Responsiva</title>
+	<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<style>
+	.container-cards {
+  margin: 2em;
+  max-width: 450px;
+}
+
+.card {
+  max-height: 80px;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 100%;
+  display: table;
+  box-shadow: 0 3px 3px #DDD;
+  background-color: rgba(221, 221, 221, 0.1);
+  margin-top: 8px;
+}
+.card .desc-extra {
+  content: 'Confirmado';
+}
+.card.setor-medico img {
+  -webkit-filter: grayscale(0.9);
+  filter: grayscale(0.9);
+}
+.card.setor-medico .card-description .desc-name {
+  color: #c0392b;
+}
+.card.setor-medico .card-description .desc-extra {
+  content: 'Setor médico';
+}
+.card .card-photo, .card .card-description {
+  float: left;
+  font-family: 'Hind', sans-serif;
+}
+.card .card-photo {
+  overflow: hidden;
+  max-height: 80px;
+  width: 100px;
+}
+.card .card-photo img {
+  width: 80px;
+}
+.card .card-description {
+  width: 300px;
+}
+.card .card-description .desc-name {
+  margin-top: 0;
+  padding: .5em 0 0.1em;
+  border-bottom: 1px solid;
+  color: #888;
+}
+.card .card-description .desc-extra {
+  color: #999;
+}
+
+</style>
+</head>
+<body>
+
+<div class="container-cards">
+  <div class="card">
+    <div class="card-photo">
+      <img src="https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/p206x206/1065_10151878264113029_1167512315_n.jpg?oh=7e565c8b2e8a894b69f3509bfa35a344&oe=588DB9CA&__gda__=1490365851_b013e0d8632d540b4d63f63e23ed8a43" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Luís Ferdinando (LF)</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-photo">
+      <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/14051722_1393837327298024_5162547772547028965_n.jpg?oh=636eafac644197103aeced45d851ec93&oe=58BBBE03&__gda__=1488937131_ef75396b3dc56a8c3d02f5d1a7ab6c3c" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Cesimar</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+  
+  <div class="card">
+    <div class="card-photo">
+      <img src="https://fbcdn-photos-a-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-0/p206x206/11025992_622893211173906_7336364460274218535_n.jpg?oh=c84a67f774379bbeed36420ccddeb52d&oe=58C04E01&__gda__=1490249519_ec48e10cdb9387d0253b63e847f6feed" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Ricado</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+  
+  <div class="card">
+    <div class="card-photo">
+      <img src="https://fbcdn-photos-c-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-0/p206x206/12274598_996113043743248_1465209819791849065_n.jpg?oh=74e2d9fcc9157ad45e1c3658428a62e6&oe=58CC9716&__gda__=1489089130_53900fa395d621741e36b9fbcf942792" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">César</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-photo">
+      <img src="https://fbcdn-photos-d-a.akamaihd.net/hphotos-ak-xft1/v/t1.0-0/p206x206/13876173_926937624078916_4620633752104910748_n.jpg?oh=1b2aeb8ec94b7ea515f76051dac299f5&oe=5890F944&__gda__=1485656406_9005afa4343fdcb92a2fde4a459e4e1c" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Thiago Valentim</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+  
+  <div class="card">
+    <div class="card-photo">
+      <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/p160x160/10982091_715511535225468_3815517065125901347_n.jpg?oh=0d0b25e9e58e7f0c73acf765aaf7622a&oe=58BEBC4C&__gda__=1489460041_3b0af7eaf0a90c7681faf34acb43128b" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Rafael Patriota</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+  
+  <div class="card">
+    <div class="card-photo">
+      <img src="https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-0/c38.0.200.200/p200x200/14947743_1527339523995709_8032441574102029702_n.jpg?oh=4346f54cad88d68cdeb054d7ba57edd5&oe=58BE622C&__gda__=1490072715_33126f41c8137738922f562ec234a5d5" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Paulo de Tarso (PT)</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+  
+  <div class="card">
+    <div class="card-photo">
+      <img src="http://cesimarxavier.com.br/cursos/design-web/prova/ailton.jpg" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Aílton</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+  
+  <div class="card">
+    <div class="card-photo">
+      <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xlt1/v/t1.0-1/p160x160/14724387_1429470250415499_2270526586804103294_n.jpg?oh=321d613fefbf59cf1a55d726342d1012&oe=58CDABAF&__gda__=1485694723_ad597b6f7388ef48753ba040e1579a39" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Olímpio</h3>
+      <div class="desc-extra">Confirmado</div>
+    </div>
+  </div>
+  
+
+
+  <div class="card setor-medico">
+    <div class="card-photo">
+      <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.0-9/1395114_914149101930876_7375636290754494971_n.jpg?oh=f5cab07411f3170ced7648ab2990ce5c&oe=58C0CF8F" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Neiryvan</h3>
+      <div class="desc-extra">A confirmar - Setor Médico</div>
+    </div>
+  </div>
+  
+  
+  
+  <div class="card setor-medico">
+    <div class="card-photo">
+      <img src="https://fbcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-0/p206x206/154645_119537341445247_5039538_n.jpg?oh=a6f061ab6f7bb9f6163d7aa1fa687846&oe=58D4C12F&__gda__=1485524290_c6e5ada4dd4fce029c23245631e43f5c" alt="" />
+    </div>
+    <div class="card-description">
+      <h3 class="desc-name">Bruno Lima</h3>
+      <div class="desc-extra">A confirmar - Setor Médico</div>
+    </div>
+  </div>
+  
+  
+  
+  
+</div>
+
+
+</body>
+</html>
