@@ -20,3 +20,4 @@ jobs:
         username: agenciaweb
         password: I2ai9uVBEX2nM
         protocol: ftps
+        server-dir: public_html/
