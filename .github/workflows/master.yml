@@ -16,9 +16,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.3
       with:
-        server: ftps.santander.ifrn.edu.br
+        server: sftp.santander.ifrn.edu.br
         port: 22
         username: agenciaweb
         password: I2ai9uVBEX2nM
-        protocol: ftps
         server-dir: public_html/
