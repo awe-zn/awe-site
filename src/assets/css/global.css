@@ -1,0 +1,29 @@
+/*Global Variables*/
+:root {
+
+    /*Primary colors*/
+
+    --primary-darker: #002D66;
+    --primary-main: #307FE2;
+    --primary-lighter: #5CA4FF;
+    --primary-light: #8FC1FF;
+    --primary-dark: #0B5ABD;
+
+    /*Secondary colors*/
+
+    --secondary-darker: #AF7003;
+    --secondary-main: #FDB32F;
+    --secondary-lighter: #FFD77A;
+    --secondary-light: #FFE6AD;
+    --secondary-dark: #D38C03;
+
+    /*Gray and White*/
+
+    --white: #FEFEFE;
+    --gray-100: #EFEFF0;
+    --gray-200: #DFDFE0;
+    --gray-300: #7C7C83;
+    --gray-600: #313135;
+    --gray-700: #19191C;
+    
+}
