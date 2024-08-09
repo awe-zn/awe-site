@@ -3,6 +3,8 @@
 
     /*Primary colors*/
 
+    --linear-gradiente: linear-gradient(180deg, #014180 0%, #014D99 100%);
+
     --primary-darker: #002D66;
     --primary-main: #307FE2;
     --primary-lighter: #5CA4FF;
@@ -26,4 +28,25 @@
     --gray-600: #313135;
     --gray-700: #19191C;
     
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.container-menu{
+    background-image: var(--linear-gradiente);
+}
+
+.navbar-toggler-icon{
+    background-image: url(../imgs/bt-menu.svg) !important;   
+    background-size:150% !important; 
+}
+
+.navbar-toggler{
+    border: transparent !important;
 }
