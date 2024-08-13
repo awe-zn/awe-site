@@ -32,9 +32,11 @@
     
 }
 
+/*Reset*/
+
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
     line-height: 160%; /* 28.8px */
@@ -45,7 +47,15 @@ body,html{
     width: 100%;
 }
 
+p{
+    margin-bottom: 0;
+}
+
 /*Header*/
+
+header{
+    border-bottom: 1px #002D66;
+}
 
 .container-menu{
     background-image: var(--linear-gradiente);
@@ -58,6 +68,10 @@ body,html{
 
 .navbar-toggler{
     border: transparent !important;
+}
+
+.equalizator{
+    height: 87px;
 }
 
 /*Footer*/
