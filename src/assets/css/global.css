@@ -37,6 +37,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
+    line-height: 160%; /* 28.8px */
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
 }
 
 /*Header*/
@@ -56,6 +62,11 @@
 
 /*Footer*/
 
+footer{
+    background: var(--linear-one, linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%));
+    color: var(--white);
+}
+
 .contact-instagram{
     background-color: var(--secondary-main);
 }
@@ -70,4 +81,47 @@
 
 .contact-instagram span a{
     color: var(--primary-dark);
+}
+
+.stand-logo{
+    border-top: 0.5px solid var(--primary-primary-light, #8FC1FF);
+    margin-top: 80px;
+}
+
+.text{
+    font-size: 1.5rem;
+    max-width: 406px;
+}
+
+.text span{
+    color: var(--secondary-main);
+}
+
+.title-info{
+    font-weight: 300;
+}
+
+.links{
+    width: 100%;
+    max-width: 361px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul i::before {
+    display: inline-block;
+    font-size: 25px !important; 
+}
+
+footer ul li{
+    height: max-content;
+}
+
+footer ul img {
+    display: inline-block;
+    width: 25px; 
+    height: 25px; 
 }
