@@ -104,6 +104,7 @@ footer{
 .links{
     width: 100%;
     max-width: 361px;
+    min-width: 200px;
 }
 
 footer ul{
