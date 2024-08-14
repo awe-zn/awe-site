@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 /*Global Variables*/
 :root {
 
@@ -30,13 +32,30 @@
     
 }
 
+/*Reset*/
+
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 0 ;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    line-height: 160%; /* 28.8px */
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+p{
+    margin-bottom: 0;
 }
 
 /*Header*/
+
+header{
+    border-bottom: 1px #002D66;
+}
 
 .container-menu{
     background-image: var(--linear-gradiente);
@@ -49,4 +68,75 @@
 
 .navbar-toggler{
     border: transparent !important;
+}
+
+.equalizator{
+    height: 87px;
+}
+
+/*Footer*/
+
+footer{
+    background: var(--linear-one, linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%));
+    color: var(--white);
+}
+
+.contact-instagram{
+    background-color: var(--secondary-main);
+}
+
+.contact-instagram span{
+    color: var(--primary-dark);
+}
+
+.contact-instagram span{
+    max-width: 205px;
+}
+
+.contact-instagram span a{
+    color: var(--primary-dark);
+}
+
+.stand-logo{
+    border-top: 0.5px solid var(--primary-primary-light, #8FC1FF);
+    margin-top: 80px;
+}
+
+.text{
+    font-size: 1.5rem;
+    max-width: 406px;
+}
+
+.text span{
+    color: var(--secondary-main);
+}
+
+.title-info{
+    font-weight: 300;
+}
+
+.links{
+    width: 100%;
+    max-width: 361px;
+    min-width: 200px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul i::before {
+    display: inline-block;
+    font-size: 25px !important; 
+}
+
+footer ul li{
+    height: max-content;
+}
+
+footer ul img {
+    display: inline-block;
+    width: 25px; 
+    height: 25px; 
 }
