@@ -1,6 +1,8 @@
+@import "global";
+
 .hero {
-    background-image: var(--linear-gradiente);
-    color: var(--white);
+    background-image:$linear-gradiente;
+    color: $white;
     padding: 3.5rem 1.5rem;
 
     .content-left {
@@ -8,14 +10,14 @@
     }
 
     .we-are {
-        color: var(--white);
+        color: $white;
         font-size: 1.125rem;
         line-height: 140%;
     }
 
     .title {
         color: transparent;
-        -webkit-text-stroke: 1px var(--white);
+        -webkit-text-stroke: 1px $white;
         font-size: 136px;
         font-weight: 900;
         letter-spacing: -2.72px;
@@ -44,14 +46,31 @@
     button {
         padding: 16px 32px;
         border-radius: 5px;
-        border: 1px solid var(--gray-adn-white-white, #FEFEFE);
+        border: 1px solid $white;
         background-color: transparent;
-        color: var(--white);
+        color: $white;
         gap: 30px;
     }
 
-    .hero-down-arrow{
+    .hero-down-arrow {
         height: 72px;
         margin-top: 88px;
+    }
+}
+
+.container_advisors {
+    padding: 3.5rem 1.5rem;
+
+    h2 {
+        max-width: 300px;
+        width: 100%;
+        color: $primary-main;
+        font-weight: 300;
+        line-height: 120%;
+        font-size: 3rem;
+        
+        span {
+            color: $secondary-main;
+        }
     }
 }
