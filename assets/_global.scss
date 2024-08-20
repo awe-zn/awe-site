@@ -1,0 +1,17 @@
+:root{
+   --primary-primary-darker: #0F315C;
+   --primary-primary-main: #0B5ABD;
+   --primary-primary-light: #0B8CFF;    
+   --linear-one: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+   --secondary-secondary-main: #FDB32F;
+   --gray-adn-white-white: #FEFEFE;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    background-color: var(--primary-primary-darker);
+}
+
+.container{
+    height: 100vh;
+}
