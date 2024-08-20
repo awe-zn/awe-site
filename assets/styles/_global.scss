@@ -1,0 +1,63 @@
+:root{
+   --primary-primary-darker: #0F315C;
+   --primary-primary-main: #0B5ABD;
+   --primary-primary-light: #0B8CFF;    
+   --linear-one: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+   --secondary-secondary-main: #FDB32F;
+   --gray-adn-white-white: #FEFEFE;
+
+   .color-primary-light{color: var(--primary-primary-light);}
+   .background-linear-one{background: var(--linear-one) no-repeat}
+   .color-secondary-main{color: var(--secondary-secondary-main);}
+   .color-gray-adn-white{color: var(--gray-adn-white-white); }
+}
+
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    background-color: var(--primary-primary-darker) !important;
+    color: var(--gray-adn-white-white) !important;
+
+    div.container, footer{
+        height: 100vh;
+    }
+
+    .center{
+        margin: 0 auto !important;
+    }
+
+    button, li, a{
+        border: 0;
+        text-decoration: none;
+        list-style: none;
+        background-color: transparent;
+    }
+
+    h1{
+        font-family: 'Sora', 'sans-serif'; 
+        font-weight: 700;
+        font-size: clamp(2rem, 3vw, 2.75rem);
+    }
+
+    .max-content{
+        width: max-content;
+    }
+
+    .pb-6{
+        padding-bottom: 4rem !important;
+    }
+
+    .pt-7{
+        padding-top: 5rem !important;
+    }
+
+    .pb-7{
+        padding-bottom: 5rem !important;
+    }
+}
+

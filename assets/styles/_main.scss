@@ -1,0 +1,22 @@
+main{
+    section{
+        width: 49.375rem;
+    }
+    .btn-main{
+        font-family: 'Sora', 'sans-serif';
+        font-size: .875rem;
+        padding: .625rem 1.5rem !important;
+        border: 1px solid var(--gray-adn-white-white);
+        transition: .3s ease-in ;
+    }
+    .btn-main:hover{
+        background-color: #B4D1F426;
+    }
+    p{
+        font-family: 'Inter', 'sans-serif';
+        width: 80%;
+    }
+    .tomadas{
+        background-color: var(--primary-primary-darker);
+    }
+}

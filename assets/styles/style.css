@@ -1,0 +1,99 @@
+:root {
+  --primary-primary-darker: #0F315C;
+  --primary-primary-main: #0B5ABD;
+  --primary-primary-light: #0B8CFF;
+  --linear-one: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
+  --secondary-secondary-main: #FDB32F;
+  --gray-adn-white-white: #FEFEFE;
+}
+:root .color-primary-light {
+  color: var(--primary-primary-light);
+}
+:root .background-linear-one {
+  background: var(--linear-one) no-repeat;
+}
+:root .color-secondary-main {
+  color: var(--secondary-secondary-main);
+}
+:root .color-gray-adn-white {
+  color: var(--gray-adn-white-white);
+}
+
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--primary-primary-darker) !important;
+  color: var(--gray-adn-white-white) !important;
+}
+body div.container, body footer {
+  height: 100vh;
+}
+body .center {
+  margin: 0 auto !important;
+}
+body button, body li, body a {
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  background-color: transparent;
+}
+body h1 {
+  font-family: "Sora", "sans-serif";
+  font-weight: 700;
+  font-size: clamp(2rem, 3vw, 2.75rem);
+}
+body .max-content {
+  width: -moz-max-content;
+  width: max-content;
+}
+body .pb-6 {
+  padding-bottom: 4rem !important;
+}
+body .pt-7 {
+  padding-top: 5rem !important;
+}
+body .pb-7 {
+  padding-bottom: 5rem !important;
+}
+
+main section {
+  width: 49.375rem;
+}
+main .btn-main {
+  font-family: "Sora", "sans-serif";
+  font-size: 0.875rem;
+  padding: 0.625rem 1.5rem !important;
+  border: 1px solid var(--gray-adn-white-white);
+  transition: 0.3s ease-in;
+}
+main .btn-main:hover {
+  background-color: rgba(180, 209, 244, 0.1490196078);
+}
+main p {
+  font-family: "Inter", "sans-serif";
+  width: 80%;
+}
+main .tomadas {
+  background-color: var(--primary-primary-darker);
+}
+
+footer {
+  border-top: 3px solid var(--secondary-secondary-main);
+}
+footer .text-header {
+  font-family: "Sora", "sans-serif";
+  font-size: 21px;
+  width: 35%;
+}
+footer article, footer h6 {
+  font-family: "Lato", "sans-serif";
+  font-size: 18px;
+}
+footer article p > span {
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
