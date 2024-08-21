@@ -88,11 +88,20 @@
     .container-testimonials{
         color: $white;
         overflow-x: scroll;
+        .container-card-view{
+            height: 400px;
+            display: flex;
+            align-items: center;
+            width: auto;
+        }
         .card-testimonials{
             position: relative;
             .equalizator{
                 width: 500px;
                 height: 2px;
+            }
+            img{
+                z-index: 2;
             }
             .container-img{
                 width: 500px;

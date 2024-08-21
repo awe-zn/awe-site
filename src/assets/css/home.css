@@ -217,6 +217,12 @@ footer ul img {
   color: #FEFEFE;
   overflow-x: scroll;
 }
+.container_advisors .container-testimonials .container-card-view {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  width: auto;
+}
 .container_advisors .container-testimonials .card-testimonials {
   position: relative;
   background-color: #0B5ABD;
@@ -225,6 +231,9 @@ footer ul img {
 .container_advisors .container-testimonials .card-testimonials .equalizator {
   width: 500px;
   height: 2px;
+}
+.container_advisors .container-testimonials .card-testimonials img {
+  z-index: 2;
 }
 .container_advisors .container-testimonials .card-testimonials .container-img {
   width: 500px;
