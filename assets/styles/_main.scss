@@ -1,6 +1,6 @@
 main{
     section{
-        width: 49.375rem;
+        width: clamp(578px, 56vw, 49.375rem);
     }
     .btn-main{
         font-family: 'Sora', 'sans-serif';
@@ -13,7 +13,6 @@ main{
         background-color: #B4D1F426;
     }
     p{
-        font-family: 'Inter', 'sans-serif';
         width: 80%;
     }
     .tomadas{

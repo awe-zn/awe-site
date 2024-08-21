@@ -20,11 +20,11 @@
 
 body{
     font-family: "Lato", sans-serif;
-    background-color: var(--primary-primary-darker) !important;
     color: var(--gray-adn-white-white) !important;
+    height: 100vh;
 
-    div.container, footer{
-        height: 100vh;
+    div.content{
+        background-color: var(--primary-primary-darker) !important;
     }
 
     .center{

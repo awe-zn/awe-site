@@ -27,11 +27,11 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: var(--primary-primary-darker) !important;
   color: var(--gray-adn-white-white) !important;
-}
-body div.container, body footer {
   height: 100vh;
+}
+body div.content {
+  background-color: var(--primary-primary-darker) !important;
 }
 body .center {
   margin: 0 auto !important;
@@ -61,8 +61,13 @@ body .pb-7 {
   padding-bottom: 5rem !important;
 }
 
+@media screen and (max-width: 578px) {
+  main > section {
+    width: 100% !important;
+  }
+}
 main section {
-  width: 49.375rem;
+  width: clamp(578px, 56vw, 49.375rem);
 }
 main .btn-main {
   font-family: "Sora", "sans-serif";
@@ -75,7 +80,6 @@ main .btn-main:hover {
   background-color: rgba(180, 209, 244, 0.1490196078);
 }
 main p {
-  font-family: "Inter", "sans-serif";
   width: 80%;
 }
 main .tomadas {
@@ -96,4 +100,13 @@ footer article, footer h6 {
 }
 footer article p > span {
   font-size: 16px;
+}
+footer .article-1 {
+  width: 277.11px;
+}
+footer .article-2 {
+  width: 380.41px;
+}
+footer .article-1 {
+  width: 478.69px;
 }/*# sourceMappingURL=style.css.map */
