@@ -3,7 +3,7 @@ footer{
     .text-header{
         font-family: 'Sora', 'sans-serif';
         font-size: 21px;
-        width: 35%;
+        width: clamp(21.375rem, 29vw, 23.75rem);
     }
 
     article, h6{
@@ -24,6 +24,10 @@ footer{
 
     .article-1{
         width: 478.69px;
+    }
+
+    .sect-bottom{
+        border-top: 0.5px solid var(--primary-primary-main);
     }
 
 }

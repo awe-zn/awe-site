@@ -1,5 +1,6 @@
-@media screen and (max-width: 578px){
-    main > section{
+@media screen and (max-width: 768px){
+    main > section, footer, header{
         width: 100% !important;
+        padding: 0 1rem !important;
     }
 }
