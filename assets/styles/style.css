@@ -62,7 +62,7 @@ body .pb-7 {
 }
 
 @media screen and (max-width: 768px) {
-  main > section, footer, header {
+  main > section, footer, .content > header {
     width: 100% !important;
     padding: 0 1rem !important;
   }
@@ -85,6 +85,46 @@ main p {
 }
 main .tomadas {
   background-color: var(--primary-primary-darker);
+}
+main img.programador-mouse {
+  animation: move-programmer 7s infinite alternate ease;
+}
+main img.designer-mouse {
+  animation: move-designer 7s infinite alternate ease;
+}
+@keyframes move-designer {
+  from {
+    transform: translate(0px, 50%);
+  }
+  25% {
+    transform: translate(-25px, -50%);
+  }
+  50% {
+    transform: translate(150px, 10%);
+  }
+  75% {
+    transform: translate(-50px, -50%);
+  }
+  to {
+    transform: translate(25px, -100%);
+  }
+}
+@keyframes move-programmer {
+  from {
+    transform: translate(-50px, 50%);
+  }
+  25% {
+    transform: translate(25px, -50%);
+  }
+  50% {
+    transform: translate(-150px, 10%);
+  }
+  75% {
+    transform: translate(-50px, -30%);
+  }
+  to {
+    transform: translate(100px, -50%);
+  }
 }
 
 footer {
