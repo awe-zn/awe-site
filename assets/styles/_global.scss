@@ -1,10 +1,12 @@
 :root{
    --primary-primary-darker: #0F315C;
    --primary-primary-main: #0B5ABD;
-   --primary-primary-light: #0B8CFF;    
+   --primary-primary-light: #4CC8FF;    
+   --primary-primary-light-2: #0B8CFF;    
    --linear-one: linear-gradient(90deg, #213F8C 50%, #1E3980 69.17%, #1B3373 100%);
    --secondary-secondary-main: #FDB32F;
    --gray-adn-white-white: #FEFEFE;
+   
 
    .color-primary-light{color: var(--primary-primary-light);}
    .background-linear-one{background: var(--linear-one) no-repeat}

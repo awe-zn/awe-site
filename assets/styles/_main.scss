@@ -1,4 +1,6 @@
 main{
+    min-height: 85vh;
+    // height: clamp(85vh, 67vw, 100vh);
     section{
         width: clamp(578px, 56vw, 49.375rem);
     }
