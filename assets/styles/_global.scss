@@ -21,10 +21,8 @@
 }
 
 body{
-    font-family: "Lato", sans-serif !important;
+    font-family: "Sora", sans-serif !important;
     color: var(--gray-adn-white-white) !important;
-    height: 100vh;
-
     div.content{
         background-color: var(--primary-primary-darker) !important;
     }
@@ -41,7 +39,6 @@ body{
     }
 
     h1{
-        font-family: 'Sora', 'sans-serif'; 
         font-weight: 700;
         font-size: clamp(2rem, 3vw, 2.75rem);
     }

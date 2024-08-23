@@ -27,9 +27,8 @@
 }
 
 body {
-  font-family: "Lato", sans-serif !important;
+  font-family: "Sora", sans-serif !important;
   color: var(--gray-adn-white-white) !important;
-  height: 100vh;
 }
 body div.content {
   background-color: var(--primary-primary-darker) !important;
@@ -44,7 +43,6 @@ body button, body li, body a {
   background-color: transparent;
 }
 body h1 {
-  font-family: "Sora", "sans-serif";
   font-weight: 700;
   font-size: clamp(2rem, 3vw, 2.75rem);
 }
@@ -75,7 +73,6 @@ main section {
   width: clamp(578px, 56vw, 49.375rem);
 }
 main .btn-main {
-  font-family: "Sora", "sans-serif";
   font-size: 0.875rem;
   padding: 0.625rem 1.5rem !important;
   border: 1px solid var(--gray-adn-white-white);
@@ -135,12 +132,10 @@ footer {
   border-top: 3px solid var(--secondary-secondary-main);
 }
 footer .text-header {
-  font-family: "Sora", "sans-serif";
   font-size: 21px;
   width: clamp(21.375rem, 29vw, 23.75rem);
 }
 footer article, footer h6 {
-  font-family: "Lato", "sans-serif";
   font-size: 18px;
 }
 footer article p > span {
