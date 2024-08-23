@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 /*Line height*/
 /*Headings*/
 h1,
@@ -45,7 +45,7 @@ p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Sora", sans-serif;
   line-height: 150%;
 }
 
@@ -157,12 +157,12 @@ footer ul img {
 }
 .hero .title {
   color: transparent;
-  -webkit-text-stroke: 1px #FEFEFE;
-  font-size: 136px;
+  -webkit-text-stroke: 2px #FEFEFE;
+  font-size: 120px;
   font-weight: 900;
   letter-spacing: -2.72px;
-  line-height: normal;
-  max-width: 562px;
+  max-width: 630px;
+  line-height: 80%;
 }
 .hero .working {
   max-width: 326px;
@@ -172,7 +172,7 @@ footer ul img {
 .hero .subtitle {
   font-size: 1.5rem;
   font-weight: 300;
-  line-height: 120%;
+  line-height: 140%;
   max-width: 560px;
 }
 .hero .subtitle,
@@ -230,7 +230,10 @@ footer ul img {
 }
 .container_advisors .container-testimonials .card-testimonials .equalizator {
   width: 500px;
-  height: 2px;
+  height: 169px;
+}
+.container_advisors .container-testimonials .card-testimonials .message {
+  flex-grow: 1;
 }
 .container_advisors .container-testimonials .card-testimonials img {
   z-index: 2;
@@ -254,6 +257,25 @@ footer ul img {
   color: #8FC1FF;
   margin: 4px 0 12px;
   display: inline-block;
+}
+
+.our-activities {
+  color: #FEFEFE;
+  background-color: #0B5ABD;
+  padding: 7.5rem 0;
+}
+.our-activities .container-trends {
+  gap: 7.5rem;
+}
+.our-activities .container-trends .title-trends {
+  line-height: 120%;
+  font-weight: 800;
+}
+.our-activities .container-trends .title-trends span {
+  color: #FDB32F;
+}
+.our-activities .container-trends .subtitle-trends {
+  line-height: 160%;
 }
 
 /*# sourceMappingURL=home.css.map */
