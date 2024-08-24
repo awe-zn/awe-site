@@ -122,6 +122,27 @@ footer {
   min-width: 200px;
 }
 
+div.breadcrumb{
+  max-height: 74px;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 16px 120px 16px 120px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #edfaff;
+  opacity: 0.5;
+}
+
+.breadcrumb-text{
+  font-size: 12px;
+  margin: 0;
+}
+
+ol.breadcrumb{
+  margin: 0;
+}
+
 footer ul {
   list-style: none;
   padding: 0;
