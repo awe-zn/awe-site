@@ -63,11 +63,18 @@
             color: $secondary-main;
         }
     }
-
+    
     .content_top {
+        padding: 1.75rem 0;
         p {
-            color: $gray-600;
+            color: #565C65;
+            line-height: $line-height-medium;
             font-size: 1.125rem;
+        }
+
+        a {
+            color: $primary-main;
+            line-height: $line-height-spaced;
         }
     }
 
@@ -140,6 +147,10 @@
     .container-trends {
         gap: 7.5rem;
 
+        .content-trend{
+            padding: 1.75rem 0;
+        }
+
         .title-trends {
             line-height: $line-height-tight;
             font-weight: 800;
@@ -210,8 +221,8 @@
     border-top: 10px solid #FFC82C;
     background: $primary-dark;
     padding: 3.125rem 0;
-    
-    h3{
+
+    h3 {
         color: $white;
     }
 

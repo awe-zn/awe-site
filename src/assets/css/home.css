@@ -201,9 +201,17 @@ footer ul img {
 .container_advisors h2 span {
   color: #FDB32F;
 }
+.container_advisors .content_top {
+  padding: 1.75rem 0;
+}
 .container_advisors .content_top p {
-  color: #313135;
+  color: #565C65;
+  line-height: 140%;
   font-size: 1.125rem;
+}
+.container_advisors .content_top a {
+  color: #307FE2;
+  line-height: 150%;
 }
 .container_advisors .container {
   gap: 160px;
@@ -261,6 +269,9 @@ footer ul img {
 }
 .our-activities .container-trends {
   gap: 7.5rem;
+}
+.our-activities .container-trends .content-trend {
+  padding: 1.75rem 0;
 }
 .our-activities .container-trends .title-trends {
   line-height: 120%;
