@@ -278,12 +278,55 @@ footer ul img {
 .our-activities .container-trends .content-subtitle {
   font-size: 18px;
 }
-.our-activities .container-trends .content-subtitle, .our-activities .container-trends .tag {
+.our-activities .container-trends .content-subtitle,
+.our-activities .container-trends .tag {
   color: #B7E9FF;
 }
 .our-activities .container-trends .to-talk {
   color: #F2B025;
   line-height: 150%;
+}
+
+.our-projects {
+  padding: 7.5rem 0;
+}
+.our-projects h3 {
+  color: #0B5ABD;
+}
+.our-projects .subtitle-our-projects {
+  color: #7C7C83;
+}
+.our-projects > .container {
+  gap: 2.5rem;
+}
+.our-projects .project a {
+  color: #0B5ABD;
+}
+.our-projects .title-project {
+  color: #002D66;
+  font-size: 1.125rem;
+  line-height: 120%;
+}
+.our-projects .description-project {
+  color: #313135;
+  line-height: 140%;
+}
+
+.follow-news {
+  border-top: 10px solid #FFC82C;
+  background: #0B5ABD;
+  padding: 3.125rem 0;
+}
+.follow-news h3 {
+  color: #FEFEFE;
+}
+.follow-news small {
+  font-size: 14px;
+  color: #B7E9FF;
+}
+.follow-news p {
+  font-size: 18px;
+  color: #B7E9FF;
 }
 
 /*# sourceMappingURL=home.css.map */
