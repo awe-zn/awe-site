@@ -49,6 +49,10 @@ p {
   line-height: 150%;
 }
 
+img {
+  width: auto !important;
+}
+
 body, html {
   height: 100%;
   width: 100%;
@@ -154,15 +158,6 @@ footer ul img {
   color: #FEFEFE;
   font-size: 1.125rem;
   line-height: 140%;
-}
-.hero .title {
-  color: transparent;
-  -webkit-text-stroke: 2px #FEFEFE;
-  font-size: 120px;
-  font-weight: 900;
-  letter-spacing: -2.72px;
-  max-width: 630px;
-  line-height: 80%;
 }
 .hero .working {
   max-width: 326px;
@@ -276,6 +271,19 @@ footer ul img {
 }
 .our-activities .container-trends .subtitle-trends {
   line-height: 160%;
+}
+.our-activities .container-trends .content-title {
+  line-height: 120%;
+}
+.our-activities .container-trends .content-subtitle {
+  font-size: 18px;
+}
+.our-activities .container-trends .content-subtitle, .our-activities .container-trends .tag {
+  color: #B7E9FF;
+}
+.our-activities .container-trends .to-talk {
+  color: #F2B025;
+  line-height: 150%;
 }
 
 /*# sourceMappingURL=home.css.map */
