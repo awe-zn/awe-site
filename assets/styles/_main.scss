@@ -65,4 +65,27 @@ main{
             transform: translate(100px, -50%);
         }
     }
+
+    .block-saiba-mais{
+        position: relative;
+    }
+
+    .dino-frame {
+        animation: dino-move 1s infinite steps(1);
+      }
+
+    .dino-dois{
+        animation-delay: 0.5s;
+    }
+
+    @keyframes dino-move{
+        0%, 100%{
+            display: none;
+        }
+        
+        50%{
+            display: inline-block;
+        }
+    }
+    
 }
