@@ -66,16 +66,12 @@ main{
         }
     }
 
-    .block-saiba-mais{
-        position: relative;
-    }
-
     .dino-frame {
         animation: dino-move 1s infinite steps(1);
       }
 
     .dino-dois{
-        animation-delay: 0.5s;
+        animation-delay: 0.5s ;
     }
 
     @keyframes dino-move{

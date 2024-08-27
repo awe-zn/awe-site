@@ -133,9 +133,6 @@ main img.designer-mouse {
     transform: translate(100px, -50%);
   }
 }
-main .block-saiba-mais {
-  position: relative;
-}
 main .dino-frame {
   animation: dino-move 1s infinite steps(1);
 }
