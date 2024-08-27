@@ -170,17 +170,8 @@ footer ul img {
   line-height: 140%;
   max-width: 560px;
 }
-.hero .subtitle,
-.hero button {
+.hero .subtitle {
   margin-top: 32px;
-}
-.hero button {
-  padding: 16px 32px;
-  border-radius: 5px;
-  border: 1px solid #FEFEFE;
-  background-color: transparent;
-  color: #FEFEFE;
-  gap: 30px;
 }
 .hero .hero-down-arrow {
   height: 72px;
@@ -338,6 +329,36 @@ footer ul img {
 .follow-news p {
   font-size: 18px;
   color: #B7E9FF;
+}
+
+.section-news {
+  padding: 120px 0;
+}
+.section-news .main-news a {
+  text-underline-offset: 10px;
+}
+.section-news .box-news {
+  padding: 2rem;
+  border: 1px solid; /* Largura da borda */
+  border-image: linear-gradient(to bottom, #2648A1, #2648A1, transparent, transparent, transparent) 1;
+  border-radius: 8px;
+}
+.section-news .box-news .description-news {
+  font-size: 1.125rem;
+}
+.section-news .news p {
+  color: #307FE2;
+}
+.section-news .news p:not(:last-child) {
+  border-bottom: 1px solid #0B5ABD;
+}
+.section-news button {
+  padding: 16px 32px;
+  border-radius: 5px;
+  border: 1px solid #0B5ABD;
+  background-color: transparent;
+  color: #0B5ABD;
+  gap: 30px;
 }
 
 /*# sourceMappingURL=home.css.map */
