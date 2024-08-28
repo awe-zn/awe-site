@@ -231,18 +231,20 @@
 .section-news {
     padding: 120px 0;
 
-    .main-news{
-        a{
+    .main-news {
+        a {
             text-underline-offset: 10px;
         }
     }
 
     .box-news {
         padding: 2rem;
-        border: 1px solid; /* Largura da borda */
-        border-image: linear-gradient(to bottom, #2648A1,#2648A1, transparent, transparent, transparent) 1;
+        border: 1px solid;
+        /* Largura da borda */
+        border-image: linear-gradient(to bottom, #2648A1, #2648A1, transparent, transparent, transparent) 1;
         border-radius: 8px;
-        .description-news{
+
+        .description-news {
             font-size: 1.125rem;
         }
     }
@@ -264,5 +266,25 @@
         background-color: transparent;
         color: $primary-dark;
         gap: 30px;
+    }
+}
+
+.team {
+    background-color: $primary-dark;
+    color: #B7E9FF;
+    padding: 5rem 0;
+    .title{
+        padding: 1.75rem 0;
+    }
+    .subtitle {
+        font-size: 1.125rem;
+        line-height: $line-height-spaced;
+    }
+    .box-card-team{
+        .card-team{
+            border-radius: 5px;
+            background-color: $white;
+            color:$primary-darker;
+        }
     }
 }

@@ -339,7 +339,8 @@ footer ul img {
 }
 .section-news .box-news {
   padding: 2rem;
-  border: 1px solid; /* Largura da borda */
+  border: 1px solid;
+  /* Largura da borda */
   border-image: linear-gradient(to bottom, #2648A1, #2648A1, transparent, transparent, transparent) 1;
   border-radius: 8px;
 }
@@ -359,6 +360,24 @@ footer ul img {
   background-color: transparent;
   color: #0B5ABD;
   gap: 30px;
+}
+
+.team {
+  background-color: #0B5ABD;
+  color: #B7E9FF;
+  padding: 5rem 0;
+}
+.team .title {
+  padding: 1.75rem 0;
+}
+.team .subtitle {
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+.team .box-card-team .card-team {
+  border-radius: 5px;
+  background-color: #FEFEFE;
+  color: #002D66;
 }
 
 /*# sourceMappingURL=home.css.map */
