@@ -1,5 +1,15 @@
 @import "global";
 
+@mixin disable-selection-scroll {
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
 .hero {
     background-image: $linear-gradiente;
     color: $white;
@@ -49,6 +59,11 @@
         line-height: 120%;
         font-size: 3rem;
 
+        .text-wrapper {
+            display: block;
+            height: 1.5em;
+        }
+
         span {
             color: $secondary-main;
         }
@@ -76,6 +91,7 @@
     .container-testimonials {
         color: $white;
         overflow-x: scroll;
+        @include disable-selection-scroll;
 
         .container-card-view {
             height: 400px;
@@ -273,18 +289,54 @@
     background-color: $primary-dark;
     color: #B7E9FF;
     padding: 5rem 0;
-    .title{
+
+    .title {
         padding: 1.75rem 0;
     }
+
     .subtitle {
         font-size: 1.125rem;
         line-height: $line-height-spaced;
     }
-    .box-card-team{
-        .card-team{
+
+    .box-card-team {
+        white-space: nowrap;
+        @include disable-selection-scroll;
+
+        .card-team {
             border-radius: 5px;
             background-color: $white;
-            color:$primary-darker;
+            color: $primary-darker;
         }
+    }
+    button{
+        color: #B7E9FF;
+        background-color: transparent;
+        border: 1px solid;
+    }
+}
+
+.team-mentors{
+    padding: 5rem 0;
+    .subtitle{
+        font-size: 1.125rem;
+        line-height: $line-height-spaced;
+    }
+    .title{
+        padding: 1.75rem 0;
+        h3{
+            color: $primary-dark;
+        }
+    }
+    .box-card-team-mentors{
+        @include disable-selection-scroll;
+    }
+    button{
+        padding: 16px 32px;
+        border-radius: 5px;
+        border: 1px solid $primary-dark;
+        background-color: transparent;
+        color: $primary-dark;
+        gap: 30px;
     }
 }

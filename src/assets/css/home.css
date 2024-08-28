@@ -189,6 +189,10 @@ footer ul img {
   line-height: 120%;
   font-size: 3rem;
 }
+.container_advisors h2 .text-wrapper {
+  display: block;
+  height: 1.5em;
+}
 .container_advisors h2 span {
   color: #FDB32F;
 }
@@ -210,6 +214,12 @@ footer ul img {
 .container_advisors .container-testimonials {
   color: #FEFEFE;
   overflow-x: scroll;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.container_advisors .container-testimonials::-webkit-scrollbar {
+  display: none;
 }
 .container_advisors .container-testimonials .container-card-view {
   height: 400px;
@@ -374,10 +384,54 @@ footer ul img {
   font-size: 1.125rem;
   line-height: 150%;
 }
+.team .box-card-team {
+  white-space: nowrap;
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.team .box-card-team::-webkit-scrollbar {
+  display: none;
+}
 .team .box-card-team .card-team {
   border-radius: 5px;
   background-color: #FEFEFE;
   color: #002D66;
+}
+.team button {
+  color: #B7E9FF;
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.team-mentors {
+  padding: 5rem 0;
+}
+.team-mentors .subtitle {
+  font-size: 1.125rem;
+  line-height: 150%;
+}
+.team-mentors .title {
+  padding: 1.75rem 0;
+}
+.team-mentors .title h3 {
+  color: #0B5ABD;
+}
+.team-mentors .box-card-team-mentors {
+  cursor: grab;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.team-mentors .box-card-team-mentors::-webkit-scrollbar {
+  display: none;
+}
+.team-mentors button {
+  padding: 16px 32px;
+  border-radius: 5px;
+  border: 1px solid #0B5ABD;
+  background-color: transparent;
+  color: #0B5ABD;
+  gap: 30px;
 }
 
 /*# sourceMappingURL=home.css.map */
