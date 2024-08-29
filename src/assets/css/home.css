@@ -425,6 +425,10 @@ footer ul img {
 .team-mentors .box-card-team-mentors::-webkit-scrollbar {
   display: none;
 }
+.team-mentors .box-card-team-mentors .card-team {
+  border: 2px solid #0B5ABD;
+  color: #0B5ABD;
+}
 .team-mentors button {
   padding: 16px 32px;
   border-radius: 5px;

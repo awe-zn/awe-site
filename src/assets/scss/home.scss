@@ -330,6 +330,10 @@
     }
     .box-card-team-mentors{
         @include disable-selection-scroll;
+        .card-team{
+            border: 2px solid $primary-dark;
+            color:$primary-dark
+        }
     }
     button{
         padding: 16px 32px;
