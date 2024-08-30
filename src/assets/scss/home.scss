@@ -10,6 +10,18 @@
     }
 }
 
+@mixin bg-testimonial($img-caminho) {
+    &::before{
+        content:" ";
+        background-image: url($img-caminho);
+        position: absolute;
+        top: -50%;
+        width: 134px;
+        height: 242px;
+        z-index: 2;
+    }
+}
+
 .hero {
     background-image: $linear-gradiente;
     color: $white;
@@ -95,54 +107,55 @@
 
         .container-card-view {
             height: 400px;
-            display: flex;
-            align-items: center;
-            width: auto;
-        }
-
-        .card-testimonials {
-            position: relative;
-
-            .equalizator {
-                width: 500px;
-                height: 169px;
-            }
-
-            .message {
-                flex-grow: 1;
-            }
-
-            img {
-                z-index: 2;
-            }
-
-            .container-img {
-                width: 500px;
-
-                &::after {
-                    content: ' ';
-                    background-image: url(../imgs/pingo.svg);
-                    position: absolute;
-                    background-repeat: no-repeat;
-                    height: 110px;
-                    width: 100px;
-                    bottom: -50%;
-                }
-            }
-
-            background-color:$primary-dark;
+            min-width:800px;
             max-width: 800px;
 
-            .title-card {
-                color: #FFC82C;
-            }
+            .card-testimonials {
 
-            .profession {
-                color: $primary-light;
-                margin: 4px 0 12px;
-                display: inline-block;
+                .container-img {
+                    min-width: 134px;
+                    height: 242px;
+                    z-index: 1;
+
+                    &::after {
+                        content: ' ';
+                        background-image: url(../imgs/pingo.svg);
+                        position: absolute;
+                        background-repeat: no-repeat;
+                        height: 110px;
+                        width: 100px;
+                        bottom: -35%;
+                        ;
+                    }
+                }
+
+                .container-img:nth-child(1){
+                    @include bg-testimonial('./src/assets/imgs/cesimar_prof_img.png');
+                }
+
+                .container-img:nth-child(2){
+                    @include bg-testimonial('./src/assets/imgs/baesse_prof_img.png');
+                }
+
+                .container-img:nth-child(3){
+                    @include bg-testimonial('./src/assets/imgs/andreza_prof_img.png');
+                }
+
+                background-color:$primary-dark;
+                width: 100%;
+
+                .title-card {
+                    color: #FFC82C;
+                }
+
+                .profession {
+                    color: $primary-light;
+                    margin: 4px 0 12px;
+                    display: inline-block;
+                }
             }
         }
+
     }
 }
 
@@ -309,33 +322,40 @@
             color: $primary-darker;
         }
     }
-    button{
+
+    button {
         color: #B7E9FF;
         background-color: transparent;
         border: 1px solid;
     }
 }
 
-.team-mentors{
+.team-mentors {
     padding: 5rem 0;
-    .subtitle{
+
+    .subtitle {
         font-size: 1.125rem;
         line-height: $line-height-spaced;
     }
-    .title{
+
+    .title {
         padding: 1.75rem 0;
-        h3{
+
+        h3 {
             color: $primary-dark;
         }
     }
-    .box-card-team-mentors{
+
+    .box-card-team-mentors {
         @include disable-selection-scroll;
-        .card-team{
+
+        .card-team {
             border: 2px solid $primary-dark;
-            color:$primary-dark
+            color: $primary-dark
         }
     }
-    button{
+
+    button {
         padding: 16px 32px;
         border-radius: 5px;
         border: 1px solid $primary-dark;

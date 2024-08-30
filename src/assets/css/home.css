@@ -223,41 +223,58 @@ footer ul img {
 }
 .container_advisors .container-testimonials .container-card-view {
   height: 400px;
-  display: flex;
-  align-items: center;
-  width: auto;
-}
-.container_advisors .container-testimonials .card-testimonials {
-  position: relative;
-  background-color: #0B5ABD;
+  min-width: 800px;
   max-width: 800px;
 }
-.container_advisors .container-testimonials .card-testimonials .equalizator {
-  width: 500px;
-  height: 169px;
+.container_advisors .container-testimonials .container-card-view .card-testimonials {
+  background-color: #0B5ABD;
+  width: 100%;
 }
-.container_advisors .container-testimonials .card-testimonials .message {
-  flex-grow: 1;
+.container_advisors .container-testimonials .container-card-view .card-testimonials .container-img {
+  min-width: 134px;
+  height: 242px;
+  z-index: 1;
 }
-.container_advisors .container-testimonials .card-testimonials img {
-  z-index: 2;
-}
-.container_advisors .container-testimonials .card-testimonials .container-img {
-  width: 500px;
-}
-.container_advisors .container-testimonials .card-testimonials .container-img::after {
+.container_advisors .container-testimonials .container-card-view .card-testimonials .container-img::after {
   content: " ";
   background-image: url(../imgs/pingo.svg);
   position: absolute;
   background-repeat: no-repeat;
   height: 110px;
   width: 100px;
-  bottom: -50%;
+  bottom: -35%;
 }
-.container_advisors .container-testimonials .card-testimonials .title-card {
+.container_advisors .container-testimonials .container-card-view .card-testimonials .container-img:nth-child(1)::before {
+  content: " ";
+  background-image: url("./src/assets/imgs/cesimar_prof_img.png");
+  position: absolute;
+  top: -50%;
+  width: 134px;
+  height: 242px;
+  z-index: 2;
+}
+.container_advisors .container-testimonials .container-card-view .card-testimonials .container-img:nth-child(2)::before {
+  content: " ";
+  background-image: url("./src/assets/imgs/baesse_prof_img.png");
+  position: absolute;
+  top: -50%;
+  width: 134px;
+  height: 242px;
+  z-index: 2;
+}
+.container_advisors .container-testimonials .container-card-view .card-testimonials .container-img:nth-child(3)::before {
+  content: " ";
+  background-image: url("./src/assets/imgs/andreza_prof_img.png");
+  position: absolute;
+  top: -50%;
+  width: 134px;
+  height: 242px;
+  z-index: 2;
+}
+.container_advisors .container-testimonials .container-card-view .card-testimonials .title-card {
   color: #FFC82C;
 }
-.container_advisors .container-testimonials .card-testimonials .profession {
+.container_advisors .container-testimonials .container-card-view .card-testimonials .profession {
   color: #8FC1FF;
   margin: 4px 0 12px;
   display: inline-block;
