@@ -230,6 +230,33 @@ footer ul img {
   background-color: #0B5ABD;
   width: 100%;
 }
+.container_advisors .container-testimonials .container-card-view .card-testimonials .container-card-view:nth-child(1) .container-img::before {
+  content: " ";
+  background-image: url("./src/assets/imgs/cesimar_prof_img.png");
+  position: absolute;
+  top: -50%;
+  width: 134px;
+  height: 242px;
+  z-index: 2;
+}
+.container_advisors .container-testimonials .container-card-view .card-testimonials .container-card-view:nth-child(2) .container-img::before {
+  content: " ";
+  background-image: url("./src/assets/imgs/baesse_prof_img.png");
+  position: absolute;
+  top: -50%;
+  width: 134px;
+  height: 242px;
+  z-index: 2;
+}
+.container_advisors .container-testimonials .container-card-view .card-testimonials .container-card-view:nth-child(3) .container-img::before {
+  content: " ";
+  background-image: url("./src/assets/imgs/andreza_prof_img.png");
+  position: absolute;
+  top: -50%;
+  width: 134px;
+  height: 242px;
+  z-index: 2;
+}
 .container_advisors .container-testimonials .container-card-view .card-testimonials .container-img {
   min-width: 134px;
   height: 242px;
@@ -243,33 +270,6 @@ footer ul img {
   height: 110px;
   width: 100px;
   bottom: -35%;
-}
-.container_advisors .container-testimonials .container-card-view .card-testimonials .container-img:nth-child(1)::before {
-  content: " ";
-  background-image: url("./src/assets/imgs/cesimar_prof_img.png");
-  position: absolute;
-  top: -50%;
-  width: 134px;
-  height: 242px;
-  z-index: 2;
-}
-.container_advisors .container-testimonials .container-card-view .card-testimonials .container-img:nth-child(2)::before {
-  content: " ";
-  background-image: url("./src/assets/imgs/baesse_prof_img.png");
-  position: absolute;
-  top: -50%;
-  width: 134px;
-  height: 242px;
-  z-index: 2;
-}
-.container_advisors .container-testimonials .container-card-view .card-testimonials .container-img:nth-child(3)::before {
-  content: " ";
-  background-image: url("./src/assets/imgs/andreza_prof_img.png");
-  position: absolute;
-  top: -50%;
-  width: 134px;
-  height: 242px;
-  z-index: 2;
 }
 .container_advisors .container-testimonials .container-card-view .card-testimonials .title-card {
   color: #FFC82C;

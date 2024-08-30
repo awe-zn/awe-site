@@ -111,6 +111,17 @@
             max-width: 800px;
 
             .card-testimonials {
+                .container-card-view:nth-child(1) .container-img{
+                    @include bg-testimonial('./src/assets/imgs/cesimar_prof_img.png');
+                }
+
+                .container-card-view:nth-child(2) .container-img{
+                    @include bg-testimonial('./src/assets/imgs/baesse_prof_img.png');
+                }
+
+                .container-card-view:nth-child(3) .container-img{
+                    @include bg-testimonial('./src/assets/imgs/andreza_prof_img.png');
+                }
 
                 .container-img {
                     min-width: 134px;
@@ -127,18 +138,6 @@
                         bottom: -35%;
                         ;
                     }
-                }
-
-                .container-img:nth-child(1){
-                    @include bg-testimonial('./src/assets/imgs/cesimar_prof_img.png');
-                }
-
-                .container-img:nth-child(2){
-                    @include bg-testimonial('./src/assets/imgs/baesse_prof_img.png');
-                }
-
-                .container-img:nth-child(3){
-                    @include bg-testimonial('./src/assets/imgs/andreza_prof_img.png');
                 }
 
                 background-color:$primary-dark;
