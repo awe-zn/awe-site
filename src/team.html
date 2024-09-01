@@ -74,9 +74,87 @@
         </section>
 
         <section class="hero container py-5">
-            <div class="header-hero">
+            <div class="header-hero mb-5">
                 <p class="color-semantic-neutral-gray-darker">Nossa equipe</p>
                 <h2 class="tight color-semantic-primary-blue-main">Conheça nossa equipe topzera</h2>
+            </div>
+            
+            <div class="filter">
+                <p class="color-semantic-neutral-gray-darker mb-3">FILTRE POR HABILIDADES</p>
+
+                <nav>
+                    <ul class="nav nav-pills column-gap-2 mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item role="presentation">
+                            <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">ALL</button>
+                        </li>
+                        
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-ui-design-tab" data-bs-toggle="pill" data-bs-target="#pills-ui-design" type="button" role="tab" aria-controls="pills-ui-design" aria-selected="false">UI DESIGN</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-ux-design-tab" data-bs-toggle="pill" data-bs-target="#pills-ux-design" type="button" role="tab" aria-controls="pills-ux-design" aria-selected="false">UX DESIGN</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-front-end-tab" data-bs-toggle="pill" data-bs-target="#pills-front-end" type="button" role="tab" aria-controls="pills-front-end" aria-selected="false">FRONT-END</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-back-end-tab" data-bs-toggle="pill" data-bs-target="#pills-back-end" type="button" role="tab" aria-controls="pills-back-end" aria-selected="false">BACK-END</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-negocios-tab" data-bs-toggle="pill" data-bs-target="#pills-negocios" type="button" role="tab" aria-controls="pills-negocios" aria-selected="false">NEGÓCIOS</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-coordenacao-tab" data-bs-toggle="pill" data-bs-target="#pills-coordenacao" type="button" role="tab" aria-controls="pills-coordenacao" aria-selected="false">COORDENAÇÃO</button>
+                        </li>
+                    </ul>
+
+                </nav>
+
+                <section class="hero-equipe tab-content ps-3 pb-5" id="pills-tabContent">
+
+                    <div class="date-line d-flex align-items-center">
+                        <picture>
+                            <svg width="28" height="28">
+                                <circle class="circle-timeline" cx="50%" cy="50%" r="11"></circle>
+                            </svg>
+                            <svg class="ms-n1" xmlns="http://www.w3.org/2000/svg" width="63" height="3">
+                                <path class="path-timeline" d="M 0.0332031 1.90039 L 63 1.9004"/>
+                            </svg>
+                        </picture>
+                        <h2 class="color-semantic-primary-blue-dark ms-5">2024</h2>
+                    </div>
+
+                    <div class="card tab-pane fade show active" id="pills-all" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quia.</p>
+                    </div>
+
+                    <div class="card tab-pane fade" id="pills-ui-design" role="tabpenel" aria-labelledby="pills-ui-design-tab" tabindex="0">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quia.</p>
+                    </div>
+                    
+                    <div class="card tab-pane fade" id="pills-ux-design" role="tabpenel" aria-labelledby="pills-ux-design-tab" tabindex="0">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, iusto. lorelroereneirn</p>
+                    </div>
+
+                    <div class="card tab-pane fade" id="pills-front-end" role="tabpenel" aria-labelledby="pills-front-end-tab" tabindex="0">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quia.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-back-end" role="tabpenel" aria-labelledby="pills-back-end-tab" tabindex="0">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quia.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-negocios" role="tabpenel" aria-labelledby="pills-negocios-tab" tabindex="0">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quia.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-coordenacao" role="tabpenel" aria-labelledby="pills-coordenacao-tab" tabindex="0">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quia.</p>
+                    </div>
+                </section>
+
+
+
             </div>
 
 
@@ -139,5 +217,8 @@
         crossorigin="anonymous"></script>
 
 </body>
+
+<!-- sass --watch src/assets/scss/home.scss:src/assets/css/home.css 
+ src/assets/scss/global.scss:src/assets/css/global.css -->
 
 </html>

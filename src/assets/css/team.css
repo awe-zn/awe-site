@@ -1,7 +1,10 @@
 /* Global-Class */
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0 ;
+    padding: 0;
+}
+
 p{
-    margin: 0 !important;
-    padding: 0 !important;
     font-size: 16px;
 }
 
@@ -61,8 +64,6 @@ p{
 }
 
 .time-line-border{
-    border: .125rem solid;
-    border-image-source: linear-gradient(180deg, #104F98, 200%, 20%, #0B8CFF, 20%, 100%);
 }
 
 .tight{
@@ -101,10 +102,35 @@ p{
     font-size: .625rem;
 }
 
+.ms-n1{
+    margin-left: -4px;
+}
 
 
 /* Global-Class */
 
 h2{
-    font-size: 44px;
+    font-size: 2.75rem;
+}
+
+.path-timeline{
+    stroke: var(--semantic-primary-blue-main);
+    stroke-width: 2;
+    stroke-dasharray: 2;
+}
+
+.circle-timeline{
+    fill: var(--semantic-primary-blue-main);
+    stroke: var(--semantic-primary-blue-dark);
+    stroke-width: 3;
+}
+
+.hero-equipe{
+    margin-left: 14px;
+    border-left: .125rem solid;
+    border-color: var(--semantic-primary-blue-dark);
+}
+
+.date-line{
+    margin-left: -31px;
 }
