@@ -74,13 +74,13 @@
 }
 
 
-@media (max-width: 991px){
+@media (max-width: 992px){
     .quem-somos{
         max-width: 30rem;
     }
 }
 
-@media (max-width: 523px){
+@media (max-width: 576px){
     .quem-somos{
         max-width: 20rem;
     }
