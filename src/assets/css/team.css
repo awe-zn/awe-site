@@ -14,6 +14,7 @@ p{
     --semantic-primary-blue-dark: #104F98;
     --primitive-brand-blue-50: #EDFAFF;
     --semantic-neutral-gray-darker: #3D4551;
+    --gray-adn-white-gray-200: #DFDFE0;
     --semantic-neutral-gray-dark: #565C65;
     --semantic-primary-orange-light: #FAE08E;
     --semantic-primary-blue-main: #0B5ABD;
@@ -115,6 +116,10 @@ h2{
     font-size: 2.75rem;
 }
 
+h4{
+    font-size: 1.5rem;
+}
+
 h5{
     font-size: 1.375rem;
 }
@@ -131,17 +136,48 @@ h5{
     stroke-width: 3;
 }
 
-.sect-cards{
+.path-timeline-disabled{
+    stroke: var(--semantic-neutral-gray-dark);
+    stroke-width: 2;
+    stroke-dasharray: 2;
+}
+
+.circle-timeline-disabled{
+    fill: var(--gray-adn-white-gray-200);
+    stroke: var(--semantic-neutral-gray-dark);
+    stroke-width: 3;
+}
+
+.hero-equipe{
     border-left: .125rem solid;
     border-color: var(--semantic-primary-blue-dark);
 }
 
-.date-line{
-    margin-left: -13px;
+.date-line-1{
+    top: -64px;
+    left: -14px;
+    position: absolute;
 }
 
-.awe-equipe{
-    
+.date-line{
+    margin-left: -26px;
+}
+
+.rect-img{
+    background-color: var(--semantic-primary-blue-dark);
+    height: 269px;
+    width: 266px;
+}
+
+.linear-equipe-awe{
+    background: linear-gradient(180deg, rgba(16, 79, 152, 0.00) 69.58%, #104F98 100%);
+}
+
+@media screen and (max-width: 48rem) {
+    .sect-cards{
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
 }
 
 
