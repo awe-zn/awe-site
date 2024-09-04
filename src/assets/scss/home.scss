@@ -63,6 +63,12 @@
 .container_advisors {
     padding: 5rem 1.5rem;
 
+    .top {
+        img {
+            width: auto;
+        }
+    }
+
     h2 {
         max-width: 18.75rem;
         width: 100%;
@@ -162,6 +168,11 @@
     .container-trends {
         gap: 7.5rem;
 
+        @media (max-width:576px){
+            .reverse{
+                flex-direction: row-reverse;
+            }
+        }
         .content-trend {
             padding: 1.75rem 0;
         }
@@ -312,6 +323,11 @@
         @include disable-selection-scroll;
 
         .card-team {
+            img {
+                width: 14.75rem;
+                height: 15rem;
+            }
+
             border-radius: 5px;
             background-color: $white;
             color: $primary-darker;
@@ -324,6 +340,7 @@
         border: 1px solid;
     }
 }
+
 
 .team-mentors {
     padding: 5rem 0;
@@ -342,7 +359,6 @@
     }
 
     .box-card-team-mentors {
-        @include disable-selection-scroll;
 
         .card-team {
             border: 2px solid $primary-dark;
