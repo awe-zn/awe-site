@@ -10,14 +10,14 @@
     }
 }
 
-@mixin bg-testimonial($img-caminho) {
-    &::before{
-        content:" ";
-        background-image: url($img-caminho);
+@mixin bg-testimonials($caminho) {
+    &::before {
+        content: " ";
+        background-image: url($caminho);
         position: absolute;
         top: -50%;
-        width: 134px;
-        height: 242px;
+        width: 8.375rem;
+        height: 15.125rem;
         z-index: 2;
     }
 }
@@ -64,7 +64,7 @@
     padding: 5rem 1.5rem;
 
     h2 {
-        max-width: 300px;
+        max-width: 18.75rem;
         width: 100%;
         color: $primary-main;
         font-weight: 300;
@@ -97,35 +97,31 @@
     }
 
     .container {
-        gap: 160px;
+        gap: 7.5rem;
     }
 
     .container-testimonials {
         color: $white;
         overflow-x: scroll;
+        align-items: center;
         @include disable-selection-scroll;
 
         .container-card-view {
-            height: 400px;
-            min-width:800px;
+            height: 380px;
+            min-width: 800px;
             max-width: 800px;
+            padding-top: 90px;
 
             .card-testimonials {
-                .container-card-view:nth-child(1) .container-img{
-                    @include bg-testimonial('./src/assets/imgs/cesimar_prof_img.png');
-                }
-
-                .container-card-view:nth-child(2) .container-img{
-                    @include bg-testimonial('./src/assets/imgs/baesse_prof_img.png');
-                }
-
-                .container-card-view:nth-child(3) .container-img{
-                    @include bg-testimonial('./src/assets/imgs/andreza_prof_img.png');
+                img {
+                    position: absolute;
+                    top: -50%;
+                    z-index: 2;
                 }
 
                 .container-img {
                     min-width: 134px;
-                    height: 242px;
+                    height: 200px;
                     z-index: 1;
 
                     &::after {

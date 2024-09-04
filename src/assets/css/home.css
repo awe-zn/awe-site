@@ -182,7 +182,7 @@ footer ul img {
   padding: 5rem 1.5rem;
 }
 .container_advisors h2 {
-  max-width: 300px;
+  max-width: 18.75rem;
   width: 100%;
   color: #307FE2;
   font-weight: 300;
@@ -209,11 +209,12 @@ footer ul img {
   line-height: 150%;
 }
 .container_advisors .container {
-  gap: 160px;
+  gap: 7.5rem;
 }
 .container_advisors .container-testimonials {
   color: #FEFEFE;
   overflow-x: scroll;
+  align-items: center;
   cursor: grab;
   user-select: none;
   -webkit-user-select: none;
@@ -222,44 +223,23 @@ footer ul img {
   display: none;
 }
 .container_advisors .container-testimonials .container-card-view {
-  height: 400px;
+  height: 380px;
   min-width: 800px;
   max-width: 800px;
+  padding-top: 90px;
 }
 .container_advisors .container-testimonials .container-card-view .card-testimonials {
   background-color: #0B5ABD;
   width: 100%;
 }
-.container_advisors .container-testimonials .container-card-view .card-testimonials .container-card-view:nth-child(1) .container-img::before {
-  content: " ";
-  background-image: url("./src/assets/imgs/cesimar_prof_img.png");
+.container_advisors .container-testimonials .container-card-view .card-testimonials img {
   position: absolute;
   top: -50%;
-  width: 134px;
-  height: 242px;
-  z-index: 2;
-}
-.container_advisors .container-testimonials .container-card-view .card-testimonials .container-card-view:nth-child(2) .container-img::before {
-  content: " ";
-  background-image: url("./src/assets/imgs/baesse_prof_img.png");
-  position: absolute;
-  top: -50%;
-  width: 134px;
-  height: 242px;
-  z-index: 2;
-}
-.container_advisors .container-testimonials .container-card-view .card-testimonials .container-card-view:nth-child(3) .container-img::before {
-  content: " ";
-  background-image: url("./src/assets/imgs/andreza_prof_img.png");
-  position: absolute;
-  top: -50%;
-  width: 134px;
-  height: 242px;
   z-index: 2;
 }
 .container_advisors .container-testimonials .container-card-view .card-testimonials .container-img {
   min-width: 134px;
-  height: 242px;
+  height: 200px;
   z-index: 1;
 }
 .container_advisors .container-testimonials .container-card-view .card-testimonials .container-img::after {
