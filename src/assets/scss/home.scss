@@ -22,25 +22,28 @@
     }
 }
 
+*::-webkit-scrollbar {
+    width: 0; 
+    height: 0; 
+}
+
 .hero {
     background-image: $linear-gradiente;
     color: $white;
     padding: 3.5rem 1.5rem;
 
-    .content-left {
-        width: max-content;
-    }
+    // .content-left {
+    //     width: max-content;
+    // }
+
+    // .working {
+    //     max-width: 60%;
+    // }
 
     .we-are {
         color: $white;
         font-size: 1.125rem;
         line-height: 140%;
-    }
-
-    .working {
-        max-width: 326px;
-        height: 295px;
-        width: 100%;
     }
 
     .subtitle {
@@ -168,15 +171,6 @@
     .container-trends {
         gap: 7.5rem;
 
-        @media (max-width:576px){
-            .reverse{
-                flex-direction: row-reverse;
-            }
-        }
-        .content-trend {
-            padding: 1.75rem 0;
-        }
-
         .title-trends {
             line-height: $line-height-tight;
             font-weight: 800;
@@ -226,6 +220,8 @@
     }
 
     .project {
+        min-width: 17.3125rem;
+
         a {
             color: $primary-dark;
         }
@@ -373,5 +369,63 @@
         background-color: transparent;
         color: $primary-dark;
         gap: 30px;
+    }
+}
+
+@media (max-width:992px) {
+    .box-card-team-mentors{
+        overflow-x: scroll;
+        .card-team{
+            min-width: 15.5rem;
+        }
+    }
+    .working {
+        max-width: 326px;
+    }
+}
+
+@media (max-width:768px) {
+    
+    .working {
+        max-width: 80%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .hero,
+    .our-activities,
+    .team,
+    .team-mentors,.section-news {
+        padding: 2.5rem 1rem;
+    }
+
+    .container_advisors {
+        padding: 5rem 1rem;
+    }
+
+    .our-activities {
+        .container-trends {
+            gap: 40px;
+        }
+    }
+
+    .content-trend {
+        padding: 1.75rem 0;
+    }
+
+    .section-news {
+        padding: 5rem 0;
+
+        .box-news {
+            margin: 0 1rem;
+        }
+    }
+
+    .team-mentors {
+        button {
+            width: 100%;
+            margin: 0;
+        }
     }
 }
