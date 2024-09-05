@@ -12,12 +12,13 @@ p{
 :root{ 
     --semantic-primary-blue-darker: #0F315C;
     --semantic-primary-blue-dark: #104F98;
-    --primitive-brand-blue-50: #EDFAFF;
+    --semantic-primary-blue-main: #0B5ABD;
     --semantic-neutral-gray-darker: #3D4551;
-    --gray-adn-white-gray-200: #DFDFE0;
     --semantic-neutral-gray-dark: #565C65;
     --semantic-primary-orange-light: #FAE08E;
-    --semantic-primary-blue-main: #0B5ABD;
+    --primitive-brand-blue-50: #EDFAFF;
+    --gray-adn-white-gray-200: #DFDFE0;
+    --gray-adn-white-white: #FEFEFE;
     --white: #F9F9F9;
 }
 
@@ -65,6 +66,10 @@ p{
     background-color: var(--primitive-brand-blue-50);
 }
 
+.bg-gray-adn-white-white{
+    background-color: var(--gray-adn-white-white);
+}
+
 .background-cards{
     background: linear-gradient(180deg, rgba(16, 79, 152, 0) 69.58%, #0F315C, 20%, 100%);
 }
@@ -109,11 +114,19 @@ p{
     margin-left: -4px;
 }
 
+.max-content{
+    width: max-content !important;
+}
+
 
 /* Global-Class */
 
 h2{
     font-size: 2.75rem;
+}
+
+h2.title-hero{
+    font-size: clamp(2.125rem, 3vw, 2.75rem);
 }
 
 h4{
@@ -122,6 +135,15 @@ h4{
 
 h5{
     font-size: 1.375rem;
+}
+
+.link-filter-awe{
+    background-color: rgba(38, 72, 161, 0.10);
+    color: var(--semantic-primary-blue-main);
+}
+
+.filter-equipe-awe .nav-link.active{
+    background-color: var(--semantic-primary-blue-main);
 }
 
 .path-timeline{
@@ -174,9 +196,23 @@ h5{
 }
 
 @media screen and (max-width: 48rem) {
-    .sect-cards{
+    .sect-cards, .filter-equipe-awe{
         flex-wrap: nowrap;
         overflow-x: scroll;
+        -ms-overflow-style: none; /* Internet Explorer 10+ */
+        scrollbar-width: none; /* Firefox */
+    }
+
+    .sect-cards::-webkit-scrollbar, .filter-equipe-awe::-webkit-scrollbar {
+        display: none; /* WebKit */
+    }
+
+    .picture-lines{
+        display: none;
+    }
+
+    .hero-equipe{
+        border: none;
     }
 }
 
