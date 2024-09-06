@@ -9,14 +9,16 @@
 }
 
 .team {
-    .card-team {
-        &:hover {
-            transition: all .5s;
-            background-color: $primary-darker;
-            color: $white;
-
-            img {
-                border: 3px solid #FECE7A;
+    .box-card-team{
+        .card-team {
+            &:hover {
+                transition: all .5s;
+                background-color: $primary-darker;
+                color: $white;
+    
+                img {
+                    border: 3px solid #FECE7A;
+                }
             }
         }
     }
@@ -36,17 +38,19 @@
 }
 
 .team-mentors {
-    .card-team {
-        &:hover {
-            transition: all .5s;
-            border-color: #4CC8FF;
-
-            img {
-                transition: all .3s;
-                border: 3px solid #4CC8FF
+    .box-card-team-mentors{
+        .card-team {
+            &:hover {
+                transition: all .5s;
+                border-color: #4CC8FF;
+    
+                img {
+                    transition: all .3s;
+                    border: 3px solid #4CC8FF
+                }
+    
+                ;
             }
-
-            ;
         }
     }
 }
@@ -416,7 +420,7 @@ footer {
         }
     }
 
-    button {
+    a {
         color: #B7E9FF;
         background-color: transparent;
         border: 1px solid;

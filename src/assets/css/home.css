@@ -148,12 +148,12 @@ footer ul img {
   transition: 1s;
 }
 
-.team .card-team:hover {
+.team .box-card-team .card-team:hover {
   transition: all 0.5s;
   background-color: #002D66;
   color: #FEFEFE;
 }
-.team .card-team:hover img {
+.team .box-card-team .card-team:hover img {
   border: 3px solid #FECE7A;
 }
 
@@ -166,11 +166,11 @@ footer ul img {
   background-color: #0B5ABD;
 }
 
-.team-mentors .card-team:hover {
+.team-mentors .box-card-team-mentors .card-team:hover {
   transition: all 0.5s;
   border-color: #4CC8FF;
 }
-.team-mentors .card-team:hover img {
+.team-mentors .box-card-team-mentors .card-team:hover img {
   transition: all 0.3s;
   border: 3px solid #4CC8FF;
 }
@@ -462,7 +462,7 @@ footer i:hover {
   width: 14.75rem;
   height: 15rem;
 }
-.team button {
+.team a {
   color: #B7E9FF;
   background-color: transparent;
   border: 1px solid;
