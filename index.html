@@ -7,6 +7,8 @@
     <!-- Bootstrap links -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Favicon -->
+
     <!-- Styles link -->
     <link rel="stylesheet" href="src/assets/css/global.css">
     <link rel="stylesheet" href="src/assets/css/home.css">
@@ -22,7 +24,7 @@
         <div class="equalizator"></div>
         <nav class="navbar container-menu py-3 fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#"><img src="src/assets/imgs/logo.svg" alt="logo AWE"></a>
+                <a target="_blank" class="navbar-brand" href="#"><img src="src/assets/imgs/logo.svg" alt="logo AWE"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon light"></span>
@@ -36,23 +38,23 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a target="_blank" class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                                <a target="_blank" class="nav-link" href="#">Link</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                <a target="_blank" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
                                     Dropdown
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a target="_blank" class="dropdown-item" href="#">Action</a></li>
+                                    <li><a target="_blank" class="dropdown-item" href="#">Another action</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a target="_blank" class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -86,7 +88,10 @@
                             alt="imagem de trabalho">
                     </figure>
                 </div>
-                <img src="src/assets/imgs/arrows-bottom.svg" alt="setas para baixo" class="hero-down-arrow">
+                <figure class="hero-down-arrow mx-auto position-relative d-flex flex-column">
+                    <img src="src/assets/imgs/arrow-low-blue.svg" alt="arrow-low-blue">
+                    <img src="src/assets/imgs/arrow-low-yellow.svg" class="position-absolute" alt="arrow-low-yellow">
+                </figure>
             </div>
         </section>
 
@@ -104,7 +109,7 @@
                         </h2>
                         <p>Aceleramos a aprendizagem dos alunos nas disciplinas técnicas e seus soft skills. Focamos no
                             mundo do trabalho e seus desafios.</p>
-                        <a href="#" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
+                        <a target="_blank" href="src/about.html" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
                             <br>#PorDentroDaAWE</a>
                     </div>
                 </section>
@@ -185,8 +190,8 @@
                         <img src="src/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
                         <img src="src/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
                     </div>
-                    <div class="container-trends d-flex flex-column ">
-                        <div class="trends row flex-sm-nowrap d-flex justify-content-between align-items-center">
+                    <div class="container-trends d-flex flex-column position-relative">
+                        <div class="trends position-sticky top-0 z-1 row flex-sm-nowrap d-flex justify-content-between align-items-center">
                             <div class="content-trend col-sm-6">
                                 <small class="tag fs-6">#que tal desenvolver sua próxima página conosco?</small>
                                 <p class="content-title fw-bold fs-2">Projetamos para web</p>
@@ -194,14 +199,14 @@
                                     a
                                     interface e suas interações. Se você tem uma demanda de website ou apenas uma
                                     interface para web ou mobile, podemos ajudá-lo.</p>
-                                <a href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
+                                <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
                                     isto?</a>
                             </div>
-                            <figure class=" col col-sm-7 col-lg-6">
+                            <figure class=" col col-sm-6">
                                 <img class="w-100" src="src/assets/imgs/web-projects.svg" alt="web-projects">
                             </figure>
                         </div>
-                        <div class="trends row flex-sm-nowrap d-flex justify-content-between align-items-center flex-sm-row-reverse">
+                        <div class="trends position-sticky top-0 z-2 row flex-sm-nowrap d-flex justify-content-between align-items-center flex-sm-row-reverse">
                             <div class="content-trend col-sm-6">
                                 <small class="tag fs-6">#do que você precisa?</small>
                                 <p class="content-title fw-bold fs-2">Fazemos código outsourcing</p>
@@ -210,14 +215,14 @@
                                     linguagens de programação que estão em alta no mercado. Buscamos aliar o que tá em
                                     alta e o que podemos desenvolver na escola, com apoio dos professores e mentores.
                                 </p>
-                                <a href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
+                                <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
                                     isto?</a>
                             </div>
-                            <figure class=" col col-sm-7 col-lg-6">
+                            <figure class=" col col-sm-6">
                                 <img class="w-100" src="src/assets/imgs/outsourcing-img.svg" alt="outsourcing" class="w-100">
                             </figure>
                         </div>
-                        <div class="trends row flex-sm-nowrap d-flex align-items-center justify-content-between">
+                        <div class="trends position-sticky top-0 z-3 row flex-sm-nowrap d-flex align-items-center justify-content-between">
                             <div class="content-trend col-sm-6">
                                 <small class="tag fs-6">#que habilidade é importante para você?</small>
                                 <p class="content-title fw-bold fs-2">Ampliamos habilidades</p>
@@ -228,9 +233,9 @@
                                     clientes, parceiros e comunidade. <br> <br> #ux design #facilitação em design
                                     #design
                                     thinking #pesquisa em ux </p>
-                                <a href="#" class="to-talk text-decoration-none fs-6 fw-bold">Ficou interessado?</a>
+                                <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Ficou interessado?</a>
                             </div>
-                            <figure class=" col col-sm-7 col-lg-6">
+                            <figure class=" col col-sm-6">
                                 <img class="w-100" src="src/assets/imgs/image-team-skills.svg" alt="image-team-skills">
                             </figure>
                         </div>
@@ -253,7 +258,7 @@
                             <p class="description-project fs-6">Página oficial do Centro de Ciências Humanas, Letras de
                                 Artes da UFRN</p>
                         </div>
-                        <a href="#">Acesse o projeto</a>
+                        <a target="_blank" href="#">Acesse o projeto</a>
                     </div>
                     <div class="project col-3 d-flex flex-column gap-3">
                         <img src="src/assets/imgs/rectangle.png" alt="rectangle">
@@ -262,7 +267,7 @@
                             <p class="description-project fs-6">Página oficial do Centro de Ciências Humanas, Letras de
                                 Artes da UFRN</p>
                         </div>
-                        <a href="#">Acesse o projeto</a>
+                        <a target="_blank" href="#">Acesse o projeto</a>
                     </div>
                     <div class="project col-3 d-flex flex-column gap-3">
                         <img src="src/assets/imgs/rectangle.png" alt="rectangle">
@@ -271,7 +276,7 @@
                             <p class="description-project fs-6">História em Detalhes é um blog sobre histórias, crônicas
                                 e outras histórias do professor e escritor Sérgio Trindade. </p>
                         </div>
-                        <a href="#">Acesse o projeto</a>
+                        <a target="_blank" href="#">Acesse o projeto</a>
                     </div>
                     <div class="project col-3 d-flex flex-column gap-3">
                         <img src="src/assets/imgs/rectangle.png" alt="rectangle">
@@ -280,7 +285,7 @@
                             <p class="description-project fs-6">Página oficial do Programa de Pós-graduação em Estudos
                                 da Mídia, da UFRN.</p>
                         </div>
-                        <a href="#">Acesse o projeto</a>
+                        <a target="_blank" href="#">Acesse o projeto</a>
                     </div>
                 </div>
             </div>
@@ -305,7 +310,7 @@
                                 resultado do projeto MapGas. Os alunos Daniel e Jadson representaram o IFRN e fizeram
                                 bonito.</p>
                         </div>
-                        <a href="#" class="">Continue lendo</a>
+                        <a target="_blank" href="#" class="">Continue lendo</a>
                     </div>
                     <section class="box-news d-flex flex-column gap-4 col col-sm-7">
                         <div class="news pb-4">
@@ -325,7 +330,7 @@
                         </div>
                     </section>
                 </div>
-                <button class="text-uppercase d-flex align-items-center mt-4 fw-bold ms-auto">Acesse mais notícias <img
+                <button class="text-uppercase d-flex align-items-center mt-4 fw-bold ms-auto btn-1">Acesse mais notícias <img
                         src="src/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue"></button>
             </div>
         </section>
@@ -378,10 +383,9 @@
                             </div>
                         </div>
                     </div>
-                    <button
-                        class="text-uppercase d-flex align-items-center mt-4 fw-bold px-4 py-3 rounded-3 gap-4 me-auto w-auto">conhecer
+                    <a class="btn-2 text-uppercase d-flex align-items-center mt-4 fw-bold px-4 py-3 rounded-3 gap-4 me-auto w-auto" href="src/team.html">conhecer
                         time completo
-                        <img src="src/assets/imgs/arrow-right-blue-lighter.svg" alt="arrow-right-blue"></button>
+                        <img src="src/assets/imgs/arrow-right-blue-lighter.svg" alt="arrow-right-blue"></a>
                 </div>
             </div>
         </section>
@@ -429,7 +433,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="text-uppercase d-flex align-items-center mt-4 fw-bold ms-sm-auto w-auto">Vem fazer parte
+                    <button class="btn-1 text-uppercase d-flex align-items-center mt-4 fw-bold me-sm-auto w-auto">Vem fazer parte
                         <img src="src/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue" class="ms-sm-0 ms-auto"></button>
                 </div>
             </div>
@@ -440,10 +444,10 @@
         <section class="contact-instagram">
             <div class="container flex-column d-flex align-items-center gap-3 py-5">
                 <span class="link-instagram d-flex gap-2">
-                    <a href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll" target="_blank">
+                    <a target="_blank" href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll" target="_blank">
                         <i class="fa-brands fa-instagram" style="color: #0b5abd;"></i>
                     </a>
-                    <a href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll" target="_blank"
+                    <a target="_blank" href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll" target="_blank"
                         class="fst-italic">@awescolar</a>
                 </span>
                 <span class="text-center fst-italic">segue a gente lá no instagram, dá essa moralzinha pra nós!</span>
@@ -468,13 +472,11 @@
                     <div class="media links d-flex flex-column gap-2">
                         <span class="title-info">nossas mídias</span>
                         <ul class="d-flex gap-4 align-items-center">
-                            <li><a href="#"><i class="fa-brands fa-instagram" style="color: #8FC1FF;"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-dribbble" style="color: #8FC1FF;"></i></a></li>
-                            <li><a href="#"><i class="fa-brands fa-behance" style="color: #8FC1FF;"></i></a></li>
-                            <li><a href="#"><img src="src/assets/imgs/icon_github.svg" alt="logo github"
-                                        style="color: #8FC1FF;"></a></li>
-                            <li><a href="#"><img src="src/assets/imgs/icon_linkedin.svg" alt="icon linkedin"
-                                        style="color: #8FC1FF;"></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/awescolar.ifrn/?igsh=b2kzdGhlZWMxbWll"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://dribbble.com/awescolar"><i class="fa-brands fa-dribbble"></i></a></li>
+                            <li><a target="_blank" href="https://www.behance.net/gallery/110915853/Agencia-Web-Escolar"><i class="fa-brands fa-behance"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/awescolar"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/agencia-web-escolar/"><i class="fa-brands fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </section>

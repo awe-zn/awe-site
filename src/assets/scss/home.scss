@@ -1,5 +1,90 @@
 @import "global";
 
+
+/*Animation*/
+
+.btn-1:hover {
+    background-color: #EDFAFF;
+    transition: 1s;
+}
+
+.team {
+    .card-team {
+        &:hover {
+            transition: all .5s;
+            background-color: $primary-darker;
+            color: $white;
+
+            img {
+                border: 3px solid #FECE7A;
+            }
+        }
+    }
+}
+
+.btn-2 {
+    &:hover {
+        background-color: #EDFAFF;
+        transition: .5s;
+    }
+}
+
+.container-trends{
+    .trends{
+        background-color: $primary-dark;
+    }
+}
+
+.team-mentors {
+    .card-team {
+        &:hover {
+            transition: all .5s;
+            border-color: #4CC8FF;
+
+            img {
+                transition: all .3s;
+                border: 3px solid #4CC8FF
+            }
+
+            ;
+        }
+    }
+}
+
+footer {
+    i {
+        color:#8FC1FF ;
+        &:hover {
+            transition: .5s;
+            color: #FAE08E;
+        }
+    }
+}
+
+@keyframes disappear_appear {
+    0% {
+        opacity: 1; 
+    } 
+
+    25%{
+        opacity: .8;
+    }
+
+    50% {
+        opacity: 0.5; 
+    }
+
+    75%{
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 0.1; 
+    }
+}
+
+/*mixins*/
+
 @mixin disable-selection-scroll {
     cursor: grab;
     user-select: none;
@@ -22,23 +107,17 @@
     }
 }
 
+/*coding style*/
+
 *::-webkit-scrollbar {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
 }
 
 .hero {
     background-image: $linear-gradiente;
     color: $white;
-    padding: 3.5rem 1.5rem;
-
-    // .content-left {
-    //     width: max-content;
-    // }
-
-    // .working {
-    //     max-width: 60%;
-    // }
+    padding: 3.5rem 1.5rem; 
 
     .we-are {
         color: $white;
@@ -60,6 +139,13 @@
     .hero-down-arrow {
         height: 72px;
         margin-top: 88px;
+        img{
+            animation: disappear_appear 2s infinite;
+            &:nth-child(2){
+                animation-delay: .5s;
+                top: 25%;
+            }
+        }
     }
 }
 
@@ -373,19 +459,21 @@
 }
 
 @media (max-width:992px) {
-    .box-card-team-mentors{
+    .box-card-team-mentors {
         overflow-x: scroll;
-        .card-team{
+
+        .card-team {
             min-width: 15.5rem;
         }
     }
+
     .working {
         max-width: 326px;
     }
 }
 
 @media (max-width:768px) {
-    
+
     .working {
         max-width: 80%;
     }
@@ -396,7 +484,8 @@
     .hero,
     .our-activities,
     .team,
-    .team-mentors,.section-news {
+    .team-mentors,
+    .section-news {
         padding: 2.5rem 1rem;
     }
 

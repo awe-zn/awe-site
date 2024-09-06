@@ -99,7 +99,7 @@ footer {
 }
 
 .stand-logo {
-  border-top: 0.5px solid #8FC1FF, #8FC1FF;
+  border-top: 0.5px solid #8FC1FF;
   margin-top: 80px;
 }
 
@@ -142,6 +142,66 @@ footer ul img {
   height: 25px;
 }
 
+/*Animation*/
+.btn-1:hover {
+  background-color: #EDFAFF;
+  transition: 1s;
+}
+
+.team .card-team:hover {
+  transition: all 0.5s;
+  background-color: #002D66;
+  color: #FEFEFE;
+}
+.team .card-team:hover img {
+  border: 3px solid #FECE7A;
+}
+
+.btn-2:hover {
+  background-color: #EDFAFF;
+  transition: 0.5s;
+}
+
+.container-trends .trends {
+  background-color: #0B5ABD;
+}
+
+.team-mentors .card-team:hover {
+  transition: all 0.5s;
+  border-color: #4CC8FF;
+}
+.team-mentors .card-team:hover img {
+  transition: all 0.3s;
+  border: 3px solid #4CC8FF;
+}
+
+footer i {
+  color: #8FC1FF;
+}
+footer i:hover {
+  transition: 0.5s;
+  color: #FAE08E;
+}
+
+@keyframes disappear_appear {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+/*mixins*/
+/*coding style*/
 *::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -169,6 +229,13 @@ footer ul img {
 .hero .hero-down-arrow {
   height: 72px;
   margin-top: 88px;
+}
+.hero .hero-down-arrow img {
+  animation: disappear_appear 2s infinite;
+}
+.hero .hero-down-arrow img:nth-child(2) {
+  animation-delay: 0.5s;
+  top: 25%;
 }
 
 .container_advisors {
@@ -447,7 +514,8 @@ footer ul img {
   .hero,
   .our-activities,
   .team,
-  .team-mentors, .section-news {
+  .team-mentors,
+  .section-news {
     padding: 2.5rem 1rem;
   }
   .container_advisors {
