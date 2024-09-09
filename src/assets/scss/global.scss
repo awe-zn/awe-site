@@ -10,9 +10,6 @@
     line-height: 150%;
 }
 
-img{
-    width: auto !important;
-}
 
 body,html{
     height: 100%;
@@ -66,7 +63,7 @@ footer{
 }
 
 .stand-logo{
-    border-top: 0.5px solid $primary-light, #8FC1FF;
+    border-top: 0.5px solid $primary-light  ;
     margin-top: 80px;
 }
 

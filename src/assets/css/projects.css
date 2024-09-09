@@ -59,7 +59,6 @@ header {
   border-bottom: 1px #002D66;
   background-color: black;
 }
-
 header .container-menu {
   background-image: linear-gradient(180deg, #014180 0%, #014D99 100%);
 }
@@ -100,7 +99,7 @@ footer {
 }
 
 .stand-logo {
-  border-top: 0.5px solid #8FC1FF;
+  border-top: 0.5px solid #8FC1FF, #8FC1FF;
   margin-top: 80px;
 }
 
@@ -143,4 +142,21 @@ footer ul img {
   height: 25px;
 }
 
-/*# sourceMappingURL=global.css.map */
+.container-breadcrumb {
+  background-color: #EDFAFF;
+  margin-bottom: 60px;
+}
+
+.title-container-projects h2 {
+  color: #0B5ABD;
+}
+
+.container-cards-projects {
+  min-height: 75rem;
+}
+.container-cards-projects .project .title-project {
+  color: #002D66;
+  font-size: 1.125rem;
+}
+
+/*# sourceMappingURL=projects.css.map */
