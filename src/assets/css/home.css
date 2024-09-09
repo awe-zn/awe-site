@@ -149,10 +149,14 @@ footer ul img {
 }
 
 .team .box-card-team .card-team:hover {
-  transition: all 0.5s;
   background-color: #002D66;
   color: #FEFEFE;
 }
+
+.team .box-card-team .card-team{
+  transition: all 0.5s;
+}
+
 .team .box-card-team .card-team:hover img {
   border: 3px solid #FECE7A;
 }
