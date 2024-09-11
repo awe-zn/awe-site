@@ -149,14 +149,10 @@ footer ul img {
 }
 
 .team .box-card-team .card-team:hover {
+  transition: all 0.5s;
   background-color: #002D66;
   color: #FEFEFE;
 }
-
-.team .box-card-team .card-team{
-  transition: all 0.5s;
-}
-
 .team .box-card-team .card-team:hover img {
   border: 3px solid #FECE7A;
 }
@@ -215,6 +211,8 @@ footer i:hover {
   background-image: linear-gradient(180deg, #014180 0%, #014D99 100%);
   color: #FEFEFE;
   padding: 3.5rem 1.5rem;
+  min-height: 75vh;
+  max-height: 75vh;
 }
 .hero .we-are {
   color: #FEFEFE;
@@ -421,11 +419,14 @@ footer i:hover {
 .section-news .box-news .description-news {
   font-size: 1.125rem;
 }
-.section-news .news p {
+s .section-news .news:not(:last-child) {
+  border-bottom: 1px solid #0B5ABD;
+}
+.section-news .news a {
   color: #307FE2;
 }
-.section-news .news p:not(:last-child) {
-  border-bottom: 1px solid #0B5ABD;
+.section-news .news a:hover {
+  text-decoration: underline !important;
 }
 .section-news button {
   padding: 16px 32px;
