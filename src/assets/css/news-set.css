@@ -9,6 +9,7 @@ p{
 
 
 :root{ 
+    --primary-darker: #002D66;
     --semantic-primary-blue-darker: #0F315C;
     --semantic-primary-blue-dark: #104F98;
     --semantic-primary-blue-main: #0B5ABD;
@@ -21,6 +22,10 @@ p{
     --gray-adn-white-gray-200: #DFDFE0;
     --gray-adn-white-white: #FEFEFE;
     --white: #F9F9F9;
+}
+
+.color-primary-darker{
+    color: var(--primary-darker);
 }
 
 .color-semantic-primary-blue-darker{
@@ -78,6 +83,10 @@ p{
     background-color: var(--gray-adn-white-white);
 }
 
+.bg-semantic-primary-orange-light{
+    background-color: var(--semantic-primary-orange-light);
+}
+
 .background-cards{
     background: linear-gradient(180deg, rgba(16, 79, 152, 0) 69.58%, #0F315C, 20%, 100%);
 }
@@ -126,6 +135,11 @@ p{
     width: max-content !important;
 }
 
+a, li{
+    text-decoration: none;
+    list-style: none;
+}
+
 
 /* Global-Class */
 
@@ -133,7 +147,12 @@ p{
     width: calc(1200px * 0.6666666667) !important;
     flex: 0 0 auto !important;
 }
+.content-10{
+    width: calc(1200px * 0.8333333334) !important;
+    flex: 0 0 auto !important;
+}
 
 .content-offset-2{
     margin-left: calc(1200px * 0.1666666667) !important;
 }
+
