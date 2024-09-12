@@ -12,9 +12,11 @@ p{
     --semantic-primary-blue-darker: #0F315C;
     --semantic-primary-blue-dark: #104F98;
     --semantic-primary-blue-main: #0B5ABD;
+    --semantic-neutral-black: #1C1D1F;
     --semantic-neutral-gray-darker: #3D4551;
     --semantic-neutral-gray-dark: #565C65;
     --semantic-primary-orange-light: #FAE08E;
+    --semantic-primary-orange-dark: #E29610;
     --primitive-brand-blue-50: #EDFAFF;
     --gray-adn-white-gray-200: #DFDFE0;
     --gray-adn-white-white: #FEFEFE;
@@ -44,6 +46,9 @@ p{
 .color-semantic-neutral-gray-darker{
     color: var(--semantic-neutral-gray-darker);
 }
+.color-semantic-neutral-black{
+    color: var(--semantic-neutral-black);
+}
 
 .color-semantic-neutral-gray-dark{
     color: var(--semantic-neutral-gray-dark);
@@ -51,6 +56,10 @@ p{
 
 .color-semantic-primary-orange-light{
     color: var(--semantic-primary-orange-light);
+}
+
+.color-semantic-primary-orange-dark{
+    color: var(--semantic-primary-orange-dark);
 }
 
 .bg-semantic-primary-blue-main{
@@ -120,3 +129,11 @@ p{
 
 /* Global-Class */
 
+.content-8{
+    width: calc(1200px * 0.6666666667) !important;
+    flex: 0 0 auto !important;
+}
+
+.content-offset-2{
+    margin-left: calc(1200px * 0.1666666667) !important;
+}
