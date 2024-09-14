@@ -1,0 +1,107 @@
+@import "./typography.scss";
+@import "./variables.scss";
+/*Reset*/
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+    line-height: 150%;
+}
+
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+/*Header*/
+
+header{
+    border-bottom: 1px $primary-darker;
+    background-color: black;
+    .container-menu{
+        background-image: $linear-gradiente;
+    }
+}
+
+.navbar-toggler-icon{
+    background-image: url(../imgs/bt-menu.svg) !important;   
+    background-size:150% !important; 
+}
+
+.navbar-toggler{
+    border: transparent !important;
+}
+
+.equalizator{
+    height: 87px;
+}
+
+/*Footer*/
+
+footer{
+    background: $linear-one;
+    color: $white;
+}
+
+.contact-instagram{
+    background-color: $secondary-main;
+}
+
+.contact-instagram span{
+    color: $primary-dark;
+}
+
+.contact-instagram span{
+    max-width: 205px;
+}
+
+.contact-instagram span a{
+    color: $primary-dark;
+}
+
+.stand-logo{
+    border-top: 0.5px solid $primary-light  ;
+    margin-top: 80px;
+}
+
+.text{
+    font-size: 1.5rem;
+    max-width: 406px;
+}
+
+.text span{
+    color: $secondary-main;
+}
+
+.title-info{
+    font-weight: 300;
+}
+
+.links{
+    width: 100%;
+    max-width: 361px;
+    min-width: 200px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul i::before {
+    display: inline-block;
+    font-size: 25px !important; 
+}
+
+footer ul li{
+    height: max-content;
+}
+
+footer ul img {
+    display: inline-block;
+    width: 25px; 
+    height: 25px; 
+}

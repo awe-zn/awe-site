@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Favicon -->
+
+    <!-- Styles link -->
+    <link rel="stylesheet" href="src/assets/css/global.css">
+    <link rel="stylesheet" href="src/assets/css/home.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>AWE</title>
+</head>
+
+<body>
+    <header>
+        <div class="equalizator"></div>
+        <nav class="navbar container-menu py-3 fixed-top">
+            <div class="container">
+                <a target="_blank" class="navbar-brand" href="#"><img src="src/assets/imgs/logo.svg" alt="logo AWE"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon light"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a target="_blank" class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a target="_blank" class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a target="_blank" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a target="_blank" class="dropdown-item" href="#">Action</a></li>
+                                    <li><a target="_blank" class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a target="_blank" class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container d-flex flex-column justify-content-center">
+                <div class="row justify-content-between align-items-center flex-md-nowrap">
+                    <div class="content-left col-md-6 mb-4 mb-md-0">
+                        <h1 class="we-are text-uppercase fw-bold">
+                            somos inquietos e queremos
+                        </h1>
+                        <img src="src/assets/imgs/inovar-na-escola-text.svg" alt="inovar-na-escola-text"
+                            class="w-sm-auto w-100">
+                        <p class="subtitle mb-sm-0 mb-4">
+                            Aceleramos habilidades e o acesso ao mercado de trabalho. Juntos ajudamos a escola a ampliar
+                            o seu alcance e a transformar vidas.
+                        </p>
+                    </div>
+                    <figure class="working m-auto m-md-0 col-md-6 col-lg-4 ">
+                        <img class=" align-self-end w-100" src="src/assets/imgs/working.svg"
+                            alt="imagem de trabalho">
+                    </figure>
+                </div>
+                <figure class="hero-down-arrow mx-auto position-relative d-flex flex-column">
+                    <img src="src/assets/imgs/arrow-low-blue.svg" alt="arrow-low-blue">
+                    <img src="src/assets/imgs/arrow-low-yellow.svg" class="position-absolute" alt="arrow-low-yellow">
+                </figure>
+            </div>
+        </section>
+
+        <section class="container_advisors">
+            <div class="container d-flex flex-column">
+
+                <section class="top d-flex gap-4 row">
+                    <img src="src/assets/imgs/arrows-right.svg" alt="setas para direita ">
+                    <div class="content_top gap-3 col col-sm-10 col-lg-7 d-flex flex-column gap-3">
+                        <h2>
+                            Somos <br>
+                            <span class="text-wrapper fw-bold">
+                                <span id="animated-text" class="animated-text">inovadores</span>
+                            </span>
+                        </h2>
+                        <p>Aceleramos a aprendizagem dos alunos nas disciplinas técnicas e seus soft skills. Focamos no
+                            mundo do trabalho e seus desafios.</p>
+                        <a target="_blank" href="src/about.html" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
+                            <br>#PorDentroDaAWE</a>
+                    </div>
+                </section>
+
+                <section class="container-testimonials d-flex gap-5 align-items-center">
+
+                    <div class="container-card-view">
+                        <div class="card-testimonials gap-5 d-flex px-5 py-3 rounded-3">
+                            <div class="container-img position-relative">
+                                <img src="src/assets/imgs/cesimar_prof_img.png" alt="cesimar_prof_img">
+                            </div>
+                            <div class="content-card">
+                                <p class="title-card">Cesimar Xavier</p>
+                                <small class="profession fs-6">
+                                    _Designer e professor
+                                </small>
+                                <p class="message fs-6">É preciso criar espaços de conexão entre a escola e o mercado de
+                                    trabalho. A Agência Web Escolar é isso. Ela fortalece essas relações e enriquece o
+                                    repertório dos jovens que estão imersos na complexidade e nos desafios do mundo
+                                    atual.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-card-view">
+                        <div class="card-testimonials gap-5 d-flex px-5 py-3 rounded-3">
+                            <div class="container-img position-relative">
+                                <img src="src/assets/imgs/baesse_prof_img.png" alt="baesse_prof_img">
+                            </div>
+                            <div class="content-card">
+                                <p class="title-card">Pedro Baesse</p>
+                                <small class="profession fs-6">
+                                    _Evangelista de software livre e professor
+                                </small>
+                                <p class="message fs-6">Acredito no software livre e na democratização do ensino. Esse é
+                                    o caminho para uma sociedade verdadeiramente evoluída.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-card-view">
+                        <div class="card-testimonials gap-5 d-flex px-5 py-3 rounded-3">
+                            <div class="container-img position-relative">
+                                <img src="src/assets/imgs/andreza_prof_img.png" alt="andreza_prof_img">
+                            </div>
+                            <div class="content-card">
+                                <p class="title-card">Andreza Souza</p>
+                                <small class="profession fs-6">
+                                    _Prof. Doutora em Educação das Galáxias e já foi duas vezes na lua
+                                </small>
+                                <p class="message fs-6">Educar é transformar no contexto da luta e com o pé no chão.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+
+        </section>
+
+        <section class="our-activities">
+            <div class="container ">
+                <div class="row flex-column container-trends">
+                    <article class="content-trends col col-sm-10 col-lg-7">
+                        <small class="fs-6">
+                            _em nossas atividades
+                        </small>
+                        <p class="title-trends fs-1 mb-4">Pesquisamos e aplicamos <span>tendências</span> os nossos
+                            projetos.</p>
+                        <p class="subtitle-trends">
+                            O mercado é muito dinâmico, e nós também. O desafio é algo que nos movimenta, nos energiza,
+                            por isso gostamos e buscamos experimentar o que está nos #TopTrends e aplicamos aqui.
+                        </p>
+                    </article>
+                    <div class="container-arrow-right-blue">
+                        <img src="src/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
+                        <img src="src/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
+                        <img src="src/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
+                        <img src="src/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
+                    </div>
+                    <div class="container-trends d-flex flex-column position-relative">
+                        <div class="trends position-sticky top-0 z-1 row flex-sm-nowrap d-flex justify-content-between align-items-center">
+                            <div class="content-trend col-sm-6">
+                                <small class="tag fs-6">#que tal desenvolver sua próxima página conosco?</small>
+                                <p class="content-title fw-bold fs-2">Projetamos para web</p>
+                                <p class="content-subtitle py-3">Projetamos e desenvolvemos páginas para web ou somente
+                                    a
+                                    interface e suas interações. Se você tem uma demanda de website ou apenas uma
+                                    interface para web ou mobile, podemos ajudá-lo.</p>
+                                <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
+                                    isto?</a>
+                            </div>
+                            <figure class=" col col-sm-6">
+                                <img class="w-100" src="src/assets/imgs/web-projects.svg" alt="web-projects">
+                            </figure>
+                        </div>
+                        <div class="trends position-sticky top-0 z-2 row flex-sm-nowrap d-flex justify-content-between align-items-center flex-sm-row-reverse">
+                            <div class="content-trend col-sm-6">
+                                <small class="tag fs-6">#do que você precisa?</small>
+                                <p class="content-title fw-bold fs-2">Fazemos código outsourcing</p>
+                                <p class="content-subtitle py-3">Desenvolvemos códigos sob demanda e codificamos em
+                                    algumas
+                                    linguagens de programação que estão em alta no mercado. Buscamos aliar o que tá em
+                                    alta e o que podemos desenvolver na escola, com apoio dos professores e mentores.
+                                </p>
+                                <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
+                                    isto?</a>
+                            </div>
+                            <figure class=" col col-sm-6">
+                                <img class="w-100" src="src/assets/imgs/outsourcing-img.svg" alt="outsourcing" class="w-100">
+                            </figure>
+                        </div>
+                        <div class="trends position-sticky top-0 z-3 row flex-sm-nowrap d-flex align-items-center justify-content-between">
+                            <div class="content-trend col-sm-6">
+                                <small class="tag fs-6">#que habilidade é importante para você?</small>
+                                <p class="content-title fw-bold fs-2">Ampliamos habilidades</p>
+                                <p class="content-subtitle py-3">Nem todos sabem em um nível profissional. Reconhecemos
+                                    isso
+                                    e estamos sempre desenvolvendo #workshops para alavancar algumas habilidades
+                                    importantes. Não é apenas para os membros da equipe, mas também para nossos
+                                    clientes, parceiros e comunidade. <br> <br> #ux design #facilitação em design
+                                    #design
+                                    thinking #pesquisa em ux </p>
+                                <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Ficou interessado?</a>
+                            </div>
+                            <figure class=" col col-sm-6">
+                                <img class="w-100" src="src/assets/imgs/image-team-skills.svg" alt="image-team-skills">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-projects">
+            <div class="container d-flex flex-column">
+                <div class="content-our-project">
+                    <h3 class="mb-3">Conheça nossos projetos</h3>
+                    <small class="subtitle-our-projects">#estamos desenvolvendo a todo vapor</small>
+                </div>
+                <div class="row overflow-x-scroll flex-nowrap">
+                    <div class="project col-3 d-flex flex-column gap-3">
+                        <img src="src/assets/imgs/rectangle.png" alt="rectangle">
+                        <div class="content-text-project">
+                            <p class="title-project fw-bold mb-2">Portal - CCHLA / UFRN</p>
+                            <p class="description-project fs-6">Página oficial do Centro de Ciências Humanas, Letras de
+                                Artes da UFRN</p>
+                        </div>
+                        <a target="_blank" href="#">Acesse o projeto</a>
+                    </div>
+                    <div class="project col-3 d-flex flex-column gap-3">
+                        <img src="src/assets/imgs/rectangle.png" alt="rectangle">
+                        <div class="content-text-project">
+                            <p class="title-project fw-bold mb-2">Site - E-pipa</p>
+                            <p class="description-project fs-6">Página oficial do Centro de Ciências Humanas, Letras de
+                                Artes da UFRN</p>
+                        </div>
+                        <a target="_blank" href="#">Acesse o projeto</a>
+                    </div>
+                    <div class="project col-3 d-flex flex-column gap-3">
+                        <img src="src/assets/imgs/rectangle.png" alt="rectangle">
+                        <div class="content-text-project">
+                            <p class="title-project fw-bold mb-2">Blog - História em Detalhes</p>
+                            <p class="description-project fs-6">História em Detalhes é um blog sobre histórias, crônicas
+                                e outras histórias do professor e escritor Sérgio Trindade. </p>
+                        </div>
+                        <a target="_blank" href="#">Acesse o projeto</a>
+                    </div>
+                    <div class="project col-3 d-flex flex-column gap-3">
+                        <img src="src/assets/imgs/rectangle.png" alt="rectangle">
+                        <div class="content-text-project">
+                            <p class="title-project fw-bold mb-2">Site - PPgEM / UFRN</p>
+                            <p class="description-project fs-6">Página oficial do Programa de Pós-graduação em Estudos
+                                da Mídia, da UFRN.</p>
+                        </div>
+                        <a target="_blank" href="#">Acesse o projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="follow-news">
+            <div class="container">
+                <small>FIQUE POR DENTRO</small>
+                <h3 class="mt-1 mb-3 fw-bold">Aqui as novidades não param</h3>
+                <p>Acompanhe o que estamos fazendo e não perca nenhum detalhe.</p>
+            </div>
+        </section>
+
+        <section class="section-news">
+            <div class="container">
+                <div class="row gap-4 flex-sm-nowrap">
+                    <div class="main-news col col-sm-5 d-flex flex-column gap-3">
+                        <img src="src/assets/imgs/thumb.svg" alt="rectangle">
+                        <div class="content-text-project">
+                            <small class="title-news mb-3">Publicado em 20.11.2021</small>
+                            <p class="description-news fw-semibold">Delegação da AWE vai ao Paraguai apresentar o
+                                resultado do projeto MapGas. Os alunos Daniel e Jadson representaram o IFRN e fizeram
+                                bonito.</p>
+                        </div>
+                        <a target="_blank" href="#" class="">Continue lendo</a>
+                    </div>
+                    <section class="box-news d-flex flex-column gap-4 col col-sm-7">
+                        <div class="news pb-4">
+                            <small class="mb-2 d-inline-block">Publicado 20.11.2021 </small>
+                            <a href="src/news-set.html" class="text-decoration-none d-block">Bolsistas da AWE apresentaram os diversos trabalhos desenvolvidos durante o ano de 2021
+                                na SECITEX 21, no campus Ipanguaçu do IFRN.</a>
+                        </div>
+                        <div class="news pb-4">
+                            <small class="mb-2 d-inline-block">Publicado 20.11.2021 </small>
+                            <a href="src/news-set.html" class="text-decoration-none d-block">Alunos da Agência Web têm projetos aprovados em feria internacional e apresentam projetos
+                                com ideias sustentáveis em mostra no Paraguai.</a>
+                        </div>
+                        <div class="news pb-4">
+                            <small class="mb-2 d-inline-block">Publicado 20.11.2021 </small>
+                            <a href="src/news-set.html" class="text-decoration-none d-block">Delegação da AWE vai ao Paraguai apresentar o resultado do projeto MapGas. Os alunos
+                                Daniel e Caio representaram o IFRN e fizeram bonito.</a>
+                        </div>
+                    </section>
+                </div>
+                <button class="text-uppercase d-flex align-items-center mt-4 fw-bold ms-auto btn-1">Acesse mais notícias <img
+                        src="src/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue"></button>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <div class="row flex-column d-flex">
+                    <div class="title col col-sm-6 d-flex flex-column">
+                        <small>_saca só esse</small>
+                        <img src="src/assets/imgs/time-de-feras-text.svg" alt="time-de-feras-text" class="mb-3 mt-1">
+                        <p class="subtitle">Aqui ficamos felizes quando “perdemos” um membro da nossa equipe. Isso quer
+                            dizer que o mercado ganhou um grande profissional.</p>
+                    </div>
+                    <div class="box-card-team d-flex gap-4 overflow-x-scroll flex-nowrap">
+                        <figure class="card-team p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/clayton-renan-design.png"
+                                alt="clayton-renan-img">
+                            <figcaption class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Clayton Rennan</p>
+                                <small class="fs-6">Designer</small>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-team p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/eric-yuri-img.png" alt="eric-yuri-img">
+                            <figcaption class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Eric Yuri</p>
+                                <small class="fs-6">Programador</small>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-team p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/gabriel-pessoa-img.png"
+                                alt="Gabriel Pessoa img">
+                            <figcaption class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Gabriel Pessoa</p>
+                                <small class="fs-6">Programador</small>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-team p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/luiz-fernando-img.png" alt="Luiz Fernando img">
+                            <figcaption class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Luiz Fernando</p>
+                                <small class="fs-6">Designer</small>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-team p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/filipi-rafael-img.png" alt="filipi-rafael-img">
+                            <figcaption class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Filipi Rafael</p>
+                                <small class="fs-6">Programador</small>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <a class="btn-2 text-decoration-none text-uppercase d-flex align-items-center mt-4 fw-bold px-4 py-3 rounded-3 gap-4 me-auto w-auto" href="src/team.html">conhecer
+                        time completo
+                        <img src="src/assets/imgs/arrow-right-blue-lighter.svg" alt="arrow-right-blue"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-mentors">
+            <div class="container">
+                <div class="row flex-column d-flex gap-5">
+                    <div class="title col col-sm-6 d-flex flex-column gap-3">
+                        <h3>_nossos mentores</h3>
+                        <p class="subtitle">A visão de quem tá no mercado é essencial para alavancar o quê e como
+                            aprendemos na escola. Temos a sorte de contar com mentores em diversas áreas que nos ajudam
+                            a fazer a diferença.</p>
+                    </div>
+                    <div class="box-card-team-mentors flex-nowrap row d-flex justify-content-between gap-4">
+                        <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/clayton-rennan-mentor-img.svg"
+                                alt="clayton-renan-img">
+                            <figure class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Clayton Rennan</p>
+                                <small class="fs-6">Designer JR</small>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/marcus-vinicius-mentor-img.svg"
+                                alt="marcus-vinicius-mentor-img">
+                            <figure class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Eric Yuri</p>
+                                <small class="fs-6">Programador</small>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/kadja-aleska-mentor-img.svg"
+                                alt="kadja-aleska-mentor-img">
+                            <figure class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Gabriel Pessoa</p>
+                                <small class="fs-6">Programador</small>
+                            </figcaption>
+                        </figure>
+                        <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
+                            <img class="rounded-3" src="src/assets/imgs/otavio-barbosa-mentor-img.svg"
+                                alt="Luiz Fernando img">
+                            <figure class="content-card-team">
+                                <p class="name-member fw-bold mb-1">Luiz Fernando</p>
+                                <small class="fs-6">Designer</small>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <button class="btn-1 text-uppercase d-flex align-items-center mt-4 fw-bold me-sm-auto w-auto">Vem fazer parte
+                        <img src="src/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue" class="ms-sm-0 ms-auto"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="contact-instagram">
+            <div class="container flex-column d-flex align-items-center gap-3 py-5">
+                <span class="link-instagram d-flex gap-2">
+                    <a target="_blank" href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll" target="_blank">
+                        <i class="fa-brands fa-instagram" style="color: #0b5abd;"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll" target="_blank"
+                        class="fst-italic">@awescolar</a>
+                </span>
+                <span class="text-center fst-italic">segue a gente lá no instagram, dá essa moralzinha pra nós!</span>
+            </div>
+        </section>
+        <section class="content-footer">
+            <div class="container pt-5 d-flex flex-column gap-5 px-4">
+                <p class="text"><span>Queremos você aqui</span>. Que tal você fazer parte da nossa equipe e mudarmos o
+                    mundo,
+                    <span>juntos</span>?
+                </p>
+                <section class="links-contatcs d-flex gap-4 row">
+                    <div class="email links d-flex flex-column">
+                        <span class="title-info">email</span>
+                        <span>awescolar@gmail.com</span>
+                    </div>
+                    <div class="address links d-flex flex-column">
+                        <span class="title-info">endereço</span>
+                        <span>FRN campus Natal Natal Zona Norte
+                            Rua Brusque, 2926, Potengi | Natal-RN</span>
+                    </div>
+                    <div class="media links d-flex flex-column gap-2">
+                        <span class="title-info">nossas mídias</span>
+                        <ul class="d-flex gap-4 align-items-center">
+                            <li><a target="_blank" href="https://www.instagram.com/awescolar.ifrn/?igsh=b2kzdGhlZWMxbWll"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://dribbble.com/awescolar"><i class="fa-brands fa-dribbble"></i></a></li>
+                            <li><a target="_blank" href="https://www.behance.net/gallery/110915853/Agencia-Web-Escolar"><i class="fa-brands fa-behance"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/awescolar"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/agencia-web-escolar/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div class="stand-logo py-4 mx-4 d-flex justify-content-center">
+            <img src="src/assets/imgs/logo-v2.svg" alt="logo v2">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="src/assets/js/index.js"></script>
+</body>
+
+</html>
