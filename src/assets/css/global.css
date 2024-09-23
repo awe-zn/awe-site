@@ -144,3 +144,38 @@ footer ul img {
 }
 
 /*# sourceMappingURL=global.css.map */
+
+/* global class */
+
+:root{ 
+  --semantic-primary-blue-darker: #0F315C;
+  --semantic-primary-blue-dark: #104F98;
+  --semantic-primary-blue-main: #0B5ABD;
+  --semantic-neutral-gray-darker: #3D4551;
+  --semantic-neutral-gray-dark: #565C65;
+  --semantic-primary-orange-light: #FAE08E;
+  --primitive-brand-blue-50: #EDFAFF;
+  --gray-adn-white-gray-200: #DFDFE0;
+  --gray-adn-white-white: #FEFEFE;
+  --white: #F9F9F9;
+}
+
+.bg-primitive-brand-blue-50{
+  background-color: var(--primitive-brand-blue-50);
+}
+
+.color-semantic-neutral-gray-dark{
+  color: var(--semantic-neutral-gray-dark);
+}
+
+.fs-small{
+    font-size: .75rem;
+}
+
+.tight{
+  line-height: 120%;
+}
+
+.color-semantic-primary-blue-main{
+  color: var(--semantic-primary-blue-main);
+}
