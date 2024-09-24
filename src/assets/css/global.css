@@ -128,6 +128,10 @@ footer ul {
   padding: 0;
 }
 
+footer .media a{
+  color: #4CC8FF;
+}
+
 footer ul i::before {
   display: inline-block;
   font-size: 25px !important;
@@ -145,7 +149,17 @@ footer ul img {
 
 /*# sourceMappingURL=global.css.map */
 
-/* global class */
+
+/* Global-Class */
+p, h1, h2, h3, h4, h5, h6, .card-body, .card, figure{
+  margin: 0 ;
+  padding: 0;
+}
+
+p{
+  font-size: 16px;
+}
+
 
 :root{ 
   --semantic-primary-blue-darker: #0F315C;
@@ -160,22 +174,117 @@ footer ul img {
   --white: #F9F9F9;
 }
 
-.bg-primitive-brand-blue-50{
-  background-color: var(--primitive-brand-blue-50);
+.color-semantic-primary-blue-darker{
+  color: var(--semantic-primary-blue-darker);
+}
+
+.color-semantic-primary-blue-dark{
+  color: var(--semantic-primary-blue-dark);
+}
+
+.color-semantic-primary-blue-main{
+  color: var(--semantic-primary-blue-main);
+}
+
+.color-primitive-brand-blue-50{
+  color: var(--primitive-brand-blue-50);
+}
+
+.color-white{
+  color: var(--white);
+}
+
+.color-semantic-neutral-gray-darker{
+  color: var(--semantic-neutral-gray-darker);
 }
 
 .color-semantic-neutral-gray-dark{
   color: var(--semantic-neutral-gray-dark);
 }
 
-.fs-small{
-    font-size: .75rem;
+.color-semantic-primary-orange-light{
+  color: var(--semantic-primary-orange-light);
+}
+
+.bg-semantic-primary-blue-main{
+  background-color: var(--semantic-primary-blue-main);
+}
+
+.bg-semantic-primary-blue-dark{
+  background-color: var(--semantic-primary-blue-dark);
+}
+
+.bg-primitive-brand-blue-50{
+  background-color: var(--primitive-brand-blue-50);
+}
+
+.bg-gray-adn-white-white{
+  background-color: var(--gray-adn-white-white);
+}
+
+.background-cards{
+  background: linear-gradient(180deg, rgba(16, 79, 152, 0) 69.58%, #0F315C, 20%, 100%);
 }
 
 .tight{
   line-height: 120%;
 }
 
-.color-semantic-primary-blue-main{
-  color: var(--semantic-primary-blue-main);
+.medium{
+  line-height: 140%;
+}
+
+.spaced{
+  line-height: 150%;
+}
+
+.distant{
+  line-height: 180%;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif !important;
+}
+
+.fs-large{
+  font-size: 1.125rem;
+}
+
+.fs-medium{
+  font-size: 0.875rem;
+}
+
+.fs-small{
+  font-size: .75rem;
+}
+
+.fs-xsmall{
+  font-size: .625rem;
+}
+
+.ms-n1{
+  margin-left: -4px;
+}
+
+.max-content{
+  width: max-content !important;
+}
+
+
+/* Global-Class */
+
+h2{
+  font-size: 2.75rem;
+}
+
+h2.title-hero{
+  font-size: clamp(2.125rem, 3vw, 2.75rem);
+}
+
+h4{
+  font-size: 1.5rem;
+}
+
+h5{
+  font-size: 1.375rem;
 }

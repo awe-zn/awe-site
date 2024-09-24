@@ -1,3 +1,9 @@
+body {
+  color: #67676D;
+}
 
+main section:not(:first-child):not(:last-child) {
+  margin-bottom: 7.5rem;
+}
 
 /*# sourceMappingURL=explanatory.css.map */
