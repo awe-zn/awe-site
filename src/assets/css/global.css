@@ -59,7 +59,6 @@ header {
   border-bottom: 1px #002D66;
   background-color: black;
 }
-
 header .container-menu {
   background-image: linear-gradient(180deg, #014180 0%, #014D99 100%);
 }
@@ -128,10 +127,6 @@ footer ul {
   padding: 0;
 }
 
-footer .media a{
-  color: #4CC8FF;
-}
-
 footer ul i::before {
   display: inline-block;
   font-size: 25px !important;
@@ -147,21 +142,7 @@ footer ul img {
   height: 25px;
 }
 
-/*# sourceMappingURL=global.css.map */
-
-
-/* Global-Class */
-p, h1, h2, h3, h4, h5, h6, .card-body, .card, figure{
-  margin: 0 ;
-  padding: 0;
-}
-
-p{
-  font-size: 16px;
-}
-
-
-:root{ 
+:root {
   --semantic-primary-blue-darker: #0F315C;
   --semantic-primary-blue-dark: #104F98;
   --semantic-primary-blue-main: #0B5ABD;
@@ -174,117 +155,100 @@ p{
   --white: #F9F9F9;
 }
 
-.color-semantic-primary-blue-darker{
+.color-semantic-primary-blue-darker {
   color: var(--semantic-primary-blue-darker);
 }
 
-.color-semantic-primary-blue-dark{
+.color-semantic-primary-blue-dark {
   color: var(--semantic-primary-blue-dark);
 }
 
-.color-semantic-primary-blue-main{
+.color-semantic-primary-blue-main {
   color: var(--semantic-primary-blue-main);
 }
 
-.color-primitive-brand-blue-50{
+.color-primitive-brand-blue-50 {
   color: var(--primitive-brand-blue-50);
 }
 
-.color-white{
+.color-white {
   color: var(--white);
 }
 
-.color-semantic-neutral-gray-darker{
+.color-semantic-neutral-gray-darker {
   color: var(--semantic-neutral-gray-darker);
 }
 
-.color-semantic-neutral-gray-dark{
+.color-semantic-neutral-gray-dark {
   color: var(--semantic-neutral-gray-dark);
 }
 
-.color-semantic-primary-orange-light{
+.color-semantic-primary-orange-light {
   color: var(--semantic-primary-orange-light);
 }
 
-.bg-semantic-primary-blue-main{
+.bg-semantic-primary-blue-main {
   background-color: var(--semantic-primary-blue-main);
 }
 
-.bg-semantic-primary-blue-dark{
+.bg-semantic-primary-blue-dark {
   background-color: var(--semantic-primary-blue-dark);
 }
 
-.bg-primitive-brand-blue-50{
+.bg-primitive-brand-blue-50 {
   background-color: var(--primitive-brand-blue-50);
 }
 
-.bg-gray-adn-white-white{
+.bg-gray-adn-white-white {
   background-color: var(--gray-adn-white-white);
 }
 
-.background-cards{
+.background-cards {
   background: linear-gradient(180deg, rgba(16, 79, 152, 0) 69.58%, #0F315C, 20%, 100%);
 }
 
-.tight{
+.tight {
   line-height: 120%;
 }
 
-.medium{
+.medium {
   line-height: 140%;
 }
 
-.spaced{
+.spaced {
   line-height: 150%;
 }
 
-.distant{
+.distant {
   line-height: 180%;
 }
 
-.lato{
-  font-family: 'Lato', sans-serif !important;
+.lato {
+  font-family: "Lato", sans-serif !important;
 }
 
-.fs-large{
+.fs-large {
   font-size: 1.125rem;
 }
 
-.fs-medium{
+.fs-medium {
   font-size: 0.875rem;
 }
 
-.fs-small{
-  font-size: .75rem;
+.fs-small {
+  font-size: 0.75rem;
 }
 
-.fs-xsmall{
-  font-size: .625rem;
+.fs-xsmall {
+  font-size: 0.625rem;
 }
 
-.ms-n1{
+.ms-n1 {
   margin-left: -4px;
 }
 
-.max-content{
+.max-content {
   width: max-content !important;
 }
 
-
-/* Global-Class */
-
-h2{
-  font-size: 2.75rem;
-}
-
-h2.title-hero{
-  font-size: clamp(2.125rem, 3vw, 2.75rem);
-}
-
-h4{
-  font-size: 1.5rem;
-}
-
-h5{
-  font-size: 1.375rem;
-}
+/*# sourceMappingURL=global.css.map */

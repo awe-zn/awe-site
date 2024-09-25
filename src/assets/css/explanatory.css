@@ -5,5 +5,20 @@ body {
 main section:not(:first-child):not(:last-child) {
   margin-bottom: 7.5rem;
 }
+main section p[class^=description] {
+  margin: 2.5rem 0;
+}
+main .explanatory-about {
+  padding: 4.375rem 0;
+}
+main .explanatory-main-technologies {
+  padding: 3.125rem;
+}
+main .explanatory-main-technologies .box-technologies {
+  gap: 2.1875rem;
+}
+main .explanatory-main-technologies .box-technologies i {
+  font-size: 4rem;
+}
 
 /*# sourceMappingURL=explanatory.css.map */
