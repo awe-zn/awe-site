@@ -20,5 +20,12 @@ main .explanatory-main-technologies .box-technologies {
 main .explanatory-main-technologies .box-technologies i {
   font-size: 4rem;
 }
+main .explanatory-our-team figcaption {
+  font-size: 0.875rem;
+  color: #7C7C83;
+}
+main .explanatory-our-team figure {
+  margin-bottom: 4rem;
+}
 
 /*# sourceMappingURL=explanatory.css.map */
