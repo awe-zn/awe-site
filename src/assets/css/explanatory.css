@@ -24,8 +24,14 @@ main .explanatory-our-team figcaption {
   font-size: 0.875rem;
   color: #7C7C83;
 }
-main .explanatory-our-team figure {
+main .explanatory-our-team .explanatory-our-team-img {
   margin-bottom: 4rem;
+}
+main .explanatory-our-team .card-content-title {
+  font-size: 1.125rem;
+}
+main .explanatory-our-team .card-content {
+  color: #67676D;
 }
 
 /*# sourceMappingURL=explanatory.css.map */
