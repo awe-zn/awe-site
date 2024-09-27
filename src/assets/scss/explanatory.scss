@@ -2,6 +2,14 @@ body {
     color: #67676D;
 }
 
+figure{
+    margin: 0;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
 main {
     section:not(:first-child):not(:last-child) {
         margin-bottom: 7.5rem;
@@ -9,37 +17,89 @@ main {
 
     section {
         p[class^="description"] {
-            margin:2.5rem 0;
+            margin: 2.5rem 0;
         }
     }
 
-    .explanatory-about{
+    .explanatory-about {
         padding: 4.375rem 0;
     }
 
-    .explanatory-main-technologies{
+    .explanatory-main-technologies {
         padding: 3.125rem;
-        .box-technologies{
+
+        .box-technologies {
             gap: 2.1875rem;
-            i{
+
+            i {
                 font-size: 4rem;
             }
         }
     }
 
-    .explanatory-our-team{
-        figcaption{
+    .explanatory-our-team {
+        figcaption {
             font-size: 0.875rem;
             color: #7C7C83;
         }
-        .explanatory-our-team-img{
+
+        .explanatory-our-team-img {
             margin-bottom: 4rem;
         }
-        .card-content-title{
-            font-size: 1.125rem;
-        }
-        .card-content{
+
+        .card-content {
             color: #67676D;
+        }
+    }
+
+    .w-110{
+        width: 110%;
+    }
+
+    .explanatory-how-works {
+        .circle-sectors-markers {
+            border: 2px solid;
+        }
+        .circle-sectors-markers,.sectors img{
+            width: 64px;
+            height: 64px;
+        }
+        .box-sectors{
+            gap: 2rem;
+            z-index: 2;
+            &::after{
+                content: ' ';
+                border-style: dashed;
+                position: absolute;
+                height: 80%;
+                width: 1px;
+                top: 50px;
+                left: 29px;
+                opacity: .3;
+                z-index: -1;
+            }
+
+            .sectors{
+                &:last-child{
+                    transform: translateX(-5px);
+                }
+                .star-launch{
+                    transform: translateX(4px);
+                }
+            }
+
+        }
+    }
+
+    .explanatory-our-projects{
+        .projects{
+            width: min-content;
+            figcaption{
+                font-size: 0.875rem;
+            }
+        }
+        .row{
+            margin: 4rem 0 2.5rem;
         }
     }
 }

@@ -2,6 +2,14 @@ body {
   color: #67676D;
 }
 
+figure {
+  margin: 0;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
 main section:not(:first-child):not(:last-child) {
   margin-bottom: 7.5rem;
 }
@@ -27,11 +35,48 @@ main .explanatory-our-team figcaption {
 main .explanatory-our-team .explanatory-our-team-img {
   margin-bottom: 4rem;
 }
-main .explanatory-our-team .card-content-title {
-  font-size: 1.125rem;
-}
 main .explanatory-our-team .card-content {
   color: #67676D;
+}
+main .w-110 {
+  width: 110%;
+}
+main .explanatory-how-works .circle-sectors-markers {
+  border: 2px solid;
+}
+main .explanatory-how-works .circle-sectors-markers, main .explanatory-how-works .sectors img {
+  width: 64px;
+  height: 64px;
+}
+main .explanatory-how-works .box-sectors {
+  gap: 2rem;
+  z-index: 2;
+}
+main .explanatory-how-works .box-sectors::after {
+  content: " ";
+  border-style: dashed;
+  position: absolute;
+  height: 80%;
+  width: 1px;
+  top: 50px;
+  left: 29px;
+  opacity: 0.3;
+  z-index: -1;
+}
+main .explanatory-how-works .box-sectors .sectors:last-child {
+  transform: translateX(-5px);
+}
+main .explanatory-how-works .box-sectors .sectors .star-launch {
+  transform: translateX(4px);
+}
+main .explanatory-our-projects .projects {
+  width: min-content;
+}
+main .explanatory-our-projects .projects figcaption {
+  font-size: 0.875rem;
+}
+main .explanatory-our-projects .row {
+  margin: 4rem 0 2.5rem;
 }
 
 /*# sourceMappingURL=explanatory.css.map */
