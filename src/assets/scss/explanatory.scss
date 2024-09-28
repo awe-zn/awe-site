@@ -1,5 +1,6 @@
 body {
     color: #67676D;
+    box-sizing: border-box;
 }
 
 figure{
@@ -129,6 +130,11 @@ main {
         }
         .explanatory-contact{
             transform: translateX(-5%);
+        }
+        .explanatory-our-projects{
+            img{
+                width: 100%;
+            }
         }
     }
 }

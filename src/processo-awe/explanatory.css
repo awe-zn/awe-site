@@ -96,6 +96,9 @@ main .explanatory-our-projects .row {
   main .explanatory-contact {
     transform: translateX(-5%);
   }
+  main .explanatory-our-projects img {
+    width: 100%;
+  }
 }
 @media (max-width: 576px) {
   main section[class^=explanatory] .row {
