@@ -10,6 +10,10 @@ p {
     font-size: 1.125rem;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
 main {
     section:not(:first-child):not(:last-child) {
         margin-bottom: 7.5rem;
@@ -52,10 +56,6 @@ main {
         }
     }
 
-    .w-110{
-        width: 110%;
-    }
-
     .explanatory-how-works {
         .circle-sectors-markers {
             border: 2px solid;
@@ -93,13 +93,55 @@ main {
 
     .explanatory-our-projects{
         .projects{
-            width: min-content;
             figcaption{
                 font-size: 0.875rem;
             }
         }
         .row{
             margin: 4rem 0 2.5rem;
+        }
+    }
+}
+
+@media (min-width:1200px){
+    main{
+        .explanatory-our-projects{
+            .projects{
+                width: min-content;
+            }
+        }
+    }
+}
+
+@media (max-width:992px){
+    main{
+        section:not(:first-child):not(:last-child) {
+            margin-bottom: 2.5rem ;
+        }
+        .explanatory-our-team {
+            .card{
+                max-width: 284px;
+                width: 100%;
+            }
+        }
+        .explanatory-limitations,.explanatory-contact{
+            transform: translateX(-10%);
+        }
+        .explanatory-contact{
+            transform: translateX(-5%);
+        }
+    }
+}
+
+@media (max-width:576px){
+    main{
+        section[class^="explanatory"]{
+            .row {
+                gap: 3.75rem;
+            }
+        }
+        .explanatory-limitations,.explanatory-contact{
+            transform: translateX(0);
         }
     }
 }

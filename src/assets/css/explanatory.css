@@ -10,6 +10,10 @@ p {
   font-size: 1.125rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
 main section:not(:first-child):not(:last-child) {
   margin-bottom: 7.5rem;
 }
@@ -37,9 +41,6 @@ main .explanatory-our-team .explanatory-our-team-img {
 }
 main .explanatory-our-team .card-content {
   color: #67676D;
-}
-main .w-110 {
-  width: 110%;
 }
 main .explanatory-how-works .circle-sectors-markers {
   border: 2px solid;
@@ -69,14 +70,40 @@ main .explanatory-how-works .box-sectors .sectors:last-child {
 main .explanatory-how-works .box-sectors .sectors .star-launch {
   transform: translateX(4px);
 }
-main .explanatory-our-projects .projects {
-  width: min-content;
-}
 main .explanatory-our-projects .projects figcaption {
   font-size: 0.875rem;
 }
 main .explanatory-our-projects .row {
   margin: 4rem 0 2.5rem;
+}
+
+@media (min-width: 1200px) {
+  main .explanatory-our-projects .projects {
+    width: min-content;
+  }
+}
+@media (max-width: 992px) {
+  main section:not(:first-child):not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+  main .explanatory-our-team .card {
+    max-width: 284px;
+    width: 100%;
+  }
+  main .explanatory-limitations, main .explanatory-contact {
+    transform: translateX(-10%);
+  }
+  main .explanatory-contact {
+    transform: translateX(-5%);
+  }
+}
+@media (max-width: 576px) {
+  main section[class^=explanatory] .row {
+    gap: 3.75rem;
+  }
+  main .explanatory-limitations, main .explanatory-contact {
+    transform: translateX(0);
+  }
 }
 
 /*# sourceMappingURL=explanatory.css.map */
