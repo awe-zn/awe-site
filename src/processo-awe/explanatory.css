@@ -1,0 +1,112 @@
+body {
+  color: #67676D;
+}
+
+figure {
+  margin: 0;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+main section:not(:first-child):not(:last-child) {
+  margin-bottom: 7.5rem;
+}
+main section p[class^=description] {
+  margin: 2.5rem 0;
+}
+main .explanatory-about {
+  padding: 4.375rem 0;
+}
+main .explanatory-main-technologies {
+  padding: 3.125rem;
+}
+main .explanatory-main-technologies .box-technologies {
+  gap: 2.1875rem;
+}
+main .explanatory-main-technologies .box-technologies i {
+  font-size: 4rem;
+}
+main .explanatory-our-team figcaption {
+  font-size: 0.875rem;
+  color: #7C7C83;
+}
+main .explanatory-our-team .explanatory-our-team-img {
+  margin-bottom: 4rem;
+}
+main .explanatory-our-team .card-content {
+  color: #67676D;
+}
+main .explanatory-how-works .circle-sectors-markers {
+  border: 2px solid;
+}
+main .explanatory-how-works .circle-sectors-markers, main .explanatory-how-works .sectors img {
+  width: 64px;
+  height: 64px;
+}
+main .explanatory-how-works .box-sectors {
+  gap: 2rem;
+  z-index: 2;
+}
+main .explanatory-how-works .box-sectors::after {
+  content: " ";
+  border-style: dashed;
+  position: absolute;
+  height: 80%;
+  width: 1px;
+  top: 50px;
+  left: 29px;
+  opacity: 0.3;
+  z-index: -1;
+}
+main .explanatory-how-works .box-sectors .sectors:last-child {
+  transform: translateX(-5px);
+}
+main .explanatory-how-works .box-sectors .sectors .star-launch {
+  transform: translateX(4px);
+}
+main .explanatory-our-projects .projects figcaption {
+  font-size: 0.875rem;
+}
+main .explanatory-our-projects .row {
+  margin: 4rem 0 2.5rem;
+}
+
+@media (min-width: 1200px) {
+  main .explanatory-our-projects .projects {
+    width: min-content;
+  }
+}
+@media (max-width: 992px) {
+  main section:not(:first-child):not(:last-child) {
+    margin-bottom: 2.5rem;
+  }
+  main .explanatory-our-team .card {
+    max-width: 284px;
+    width: 100%;
+  }
+  main .explanatory-limitations, main .explanatory-contact {
+    transform: translateX(-10%);
+  }
+  main .explanatory-contact {
+    transform: translateX(-5%);
+  }
+  main .explanatory-our-projects img {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  main section[class^=explanatory] .row {
+    gap: 3.75rem;
+  }
+  main .explanatory-limitations, main .explanatory-contact {
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=explanatory.css.map */
