@@ -41,7 +41,7 @@ p {
 /*Secondary colors*/
 /*Gray and White*/
 /*Reset*/
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
