@@ -3,25 +3,28 @@ body {
     box-sizing: border-box;
 }
 
-figure{
+figure {
     margin: 0;
 }
 
-p {
+p,
+.paragraph-size {
     font-size: 1.125rem;
 }
 
-h2{
+h2 {
     font-size: 2.5rem;
 }
 
 main {
-    section:not(:first-child):not(:last-child) {
+    div[class^="explanatory"]:not(:first-child):not(:last-child) {
         margin-bottom: 7.5rem;
     }
 
-    section {
-        p[class^="description"] {
+    div {
+
+        p[class^="description"],
+        section[class^="description"] {
             margin: 2.5rem 0;
         }
     }
@@ -61,14 +64,18 @@ main {
         .circle-sectors-markers {
             border: 2px solid;
         }
-        .circle-sectors-markers,.sectors img{
+
+        .circle-sectors-markers,
+        .sectors img {
             width: 64px;
             height: 64px;
         }
-        .box-sectors{
+
+        .box-sectors {
             gap: 2rem;
             z-index: 2;
-            &::after{
+
+            &::after {
                 content: ' ';
                 border-style: dashed;
                 position: absolute;
@@ -80,11 +87,12 @@ main {
                 z-index: -1;
             }
 
-            .sectors{
-                &:last-child{
+            .sectors {
+                &:last-child {
                     transform: translateX(-5px);
                 }
-                .star-launch{
+
+                .star-launch {
                     transform: translateX(4px);
                 }
             }
@@ -92,61 +100,69 @@ main {
         }
     }
 
-    .explanatory-our-projects{
-        .projects{
-            figcaption{
+    .explanatory-our-projects {
+        .projects {
+            figcaption {
                 font-size: 0.875rem;
             }
         }
-        .row{
+
+        .row {
             margin: 4rem 0 2.5rem;
         }
     }
 }
 
-@media (min-width:1200px){
-    main{
-        .explanatory-our-projects{
-            .projects{
+@media (min-width:1200px) {
+    main {
+        .explanatory-our-projects {
+            .projects {
                 width: min-content;
             }
         }
     }
 }
 
-@media (max-width:992px){
-    main{
-        section:not(:first-child):not(:last-child) {
-            margin-bottom: 2.5rem ;
+@media (max-width:992px) {
+    main {
+        div[class^="explanatory"]:not(:first-child):not(:last-child) {
+            margin-bottom: 2.5rem;
         }
+
         .explanatory-our-team {
-            .card{
+            .card {
                 max-width: 284px;
                 width: 100%;
             }
         }
-        .explanatory-limitations,.explanatory-contact{
+
+        .explanatory-limitations,
+        .explanatory-contact {
             transform: translateX(-10%);
         }
-        .explanatory-contact{
+
+        .explanatory-contact {
             transform: translateX(-5%);
         }
-        .explanatory-our-projects{
-            img{
+
+        .explanatory-our-projects {
+            img {
                 width: 100%;
             }
         }
     }
 }
 
-@media (max-width:576px){
-    main{
-        section[class^="explanatory"]{
+@media (max-width:576px) {
+    main {
+        div[class^="explanatory"] {
             .row {
                 gap: 3.75rem;
             }
         }
-        .explanatory-limitations,.explanatory-contact{
+
+        .explanatory-limitations,
+        .explanatory-contact {
             transform: translateX(0);
         }
     }
