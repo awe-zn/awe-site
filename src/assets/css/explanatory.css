@@ -1,14 +1,12 @@
 body {
   color: #67676D;
-  box-sizing: border-box;
 }
 
 figure {
   margin: 0;
 }
 
-p,
-.paragraph-size {
+p {
   font-size: 1.125rem;
 }
 
@@ -16,11 +14,10 @@ h2 {
   font-size: 2.5rem;
 }
 
-main div[class^=explanatory]:not(:first-child):not(:last-child) {
+main section:not(:first-child):not(:last-child) {
   margin-bottom: 7.5rem;
 }
-main div p[class^=description],
-main div section[class^=description] {
+main section p[class^=description] {
   margin: 2.5rem 0;
 }
 main .explanatory-about {
@@ -48,8 +45,7 @@ main .explanatory-our-team .card-content {
 main .explanatory-how-works .circle-sectors-markers {
   border: 2px solid;
 }
-main .explanatory-how-works .circle-sectors-markers,
-main .explanatory-how-works .sectors img {
+main .explanatory-how-works .circle-sectors-markers, main .explanatory-how-works .sectors img {
   width: 64px;
   height: 64px;
 }
@@ -81,36 +77,26 @@ main .explanatory-our-projects .row {
   margin: 4rem 0 2.5rem;
 }
 
-@media (min-width: 1200px) {
-  main .explanatory-our-projects .projects {
-    width: min-content;
-  }
-}
 @media (max-width: 992px) {
-  main div[class^=explanatory]:not(:first-child):not(:last-child) {
+  main section:not(:first-child):not(:last-child) {
     margin-bottom: 2.5rem;
   }
   main .explanatory-our-team .card {
     max-width: 284px;
     width: 100%;
   }
-  main .explanatory-limitations,
-  main .explanatory-contact {
+  main .explanatory-limitations, main .explanatory-contact {
     transform: translateX(-10%);
   }
   main .explanatory-contact {
     transform: translateX(-5%);
   }
-  main .explanatory-our-projects img {
-    width: 100%;
-  }
 }
 @media (max-width: 576px) {
-  main div[class^=explanatory] .row {
+  main section[class^=explanatory] .row {
     gap: 3.75rem;
   }
-  main .explanatory-limitations,
-  main .explanatory-contact {
+  main .explanatory-limitations, main .explanatory-contact {
     transform: translateX(0);
   }
 }

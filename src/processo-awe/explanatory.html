@@ -67,22 +67,22 @@
     </header>
 
     <main class="mb-5">
-        <section class="section-header py-3 bg-primitive-brand-blue-50 color-semantic-neutral-gray-dark">
+        <div class="section-header py-3 bg-primitive-brand-blue-50 color-semantic-neutral-gray-dark">
             <div class="container mx-auto">
                 <p class="fs-small">Você está aqui</p>
                 <p class="tight fs-6"><a class="color-semantic-primary-blue-main" href="../index.html">#awe</a><span
                         class="ms-2 me-2">>></span> O que é?</p>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-hero mt-5">
+        <div class="explanatory-hero mt-5" aria-labelledby="titulo_pag">
             <div class="container">
                 <div class="row justify-content-between align-items-center flex-sm-nowrap">
                     <article class="col-sm-8 col-lg-5 explanatory-hero-content">
-                        <p class="text-uppercase text-black">somos EXTENSÃO na escola</p>
-                        <h1 class="text-black">Nossa missão é inovar na educação</h1>
+                        <p class="text-uppercase text-black">somos extensão na escola</p>
+                        <h1 class="text-black" id="titulo_pag">Nossa missão é inovar na educação</h1>
                         <p class="description-hero">
-                            A <span class="fw-bold">Agência Web Escolar</span> é um projeto criado por alunos, mantido
+                            A <strong>Agência Web Escolar</strong> é um projeto criado por alunos, mantido
                             por alunos, professores e mentores que acreditam que podemos inovar na educação.
                         </p>
                         <p class="color-semantic-primary-blue-main fw-bold rounded-circle d-inline-block">Somos
@@ -90,22 +90,25 @@
                         </p>
                     </article>
                     <figure class="explanatory-hero-img col-sm-5">
-                        <img src="../assets/imgs/img-explanatory-hero.svg" alt="imagem de celulares" class="w-100">
+                        <img src="../assets/imgs/img-explanatory-hero.svg"
+                            alt="imagem de celulares juntos, um na frente do outro" class="w-100">
                     </figure>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-about">
+        <div class="explanatory-about" aria-labelledby="titulo_sobre_quem_somos">
             <div class="container">
                 <div class="row justify-content-between align-items-center flex-sm-nowrap">
                     <figure class="col-sm-6 explanatory-about-img">
-                        <img src="../assets/imgs/img-explanatory-about.svg" alt="imagem de cientista" class="w-100">
+                        <img src="../assets/imgs/img-explanatory-about.svg"
+                            alt="Imagem de um cientista ilustrando inovação e tecnologia" class="w-100">
                     </figure>
                     <article class="col-sm-7 col-lg-5 explanatory-about-content">
                         <div class="title-section">
                             <p class="text-uppercase text-black">sobre a awe</p>
-                            <h2 class="color-semantic-primary-blue-main">Afinal quem nós somos?</h2>
+                            <h2 class="color-semantic-primary-blue-main" id="titulo_sobre_quem_somos">Afinal quem nós
+                                somos?</h2>
                         </div>
                         <p class="description-about">
                             A AWE é um projeto de extensão do IFRN (campus Natal Zona Norte), desenvolvido para
@@ -113,15 +116,18 @@
                             e por outro lado ofertar soluções digitais, como sites e consultorias de design, à
                             microempreendedores, pequenas empresas e organizações públicas ou sem fins lucrativos.
                         </p>
-                        <div class="explanatory-about-content-group-skills fw-bold text-black">
+                        <div class="explanatory-about-content-group-skills fw-bold text-black"
+                            aria-label="competências atreladas ao projeto awe">
                             <div class="explanatory-about-content-group-skill d-flex gap-3 align-items-center mb-4">
-                                <img src="../assets/imgs/code-icon.svg" alt="ícone de código">
+                                <img src="../assets/imgs/code-icon.svg"
+                                    alt="Ícone representando competência em desenvolvimento web">
                                 <span>
                                     Competência em Desenvolvimento Web
                                 </span>
                             </div>
                             <div class="explanatory-about-content-group-skill d-flex gap-3 align-items-center">
-                                <img src="../assets/imgs/design-digital-icon.svg" alt="ícone de arte digital">
+                                <img src="../assets/imgs/design-digital-icon.svg"
+                                    alt="Ícone representando competência em arte digital">
                                 <span>
                                     Competência em Design Digital
                                 </span>
@@ -130,35 +136,38 @@
                     </article>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-main-technologies bg-semantic-primary-blue-main color-white rounded">
+        <div class="explanatory-main-technologies bg-semantic-primary-blue-main color-white rounded"
+            aria-labelledby="nossas_tecnologias">
             <div class="container">
-                <p class="text-uppercase text-center mb-4">as nossas principais tecnologias</p>
+                <h3 class="text-uppercase text-center mb-4 fw-normal" id="nossas_tecnologias">as nossas principais
+                    tecnologias</h3>
                 <div class="box-technologies d-flex justify-content-center flex-wrap">
-                    <i class="fa-brands fa-html5"></i>
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <i class="fa-brands fa-js"></i>
-                    <i class="fa-brands fa-figma"></i>
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-html5" aria-label="Linguagem de Marcação HTML5" role="img"></i>
+                    <i class="fa-brands fa-css3-alt" aria-label="Folhas de Estilo CSS3" role="img"></i>
+                    <i class="fa-brands fa-js" aria-label="Linguagem de Programação JavaScript" role="img"></i>
+                    <i class="fa-brands fa-figma" aria-label="Ferramenta de Design Figma" role="img"></i>
+                    <i class="fa-brands fa-github" aria-label="Plataforma de Repositório GitHub" role="img"></i>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-our-team">
+        <div class="explanatory-our-team">
             <div class="container">
                 <figure class="explanatory-our-team-img">
                     <img src="../assets/imgs/explanatory-awe-team.svg" alt="foto do nosso time" class="w-100">
                     <figcaption class="mt-2">Equipe da Agência Web Escolar de 2023 no dia da foto oficial do ano.
                     </figcaption>
                 </figure>
-                <section class="box-card row gap-4 flex-xl-nowrap overflow-x-scroll flex-nowrap px-sm-0 px-3">
-                    <div class="card p-4 col-xl">
+                <div class="box-card row gap-4 flex-xl-nowrap overflow-x-scroll flex-nowrap px-sm-0 px-3">
+                    <div class="card p-4 col-xl" aria-labelledby="card-inovacao-titulo">
                         <figure>
-                            <img src="../assets/imgs/explanatory-inovacao-icon.svg" alt="icon inovação">
+                            <img src="../assets/imgs/explanatory-inovacao-icon.svg"
+                                alt="Ícone representando inovação constante">
                         </figure>
                         <div class="card-content mt-3">
-                            <p
+                            <p id="card-inovacao-titulo"
                                 class="card-content-title text-uppercase color-semantic-primary-blue-main fw-bold rounded-circle d-inline-block mb-2">
                                 INOVAÇÃO CONSTANTE
                             </p>
@@ -167,25 +176,29 @@
                             </small>
                         </div>
                     </div>
-                    <div class="card p-4 col-xl">
+                    <div class="card p-4 col-xl" aria-labelledby="card-cliente-titulo">
                         <figure>
-                            <img src="../assets/imgs/explanatory-client-icon.svg" alt="icon cliente">
+                            <img src="../assets/imgs/explanatory-client-icon.svg"
+                                alt="Ícone representando foco no cliente">
                         </figure>
                         <div class="card-content mt-3">
-                            <p class="card-content-title text-uppercase color-semantic-primary-blue-main fw-bold mb-2">
+                            <p id="card-cliente-titulo"
+                                class="card-content-title text-uppercase color-semantic-primary-blue-main fw-bold mb-2">
                                 Foco no cliente
                             </p>
                             <small>
-                                Atendermos às necessidades de cada cliente, garantindo satisfação e resultados.
+                                Atendemos às necessidades de cada cliente, garantindo satisfação e resultados.
                             </small>
                         </div>
                     </div>
-                    <div class="card p-4 col-xl">
+                    <div class="card p-4 col-xl" aria-labelledby="card-colaboracao-titulo">
                         <figure>
-                            <img src="../assets/imgs/explanatory-collaboration-icon.svg" alt="icon colaboração">
+                            <img src="../assets/imgs/explanatory-collaboration-icon.svg"
+                                alt="Ícone representando colaboração">
                         </figure>
                         <div class="card-content mt-3">
-                            <p class="card-content-title text-uppercase color-semantic-primary-blue-main fw-bold mb-2">
+                            <p id="card-colaboracao-titulo"
+                                class="card-content-title text-uppercase color-semantic-primary-blue-main fw-bold mb-2">
                                 Colaboração
                             </p>
                             <small>
@@ -194,71 +207,80 @@
                             </small>
                         </div>
                     </div>
-                    <div class="card p-4 col-xl">
+                    <div class="card p-4 col-xl" aria-labelledby="card-aprendizado-titulo">
                         <figure>
-                            <img src="../assets/imgs/explanatory-aprendizado-icon.svg" alt="icon aprendizado">
+                            <img src="../assets/imgs/explanatory-aprendizado-icon.svg"
+                                alt="Ícone representando aprendizado contínuo">
                         </figure>
                         <div class="card-content mt-3">
-                            <p class="card-content-title text-uppercase color-semantic-primary-blue-main fw-bold mb-2">
-                                aprendizado contínuo
+                            <p id="card-aprendizado-titulo"
+                                class="card-content-title text-uppercase color-semantic-primary-blue-main fw-bold mb-2">
+                                Aprendizado contínuo
                             </p>
                             <small>
-                                Nossa equipe trabalha em estreita colaboração, valorizando criar produtos de alta
-                                qualidade.
+                                Estamos sempre aprendendo e nos aperfeiçoando para oferecer as melhores soluções
+                                tecnológicas.
                             </small>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-our-services">
+        <div class="explanatory-our-services" aria-labelledby="titulo_nossos_servicos">
             <div class="container">
                 <div class="row justify-content-between align-items-center flex-sm-nowrap">
                     <article class="explanatory-our-services-content col-sm-7 col-lg-4">
                         <div class="title-section">
                             <p class="text-uppercase text-black">SERVIÇOS DA AWE</p>
-                            <h2 class="color-semantic-primary-blue-main w-110">Quais são os nossos serviços?</h2>
+                            <h2 class="color-semantic-primary-blue-main w-110" id="titulo_nossos_servicos">Quais são os
+                                nossos serviços?</h2>
                         </div>
                         <p class="description">
                             Na Agência Web, focamos exclusivamente em serviços digitais que atendem às necessidades dos
                             nossos clientes e ao desenvolvimento formativo dos estudantes. Entre os principais serviços
                             estão:
                         </p>
-                        <p class="description-creation-site">
-                            <span class="d-block color-semantic-primary-blue-main text-uppercase mb-2 fw-bold">Criação
-                                de Sites</span>
-                            Nossa equipe, cuida de todo o processo de criação de sites, desde a ideia inicial até a
-                            implementação. Isso inclui a estruturação, design visual e adaptação para dispositivos
-                            móveis (responsividade). Além disso, oferecemos consultoria em web design, ajudando a
-                            planejar e otimizar a presença digital dos negócios, garantindo sites funcionais e
-                            atraentes.
-                        </p>
-                        <p class="description-service-design">
-                            <span class="d-block color-semantic-primary-blue-main text-uppercase mb-2 fw-bold">Serviços
-                                de Design</span>
-                            Ajudamos nossos clientes a melhorar aspectos visuais de seus projetos digitais, aplicando
-                            princípios modernos para garantir uma aparência coesa e impactante.
-                        </p>
+                        <section class="description-creation-site">
+                            <h3 class="color-semantic-primary-blue-main text-uppercase mb-2 paragraph-size">Criação de
+                                Sites</h3>
+                            <p>
+                                Nossa equipe, cuida de todo o processo de criação de sites, desde a ideia inicial até a
+                                implementação. Isso inclui a estruturação, design visual e adaptação para dispositivos
+                                móveis (responsividade). Além disso, oferecemos consultoria em web design, ajudando a
+                                planejar e otimizar a presença digital dos negócios, garantindo sites funcionais e
+                                atraentes.
+                            </p>
+                        </section>
+                        <section class="description-service-design">
+                            <h3 class="color-semantic-primary-blue-main text-uppercase mb-2 paragraph-size">Serviços
+                                de Design</h3>
+                            <p>
+                                Ajudamos nossos clientes a melhorar aspectos visuais de seus projetos digitais,
+                                aplicando
+                                princípios modernos para garantir uma aparência coesa e impactante.
+                            </p>
+                        </section>
                     </article>
                     <figure class="col-sm-6">
                         <img src="../assets/imgs/explanatory-our-services.svg"
-                            alt="imagem ilustrativa dos nossos serviços" class="w-100">
+                            alt="imagem ilustrativa de uma pessoa trabalhando em seu computador" class="w-100">
                     </figure>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-limitations">
+        <div class="explanatory-limitations" aria-labelledby="titulo_nao_fazemos">
             <div class="container">
                 <div class="row justify-content-between align-items-center flex-sm-nowrap">
                     <figure class="col-sm-7 col-lg-5">
-                        <img src="../assets/imgs/error-404.svg" alt="imagem de erro 404" class="w-100">
+                        <img src="../assets/imgs/error-404.svg" alt="imagem ilustrativa de um erro 404" class="w-100">
                     </figure>
                     <article class="explanatory-limitations-content col-sm-8 col-lg-5">
                         <div class="title-section">
                             <p class="text-uppercase text-black">fora do nosso escopo</p>
-                            <h2 class="color-semantic-primary-blue-main">O QUE NÃO PODEMOS FAZER?</h2>
+                            <h2 class="color-semantic-primary-blue-main" id="titulo_nao_fazemos">o que não podemos
+                                fazer?</h2>
                         </div>
                         <p class="description-limitations">
                             É importante que nossos clientes compreendam as limitações dos serviços oferecidos pela
@@ -267,52 +289,60 @@
                             Para garantir o foco e a qualidade no que fazemos, existem algumas áreas que não estão
                             incluídas em nossa prestação de serviços, como:
                         </p>
-                        <p class="description-hosting-site">
-                            <span
-                                class="d-block color-semantic-primary-blue-main text-uppercase mb-2 fw-bold">Hospedagem
-                                de sites</span>
-                            Nós não oferecemos este serviços para os sites desenvolvidos.
-                            <br> <br>
-                            Por outro lado, entendemos que essa é um serviço essencial para um site funciona e por isso
-                            oferecemos consultoria para nosso clientes na escolha e configuração de serviços de
-                            hospedagem.
-                        </p>
-                        <p class="description-registration">
-                            <span class="d-block color-semantic-primary-blue-main text-uppercase mb-2 fw-bold">REGISTRO
-                                DE DOmínios</span>
-                            Não realizamos o registro de domínios.
-                            <br> <br>
-                            Orientamos nossos clientes como realizar o registro de domínio, ajudando a escolher um nome
-                            de domínio apropriado e fornecendo suporte técnico durante a configuração inicial.
+                        <section class="description-hosting-site">
+                            <h3 class="color-semantic-primary-blue-main text-uppercase mb-2 paragraph-size">hospedagem
+                                de
+                                sites</h3>
+                            <p>
+                                Nós não oferecemos este serviços para os sites desenvolvidos.
+                                <br> <br>
+                                Por outro lado, entendemos que essa é um serviço essencial para um site funciona e por
+                                isso
+                                oferecemos consultoria para nosso clientes na escolha e configuração de serviços de
+                                hospedagem.
+                            </p>
+                        </section>
+                        <section class="description-registration">
+                            <h3 class="color-semantic-primary-blue-main text-uppercase mb-2 paragraph-size">Registro de
+                                domínios</h3>
+                            <p>
+                                Não realizamos o registro de domínios.
+                                <br> <br>
+                                Orientamos nossos clientes como realizar o registro de domínio, ajudando a escolher um
+                                nome
+                                de domínio apropriado e fornecendo suporte técnico durante a configuração inicial.
+                            </p>
                             <br> <br>
                             <a href="https://registro.br" class="color-semantic-primary-blue-main" target="_blank">Quer
                                 saber mais sobre registro de domínios?</a>
-                        </p>
+                        </section>
                     </article>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-how-works">
+        <div class="explanatory-how-works" aria-labelledby="titulo_como_funciona">
             <div class="container">
                 <div class="title-section">
                     <p class="text-uppercase text-black">Nossa metodologia</p>
-                    <h2 class="color-semantic-primary-blue-main w-110">Entenda como funciona</h2>
+                    <h2 class="color-semantic-primary-blue-main w-110" id="titulo_como_funciona">Entenda como funciona
+                    </h2>
                 </div>
                 <div class="row mt-5 py-5 justify-content-between align-items-center">
                     <figure class="col-sm-6 col-lg-5">
-                        <img src="../assets/imgs/explanatory-notebook-Photoroom.svg" alt=" notebook com o site awe" class="w-100">
+                        <img src="../assets/imgs/explanatory-notebook-Photoroom.svg" alt=" notebook com o site awe"
+                            class="w-100">
                     </figure>
-                    <article class="explanatory-how-works-content col-sm-6">
+                    <div class="explanatory-how-works-content col-sm-6">
                         <div class="box-sectors d-flex flex-column position-relative">
                             <div class="sectors d-flex align-items-center gap-4">
                                 <figure>
                                     <img src="../assets/imgs/marker-number-1.svg" alt="">
                                 </figure>
                                 <p>
-                                    <span class="fw-bold d-block text-black mb-1">
+                                    <strong class="d-block text-black mb-1">
                                         Planejamento e Definição de Objetivos
-                                    </span>
+                                    </strong>
                                     Definimos metas e estratégias para garantir o sucesso do projeto.
                                 </p>
                             </div>
@@ -321,9 +351,9 @@
                                     <img src="../assets/imgs/marker-number-2.svg" alt="">
                                 </figure>
                                 <p>
-                                    <span class="fw-bold d-block text-black mb-1">
+                                    <strong class="d-block text-black mb-1">
                                         Design
-                                    </span>
+                                    </strong>
                                     Criamos o design (UI/UX Design) e a identidade do produto.
                                 </p>
                             </div>
@@ -332,9 +362,9 @@
                                     <img src="../assets/imgs/marker-number-3.svg" alt="">
                                 </figure>
                                 <p>
-                                    <span class="fw-bold d-block text-black mb-1">
+                                    <strong class="d-block text-black mb-1">
                                         Desenvolvimento
-                                    </span>
+                                    </strong>
                                     Codificamos e integramos as funcionalidades planejadas.
                                 </p>
                             </div>
@@ -343,9 +373,9 @@
                                     <img src="../assets/imgs/marker-number-4.svg" alt="">
                                 </figure>
                                 <p>
-                                    <span class="fw-bold d-block text-black mb-1">
+                                    <strong class="d-block text-black mb-1">
                                         Testes e Otimização
-                                    </span>
+                                    </strong>
                                     Realizamos testes e ajustes para garantir a qualidade.
                                 </p>
                             </div>
@@ -354,61 +384,62 @@
                                     <img src="../assets/imgs/star-launch.svg" alt=" estrela branca ">
                                 </figure>
                                 <p>
-                                    <span class="fw-bold d-block text-black mb-1">
+                                    <strong class="d-block text-black mb-1">
                                         Lançamento
-                                    </span>
+                                    </strong>
                                     Publicamos o produto e monitoramos seu desempenho inicial.
                                 </p>
                             </div>
                         </div>
-                    </article>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-contact">
+        <div class="explanatory-contact" aria-labelledby="titulo_interesse">
             <div class="container">
                 <div class="row justify-content-between align-items-center flex-sm-nowrap">
                     <article class="explanatory-limitations-content col-sm-7 col-lg-4">
                         <div class="title-section">
                             <p class="text-uppercase text-black">ENTRE EM CONTATO</p>
-                            <h2 class="color-semantic-primary-blue-main w-110">Se interessou?</h2>
+                            <h2 class="color-semantic-primary-blue-main w-110" id="titulo_interesse">Se interessou?</h2>
                         </div>
                         <p class="description-limitations">
                             Se interessou e gostaria de se tornar nosso cliente?
                             <br> <br>
-                            <span class="color-semantic-primary-blue-main fw-bold w-110 d-inline-block">O processo é
-                                simples e ocorre em duas etapas:</span>
+                            <strong class="color-semantic-primary-blue-main w-110 d-inline-block" role="heading">O processo é
+                                simples e ocorre em duas etapas:</strong>
                         </p>
-                        <p class="description-hosting-site">
-                            <span class="d-block color-semantic-primary-blue-main text-uppercase mb-2 fw-bold">Primeiro
-                                contato</span>
+                        <section class="description-hosting-site">
+                            <h3 class="color-semantic-primary-blue-main text-uppercase mb-2 paragraph-size">Primeiro
+                                contato</h3>
                             O cliente em potencial deve enviar um e-mail para awescolar@gmail.com manifestando interesse
                             em participar do projeto. Este contato inicial é crucial para documentar o interesse e abrir
                             um canal de comunicação entre o cliente e a equipe da Agência Web.
-                        </p>
-                        <p class="description-registration">
-                            <span class="d-block color-semantic-primary-blue-main text-uppercase mb-2">termo de
-                                adesão</span>
+                        </section>
+                        <section class="description-registration">
+                            <h3 class="color-semantic-primary-blue-main text-uppercase mb-2 paragraph-size">termo de
+                                adesão</h3>
                             Após o primeiro contato, o cliente receberá um Termo de Adesão, que deverá ser preenchido e
                             assinado. Este termo formaliza a participação do cliente no projeto, registrando todas as
                             informações necessárias junto ao IFRN Campus Natal Zona Norte. Após a recepção do termo
                             assinado, a equipe da Agência Web dará início ao processo de desenvolvimento, que inclui
                             etapas de atendimento ao cliente, planejamento e execução do projeto.
-                        </p>
+                        </section>
                     </article>
                     <figure class="col-sm-7 col-lg-6">
                         <img src="../assets/imgs/explanatory-img-contact.svg" alt="imagem de negócios" class="w-100">
                     </figure>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="explanatory-our-projects">
-            <div class="container d-flex flex-column ">
-                <div class="title-section"> 
+        <div class="explanatory-our-projects" aria-labelledby="titulo_nossos_projetos">
+            <div class="container d-flex flex-column">
+                <div class="title-section">
                     <p class="text-uppercase text-black">Nossos Projetos</p>
-                    <h2 class="color-semantic-primary-blue-main">Alguns dos nossos projetos</h2>
+                    <h2 class="color-semantic-primary-blue-main" id="titulo_nossos_projetos">Alguns dos nossos projetos
+                    </h2>
                 </div>
                 <div class="row gap-5 justify-content-lg-between justify-content-sm-center">
                     <figure class="projects col-sm-5 col-lg-auto">
@@ -420,7 +451,8 @@
                     <figure class="projects col-sm-5 col-lg-auto">
                         <img src="../assets/imgs/blog-history.svg" alt="imagem do blog de história">
                         <figcaption class="mt-4">
-                            História em Detalhes é um blog sobre histórias, crônicas e outras histórias do professor e escritor Sérgio Trindade. 
+                            História em Detalhes é um blog sobre histórias, crônicas e outras histórias do professor e
+                            escritor Sérgio Trindade.
                         </figcaption>
                     </figure>
                     <figure class="projects col-sm-5 col-lg-auto">
@@ -448,64 +480,83 @@
                         </figcaption>
                     </figure>
                 </div>
-                <a href="projects.html" class="color-semantic-primary-blue-main fw-bold  ms-auto d-inline-block">Ver todos os projetos</a>
+                <a href="../projects.html" class="color-semantic-primary-blue-main fw-bold  ms-auto d-inline-block">Ver
+                    todos os projetos</a>
             </div>
-        </section>
+        </div>
     </main>
 
-    <footer>
-        <section class="contact-instagram">
+    <footer role="contentinfo">
+        <div class="contact-instagram">
             <div class="container flex-column d-flex align-items-center gap-3 py-5">
                 <span class="link-instagram d-flex gap-2">
-                    <a target="_blank" href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll"
-                        target="_blank">
+                    <a target="_blank" href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll">
                         <i class="fa-brands fa-instagram" style="color: #0b5abd;"></i>
                     </a>
                     <a target="_blank" href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll"
-                        target="_blank" class="fst-italic">@awescolar</a>
+                        class="fst-italic">@awescolar</a>
                 </span>
                 <span class="text-center fst-italic">segue a gente lá no instagram, dá essa moralzinha pra nós!</span>
             </div>
-        </section>
-        <section class="content-footer">
+        </div>
+        <div class="content-footer">
             <div class="container pt-5 d-flex flex-column gap-5 px-4">
                 <p class="text"><span>Queremos você aqui</span>. Que tal você fazer parte da nossa equipe e mudarmos o
                     mundo,
                     <span>juntos</span>?
                 </p>
-                <section class="links-contatcs d-flex gap-4 row">
+                <div class="links-contatcs d-flex gap-4 row">
                     <div class="email links d-flex flex-column">
                         <span class="title-info">email</span>
                         <span>awescolar@gmail.com</span>
                     </div>
                     <div class="address links d-flex flex-column">
                         <span class="title-info">endereço</span>
-                        <span>FRN campus Natal Natal Zona Norte
+                        <span>IFRN campus Natal Natal Zona Norte
                             Rua Brusque, 2926, Potengi | Natal-RN</span>
                     </div>
                     <div class="media links d-flex flex-column gap-2">
                         <span class="title-info">nossas mídias</span>
-                        <ul class="d-flex gap-4 align-items-center">
-                            <li><a target="_blank"
-                                    href="https://www.instagram.com/awescolar.ifrn/?igsh=b2kzdGhlZWMxbWll"><i
-                                        class="fa-brands fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="https://dribbble.com/awescolar"><i
-                                        class="fa-brands fa-dribbble"></i></a></li>
-                            <li><a target="_blank"
-                                    href="https://www.behance.net/gallery/110915853/Agencia-Web-Escolar"><i
-                                        class="fa-brands fa-behance"></i></a></li>
-                            <li><a target="_blank" href="https://github.com/awescolar"><i
-                                        class="fa-brands fa-github"></i></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/company/agencia-web-escolar/"><i
-                                        class="fa-brands fa-linkedin-in"></i></a></li>
+                        <ul class="d-flex gap-4 align-items-center" role="menu">
+                            <li role="menuitem">
+                                <a target="_blank"
+                                    href="https://www.instagram.com/awescolar.ifrn/?igsh=b2kzdGhlZWMxbWll"
+                                    aria-label="hiperlink para o Instagram da agência">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li role="menuitem">
+                                <a target="_blank" href="https://dribbble.com/awescolar"
+                                    aria-label="hiperlink para o dribbble da agência">
+                                    <i class="fa-brands fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li role="menuitem">
+                                <a target="_blank" href="https://www.behance.net/gallery/110915853/Agencia-Web-Escolar"
+                                    aria-label="hiperlink para o behance da agência">
+                                    <i class="fa-brands fa-behance"></i>
+                                </a>
+                            </li>
+                            <li role="menuitem">
+                                <a target="_blank" href="https://github.com/awescolar"
+                                    aria-label="hiperlink para o github da agência">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
+                            <li role="menuitem">
+                                <a target="_blank" href="https://www.linkedin.com/company/agencia-web-escolar/"
+                                    aria-label="hiperlink para o linkedin da agência">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                </section>
+                </div>
             </div>
-        </section>
-        <div class="stand-logo py-4 mx-4 d-flex justify-content-center">
-            <img src="../assets/imgs/logo-v2.svg" alt="logo v2">
         </div>
+        <figure class="stand-logo py-4 mx-4 d-flex justify-content-center">
+            <img src="../assets/imgs/logo-v2.svg" alt="Logo minimalista da Agência Web Escolar">
+        </figure>
     </footer>
 </body>
 
