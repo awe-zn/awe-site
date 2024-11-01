@@ -1,0 +1,23 @@
+@import './global.scss';
+
+
+.container-breadcrumb{
+    background-color: #EDFAFF;
+    margin-bottom: 60px;
+}
+
+.title-container-projects{
+    h2{
+        color: $primary-dark;
+    }
+}
+
+.container-cards-projects{
+    min-height: 75rem;
+    .project{
+        .title-project{
+            color: $primary-darker;
+            font-size: 1.125rem;
+        }
+    }
+}
