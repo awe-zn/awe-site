@@ -211,9 +211,8 @@ footer i:hover {
   background-image: linear-gradient(180deg, #014180 0%, #014D99 100%);
   color: #FEFEFE;
   padding: 3.5rem 1.5rem;
-  min-height: 75vh;
-  max-height: 75vh;
 }
+
 .hero .we-are {
   color: #FEFEFE;
   font-size: 1.125rem;

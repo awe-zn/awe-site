@@ -467,7 +467,7 @@
                     </div>
                     <div class="address links d-flex flex-column">
                         <span class="title-info">endereço</span>
-                        <span>FRN campus Natal Natal Zona Norte
+                        <span>IFRN campus Natal Natal Zona Norte
                             Rua Brusque, 2926, Potengi | Natal-RN</span>
                     </div>
                     <div class="media links d-flex flex-column gap-2">
