@@ -8,7 +8,7 @@
                     <h1 class="we-are text-uppercase fw-bold">
                         somos inquietos e queremos
                     </h1>
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/inovar-na-escola-text.svg" alt="inovar-na-escola-text"
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/inovar-na-escola-text.svg" alt="inovar-na-escola-text"
                         class="w-sm-auto w-100">
                     <p class="subtitle mb-sm-0 mb-4">
                         Aceleramos habilidades e o acesso ao mercado de trabalho. Juntos ajudamos a escola a ampliar
@@ -16,13 +16,13 @@
                     </p>
                 </div>
                 <figure class="working m-auto m-md-0 col-md-6 col-lg-4 ">
-                    <img class=" align-self-end w-100" src="<?php echo get_template_directory_uri()?>/assets/imgs/working.svg"
+                    <img class=" align-self-end w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/working.svg"
                         alt="imagem de trabalho">
                 </figure>
             </div>
             <figure class="hero-down-arrow mx-auto position-relative d-flex flex-column">
-                <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-low-blue.svg" alt="arrow-low-blue">
-                <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-low-yellow.svg" class="position-absolute" alt="arrow-low-yellow">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-low-blue.svg" alt="arrow-low-blue">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-low-yellow.svg" class="position-absolute" alt="arrow-low-yellow">
             </figure>
         </div>
     </section>
@@ -31,7 +31,7 @@
         <div class="container d-flex flex-column">
 
             <section class="top d-flex gap-4 row">
-                <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrows-right.svg" alt="setas para direita ">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrows-right.svg" alt="setas para direita ">
                 <div class="content_top gap-3 col col-sm-10 col-lg-7 d-flex flex-column gap-3">
                     <h2>
                         Somos <br>
@@ -41,7 +41,7 @@
                     </h2>
                     <p>Aceleramos a aprendizagem dos alunos nas disciplinas técnicas e seus soft skills. Focamos no
                         mundo do trabalho e seus desafios.</p>
-                    <a target="_blank" href="<?php echo get_template_directory_uri()?>/about.php" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
+                    <a target="_blank" href="<?php echo get_template_directory_uri() ?>/about.php" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
                         <br>#PorDentroDaAWE</a>
                 </div>
             </section>
@@ -51,7 +51,7 @@
                 <div class="container-card-view">
                     <div class="card-testimonials gap-5 d-flex px-5 py-3 rounded-3">
                         <div class="container-img position-relative">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/imgs/cesimar_prof_img.png" alt="cesimar_prof_img">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/cesimar_prof_img.png" alt="cesimar_prof_img">
                         </div>
                         <div class="content-card">
                             <p class="title-card">Cesimar Xavier</p>
@@ -69,7 +69,7 @@
                 <div class="container-card-view">
                     <div class="card-testimonials gap-5 d-flex px-5 py-3 rounded-3">
                         <div class="container-img position-relative">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/imgs/baesse_prof_img.png" alt="baesse_prof_img">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/baesse_prof_img.png" alt="baesse_prof_img">
                         </div>
                         <div class="content-card">
                             <p class="title-card">Pedro Baesse</p>
@@ -85,7 +85,7 @@
                 <div class="container-card-view">
                     <div class="card-testimonials gap-5 d-flex px-5 py-3 rounded-3">
                         <div class="container-img position-relative">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/imgs/andreza_prof_img.png" alt="andreza_prof_img">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/andreza_prof_img.png" alt="andreza_prof_img">
                         </div>
                         <div class="content-card">
                             <p class="title-card">Andreza Souza</p>
@@ -117,10 +117,10 @@
                     </p>
                 </article>
                 <div class="container-arrow-right-blue">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
                 </div>
                 <div class="container-trends d-flex flex-column position-relative">
                     <div class="trends position-sticky top-0 z-1 row flex-sm-nowrap d-flex justify-content-between align-items-center">
@@ -135,7 +135,7 @@
                                 isto?</a>
                         </div>
                         <figure class=" col col-sm-6">
-                            <img class="w-100" src="<?php echo get_template_directory_uri()?>/assets/imgs/web-projects.svg" alt="web-projects">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/web-projects.svg" alt="web-projects">
                         </figure>
                     </div>
                     <div class="trends position-sticky top-0 z-2 row flex-sm-nowrap d-flex justify-content-between align-items-center flex-sm-row-reverse">
@@ -151,7 +151,7 @@
                                 isto?</a>
                         </div>
                         <figure class=" col col-sm-6">
-                            <img class="w-100" src="<?php echo get_template_directory_uri()?>/assets/imgs/outsourcing-img.svg" alt="outsourcing" class="w-100">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/outsourcing-img.svg" alt="outsourcing" class="w-100">
                         </figure>
                     </div>
                     <div class="trends position-sticky top-0 z-3 row flex-sm-nowrap d-flex align-items-center justify-content-between">
@@ -168,7 +168,7 @@
                             <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Ficou interessado?</a>
                         </div>
                         <figure class=" col col-sm-6">
-                            <img class="w-100" src="<?php echo get_template_directory_uri()?>/assets/imgs/image-team-skills.svg" alt="image-team-skills">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/image-team-skills.svg" alt="image-team-skills">
                         </figure>
                     </div>
                 </div>
@@ -184,7 +184,7 @@
             </div>
             <div class="row overflow-x-scroll flex-nowrap">
                 <div class="project col-3 d-flex flex-column gap-3">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/rectangle.png" alt="rectangle">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/rectangle.png" alt="rectangle">
                     <div class="content-text-project">
                         <p class="title-project fw-bold mb-2">Portal - CCHLA / UFRN</p>
                         <p class="description-project fs-6">Página oficial do Centro de Ciências Humanas, Letras de
@@ -193,7 +193,7 @@
                     <a target="_blank" href="#">Acesse o projeto</a>
                 </div>
                 <div class="project col-3 d-flex flex-column gap-3">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/rectangle.png" alt="rectangle">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/rectangle.png" alt="rectangle">
                     <div class="content-text-project">
                         <p class="title-project fw-bold mb-2">Site - E-pipa</p>
                         <p class="description-project fs-6">Página oficial do Centro de Ciências Humanas, Letras de
@@ -202,7 +202,7 @@
                     <a target="_blank" href="#">Acesse o projeto</a>
                 </div>
                 <div class="project col-3 d-flex flex-column gap-3">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/rectangle.png" alt="rectangle">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/rectangle.png" alt="rectangle">
                     <div class="content-text-project">
                         <p class="title-project fw-bold mb-2">Blog - História em Detalhes</p>
                         <p class="description-project fs-6">História em Detalhes é um blog sobre histórias, crônicas
@@ -211,7 +211,7 @@
                     <a target="_blank" href="#">Acesse o projeto</a>
                 </div>
                 <div class="project col-3 d-flex flex-column gap-3">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/rectangle.png" alt="rectangle">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/rectangle.png" alt="rectangle">
                     <div class="content-text-project">
                         <p class="title-project fw-bold mb-2">Site - PPgEM / UFRN</p>
                         <p class="description-project fs-6">Página oficial do Programa de Pós-graduação em Estudos
@@ -235,7 +235,7 @@
         <div class="container">
             <div class="row gap-4 flex-sm-nowrap">
                 <div class="main-news col col-sm-5 d-flex flex-column gap-3">
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/thumb.svg" alt="rectangle">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/thumb.svg" alt="rectangle">
                     <div class="content-text-project">
                         <small class="title-news mb-3">Publicado em 20.11.2021</small>
                         <p class="description-news fw-semibold">Delegação da AWE vai ao Paraguai apresentar o
@@ -263,7 +263,7 @@
                 </section>
             </div>
             <button class="text-uppercase d-flex align-items-center mt-4 fw-bold ms-auto btn-1">Acesse mais notícias <img
-                    src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue"></button>
+                    src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue"></button>
         </div>
     </section>
 
@@ -272,13 +272,13 @@
             <div class="row flex-column d-flex">
                 <div class="title col col-sm-6 d-flex flex-column">
                     <small>_saca só esse</small>
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/time-de-feras-text.svg" alt="time-de-feras-text" class="mb-3 mt-1">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/time-de-feras-text.svg" alt="time-de-feras-text" class="mb-3 mt-1">
                     <p class="subtitle">Aqui ficamos felizes quando “perdemos” um membro da nossa equipe. Isso quer
                         dizer que o mercado ganhou um grande profissional.</p>
                 </div>
                 <div class="box-card-team d-flex gap-4 overflow-x-scroll flex-nowrap">
                     <figure class="card-team p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/clayton-renan-design.png"
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/clayton-renan-design.png"
                             alt="clayton-renan-img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Clayton Rennan</p>
@@ -286,14 +286,14 @@
                         </figcaption>
                     </figure>
                     <figure class="card-team p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/eric-yuri-img.png" alt="eric-yuri-img">
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/eric-yuri-img.png" alt="eric-yuri-img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Eric Yuri</p>
                             <small class="fs-6">Programador</small>
                         </figcaption>
                     </figure>
                     <figure class="card-team p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/gabriel-pessoa-img.png"
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/gabriel-pessoa-img.png"
                             alt="Gabriel Pessoa img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Gabriel Pessoa</p>
@@ -301,14 +301,14 @@
                         </figcaption>
                     </figure>
                     <figure class="card-team p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/luiz-fernando-img.png" alt="Luiz Fernando img">
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/luiz-fernando-img.png" alt="Luiz Fernando img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Luiz Fernando</p>
                             <small class="fs-6">Designer</small>
                         </figcaption>
                     </figure>
                     <figure class="card-team p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/filipi-rafael-img.png" alt="filipi-rafael-img">
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/filipi-rafael-img.png" alt="filipi-rafael-img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Filipi Rafael</p>
                             <small class="fs-6">Programador</small>
@@ -317,7 +317,7 @@
                 </div>
                 <a class="btn-2 text-decoration-none text-uppercase d-flex align-items-center mt-4 fw-bold px-4 py-3 rounded-3 gap-4 me-auto w-auto" href="src/team.html">conhecer
                     time completo
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-right-blue-lighter.svg" alt="arrow-right-blue"></a>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue-lighter.svg" alt="arrow-right-blue"></a>
             </div>
         </div>
     </section>
@@ -333,7 +333,7 @@
                 </div>
                 <div class="box-card-team-mentors flex-nowrap row d-flex justify-content-between gap-4">
                     <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/clayton-rennan-mentor-img.svg"
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/clayton-rennan-mentor-img.svg"
                             alt="clayton-renan-img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Clayton Rennan</p>
@@ -341,7 +341,7 @@
                         </figcaption>
                     </figure>
                     <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/marcus-vinicius-mentor-img.svg"
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/marcus-vinicius-mentor-img.svg"
                             alt="marcus-vinicius-mentor-img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Eric Yuri</p>
@@ -349,7 +349,7 @@
                         </figcaption>
                     </figure>
                     <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/kadja-aleska-mentor-img.svg"
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/kadja-aleska-mentor-img.svg"
                             alt="kadja-aleska-mentor-img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Gabriel Pessoa</p>
@@ -357,7 +357,7 @@
                         </figcaption>
                     </figure>
                     <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
-                        <img class="rounded-3" src="<?php echo get_template_directory_uri()?>/assets/imgs/otavio-barbosa-mentor-img.svg"
+                        <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/otavio-barbosa-mentor-img.svg"
                             alt="Luiz Fernando img">
                         <figcaption class="content-card-team">
                             <p class="name-member fw-bold mb-1">Luiz Fernando</p>
@@ -366,10 +366,11 @@
                     </figure>
                 </div>
                 <button class="btn-1 text-uppercase d-flex align-items-center mt-4 fw-bold me-sm-auto w-auto">Vem fazer parte
-                    <img src="<?php echo get_template_directory_uri()?>/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue" class="ms-sm-0 ms-auto"></button>
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue" class="ms-sm-0 ms-auto"></button>
             </div>
         </div>
     </section>
+    <script>const estilo=document.createElement("style");estilo.textContent=".container_advisors .container-testimonials .container-card-view .card-testimonials .container-img::after{background-image:url('<?php echo get_template_directory_uri(); ?>/assets/imgs/pingo.svg');}",document.head.appendChild(estilo);</script>
 </main>
 
 <?php wp_footer(); ?>

@@ -352,7 +352,7 @@ footer i:hover {
 
 .container_advisors .container-testimonials .container-card-view .card-testimonials .container-img::after {
     content: " ";
-    background-image: url(../imgs/pingo.svg);
+    /* background-image: url(../imgs/pingo.svg); */
     position: absolute;
     background-repeat: no-repeat;
     height: 110px;
