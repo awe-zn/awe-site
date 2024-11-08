@@ -245,21 +245,26 @@
                     <a target="_blank" href="#" class="">Continue lendo</a>
                 </div>
                 <section class="box-news d-flex flex-column gap-4 col col-sm-7">
-                    <div class="news pb-4">
-                        <small class="mb-2 d-inline-block">Publicado 20.11.2021 </small>
-                        <a href="src/news-set.html" class="text-decoration-none d-block">Bolsistas da AWE apresentaram os diversos trabalhos desenvolvidos durante o ano de 2021
-                            na SECITEX 21, no campus Ipanguaçu do IFRN.</a>
-                    </div>
-                    <div class="news pb-4">
-                        <small class="mb-2 d-inline-block">Publicado 20.11.2021 </small>
-                        <a href="src/news-set.html" class="text-decoration-none d-block">Alunos da Agência Web têm projetos aprovados em feria internacional e apresentam projetos
-                            com ideias sustentáveis em mostra no Paraguai.</a>
-                    </div>
-                    <div class="news pb-4">
-                        <small class="mb-2 d-inline-block">Publicado 20.11.2021 </small>
-                        <a href="src/news-set.html" class="text-decoration-none d-block">Delegação da AWE vai ao Paraguai apresentar o resultado do projeto MapGas. Os alunos
-                            Daniel e Caio representaram o IFRN e fizeram bonito.</a>
-                    </div>
+                    <?php
+                    $news_query = new WP_Query([
+                        'post_type' => 'post', 
+                        'posts_per_page' => 3,    
+                    ]);
+
+                    if ($news_query->have_posts()) :
+                        while ($news_query->have_posts()) : $news_query->the_post();
+                    ?>
+                            <div class="news pb-4">
+                                <small class="mb-2 d-inline-block">Publicado <?php the_time('d.m.Y'); ?> </small>
+                                <a href="<?php the_permalink(); ?>" class="text-decoration-none d-block"><?php the_title(); ?></a>
+                            </div>
+                    <?php
+                        endwhile;
+                        wp_reset_postdata();
+                    else :
+                        echo '<p>Nenhuma notícia encontrada.</p>';
+                    endif;
+                    ?>
                 </section>
             </div>
             <button class="text-uppercase d-flex align-items-center mt-4 fw-bold ms-auto btn-1">Acesse mais notícias <img
@@ -370,7 +375,10 @@
             </div>
         </div>
     </section>
-    <script>const estilo=document.createElement("style");estilo.textContent=".container_advisors .container-testimonials .container-card-view .card-testimonials .container-img::after{background-image:url('<?php echo get_template_directory_uri(); ?>/assets/imgs/pingo.svg');}",document.head.appendChild(estilo);</script>
+    <script>
+        const estilo = document.createElement("style");
+        estilo.textContent = ".container_advisors .container-testimonials .container-card-view .card-testimonials .container-img::after{background-image:url('<?php echo get_template_directory_uri(); ?>/assets/imgs/pingo.svg');}", document.head.appendChild(estilo);
+    </script>
 </main>
 
 <?php wp_footer(); ?>
