@@ -267,7 +267,7 @@
                         ?>
                     </section>
                 </div>
-                <button class="text-uppercase d-flex align-items-center mt-4 fw-bold ms-auto btn-1">Acesse mais notícias <img
+                <button class="text-uppercase d-flex align-items-center mt-4 fw-bold btn-1">Acesse mais notícias <img
                         src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue"></button>
             </div>
         </section>
