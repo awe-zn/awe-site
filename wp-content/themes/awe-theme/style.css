@@ -62,8 +62,7 @@ p {
 
 body,
 html {
-    height: 100%;
-    width: 100%;
+    height: max-content !important;
 }
 
 /*Header*/

@@ -12,9 +12,8 @@
 </head>
 
 <body <?php body_class();?>>
-    <header> 
-        <div class="equalizator"></div>
-        <nav class="navbar container-menu py-3 fixed-top">
+    <header class="sticky"-top"> 
+        <nav class="navbar container-menu py-3">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri()?>/assets/imgs/logo.svg" alt="logo AWE"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
