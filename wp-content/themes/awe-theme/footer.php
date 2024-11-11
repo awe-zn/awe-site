@@ -9,7 +9,7 @@
                     <a href="https://www.instagram.com/awescolar.ifrn?igsh=b2kzdGhlZWMxbWll" target="_blank"
                         class="fst-italic">@awescolar</a>
                 </span>
-                <span class="text-center fst-italic">segue a gente lá no instagram, dá essa moralzinha pra nós!</span>
+                <span class="text-center fst-italic">Segue a gente lá no instagram, dá essa moralzinha pra nós!</span>
             </div>
         </section>
         <section class="content-footer">
@@ -32,15 +32,15 @@
                             <li><a href="#"><i class="fa-brands fa-instagram" style="color: #8FC1FF;"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-dribbble" style="color: #8FC1FF;"></i></a></li>
                             <li><a href="#"><i class="fa-brands fa-behance" style="color: #8FC1FF;"></i></a></li>
-                            <li><a href="#"><img src="assets/imgs/icon_github.svg" alt="logo github" style="color: #8FC1FF;"></a></li>
-                            <li><a href="#"><img src="assets/imgs/icon_linkedin.svg" alt="icon linkedin" style="color: #8FC1FF;"></a></li>
+                            <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/icon_github.svg" alt="logo github" style="color: #8FC1FF;"></a></li>
+                            <li><a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/icon_linkedin.svg" alt="icon linkedin" style="color: #8FC1FF;"></a></li>
                         </ul>
                     </div>
                 </section>
             </div>
         </section>
         <div class="stand-logo py-4 mx-4 d-flex justify-content-center">
-            <img src="assets/imgs/logo-v2.svg" alt="logo v2">
+            <img src="<?php echo get_template_directory_uri()?>/assets/imgs/logo-v2.svg" alt="logo v2">
         </div>
     </footer>
 
