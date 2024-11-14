@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <main class="container py-5">
+    <main class="container py-5 container-single">
         <?php
         if (have_posts()) :
             while (have_posts()) : the_post();
