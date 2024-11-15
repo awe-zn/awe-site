@@ -71,10 +71,6 @@ header {
     background-color: black;
 }
 
-.sticky-top {
-    top: 25px !important;
-}
-
 header .container-menu {
     background-image: linear-gradient(180deg, #014180 0%, #014D99 100%);
 }
@@ -636,14 +632,15 @@ footer i:hover {
     }
 }
 
+@media(min-width:576px) {
+    .sticky-top {
+        top: 30px !important;
+    }
+}
+
 /*# sourceMappingURL=home.css.map */
 
 h1.post-title {
     font-size: 2.5rem !important;
-    font-weight: 700;
     color: #014180;
-    margin: 0 0 20px 0;
-    padding: 10px 0;
-    text-align: center;
-    line-height: 1.2;
 }
