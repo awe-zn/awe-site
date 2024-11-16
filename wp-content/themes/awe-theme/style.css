@@ -649,12 +649,6 @@ footer i:hover {
     }
 }
 
-@media(min-width:576px) {
-    .sticky-top {
-        top: 30px !important;
-    }
-}
-
 /*# sourceMappingURL=home.css.map */
 
 h1.post-title {
