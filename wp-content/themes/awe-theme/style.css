@@ -48,6 +48,10 @@ p {
     font-size: 1.375rem;
 }
 
+article p{
+    font-size: 1.125rem !important;
+}
+
 /*Primary colors*/
 /*Secondary colors*/
 /*Gray and White*/
@@ -86,6 +90,10 @@ header .container-menu {
 
 .equalizator {
     height: 87px;
+}
+
+.container-breadcrumb{
+    background: rgba(237, 250, 255, 0.50);
 }
 
 /*Footer*/
@@ -180,6 +188,7 @@ footer ul img {
 
 .container-trends .trends {
     background-color: #0B5ABD;
+    top: 7.375rem;
 }
 
 .team-mentors .box-card-team-mentors .card-team:hover {
@@ -440,9 +449,17 @@ footer i:hover {
     line-height: 120%;
 }
 
+.our-projects .normal-text,.our-projects p:not(.title-project){
+    font-size: 1rem;
+}
+
 .our-projects .description-project {
     color: #313135;
     line-height: 140%;
+}
+
+.container-cards-projects{
+    min-height: 1000px;
 }
 
 .follow-news {
@@ -641,6 +658,6 @@ footer i:hover {
 /*# sourceMappingURL=home.css.map */
 
 h1.post-title {
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
     color: #014180;
 }

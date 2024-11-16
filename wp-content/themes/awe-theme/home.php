@@ -41,7 +41,7 @@
                     </h2>
                     <p>Aceleramos a aprendizagem dos alunos nas disciplinas técnicas e seus soft skills. Focamos no
                         mundo do trabalho e seus desafios.</p>
-                    <a target="_blank" href="<?php echo get_template_directory_uri() ?>/about.php" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
+                    <a target="_blank" href="<?php echo get_template_directory_uri(); ?>/sobre" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
                         <br>#PorDentroDaAWE</a>
                 </div>
             </section>
@@ -123,7 +123,7 @@
                     <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue.svg" alt="setas azuis para direita">
                 </div>
                 <div class="container-trends d-flex flex-column position-relative">
-                    <div class="trends position-sticky top-0 z-1 row flex-sm-nowrap d-flex justify-content-between align-items-center">
+                    <div class="trends position-sticky z-1 row flex-sm-nowrap d-flex justify-content-between align-items-center">
                         <div class="content-trend col-sm-6">
                             <small class="tag fs-6">#que tal desenvolver sua próxima página conosco?</small>
                             <p class="content-title fw-bold fs-2">Projetamos para web</p>
@@ -131,14 +131,14 @@
                                 a
                                 interface e suas interações. Se você tem uma demanda de website ou apenas uma
                                 interface para web ou mobile, podemos ajudá-lo.</p>
-                            <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
+                            <a href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
                                 isto?</a>
                         </div>
                         <figure class=" col col-sm-6">
                             <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/web-projects.svg" alt="web-projects">
                         </figure>
                     </div>
-                    <div class="trends position-sticky top-0 z-2 row flex-sm-nowrap d-flex justify-content-between align-items-center flex-sm-row-reverse">
+                    <div class="trends position-sticky z-2 row flex-sm-nowrap d-flex justify-content-between align-items-center flex-sm-row-reverse">
                         <div class="content-trend col-sm-6">
                             <small class="tag fs-6">#do que você precisa?</small>
                             <p class="content-title fw-bold fs-2">Fazemos código outsourcing</p>
@@ -147,14 +147,14 @@
                                 linguagens de programação que estão em alta no mercado. Buscamos aliar o que tá em
                                 alta e o que podemos desenvolver na escola, com apoio dos professores e mentores.
                             </p>
-                            <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
+                            <a href="#" class="to-talk text-decoration-none fs-6 fw-bold">Vamos conversar sobre
                                 isto?</a>
                         </div>
                         <figure class=" col col-sm-6">
                             <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/outsourcing-img.svg" alt="outsourcing" class="w-100">
                         </figure>
                     </div>
-                    <div class="trends position-sticky top-0 z-3 row flex-sm-nowrap d-flex align-items-center justify-content-between">
+                    <div class="trends position-sticky z-3 row flex-sm-nowrap d-flex align-items-center justify-content-between">
                         <div class="content-trend col-sm-6">
                             <small class="tag fs-6">#que habilidade é importante para você?</small>
                             <p class="content-title fw-bold fs-2">Ampliamos habilidades</p>
@@ -165,7 +165,7 @@
                                 clientes, parceiros e comunidade. <br> <br> #ux design #facilitação em design
                                 #design
                                 thinking #pesquisa em ux </p>
-                            <a target="_blank" href="#" class="to-talk text-decoration-none fs-6 fw-bold">Ficou interessado?</a>
+                            <a href="#" class="to-talk text-decoration-none fs-6 fw-bold">Ficou interessado?</a>
                         </div>
                         <figure class=" col col-sm-6">
                             <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/image-team-skills.svg" alt="image-team-skills">
@@ -208,15 +208,9 @@
 
                             <div class="content-text-project">
                                 <p class="title-project fw-bold mb-2"><?php the_title(); ?></p>
-
-                                <p class="description-project fs-6">
-                                    <?php
-                                    // Exibe a descrição do post (excerto)
-                                    the_excerpt();
-                                    ?>
-                                </p>
+                                <p class="description-project"><?php the_excerpt(); ?></p>
                             </div>
-                            <a target="_blank" href="<?php the_permalink(); ?>">Acesse o projeto</a>
+                            <a target="_blank" href="<?php the_permalink(); ?>" class="normal-text">Acesse o projeto</a>
                         </div>
 
                 <?php endwhile;
@@ -274,7 +268,7 @@
                     ?>
                 </section>
             </div>
-            <button class="text-uppercase d-flex align-items-center mt-4 fw-bold btn-1 ms-auto">Acesse mais notícias <img
+            <button class="text-uppercase d-flex align-items-center mt-4 fw-bold btn-1 ms-auto" id="noticias-button">Acesse mais notícias <img
                     src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue-dark.svg" alt="arrow-right-blue"></button>
         </div>
     </section>
@@ -385,6 +379,9 @@
     <script>
         const estilo = document.createElement("style");
         estilo.textContent = ".container_advisors .container-testimonials .container-card-view .card-testimonials .container-img::after{background-image:url('<?php echo get_template_directory_uri(); ?>/assets/imgs/pingo.svg');}", document.head.appendChild(estilo);
+        document.getElementById("noticias-button").addEventListener("click", function() {
+            window.location.href = "<?php echo get_template_directory_uri(); ?>/noticias";
+        });
     </script>
 </main>
 

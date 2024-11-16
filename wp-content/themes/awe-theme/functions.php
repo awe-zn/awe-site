@@ -69,37 +69,37 @@ add_action('wp_enqueue_scripts', 'awe_site_scripts');
 
 // custom post type
 
-function cpt_mentores() {
+function cpt_noticias() {
     $labels = array(
-        'name'                  => _x('Mentores', 'Post type general name'),
-        'singular_name'         => _x('Mentor', 'Post type singular name'),
-        'menu_name'             => _x('Mentores', 'Admin Menu text'),
-        'name_admin_bar'        => _x('Mentor', 'Add New on Toolbar'),
-        'add_new'               => __('Adicionar Novo'),
-        'add_new_item'          => __('Adicionar Novo mentor'),
-        'new_item'              => __('Novo Mentor'),
-        'edit_item'             => __('Editar Mentor'),
-        'view_item'             => __('Ver Mentor'),
-        'all_items'             => __('Todos os Mentores'),
-        'search_items'          => __('Procurar Mentores'),
-        'not_found'             => __('Nenhum mentor encontrado.'),
-        'not_found_in_trash'    => __('Nenhum mentor encontrado na lixeira.'),
+        'name'                  => _x('Noticias', 'Post type general name'),
+        'singular_name'         => _x('Noticia', 'Post type singular name'),
+        'menu_name'             => _x('Noticias', 'Admin Menu text'),
+        'name_admin_bar'        => _x('Noticia', 'Add New on Toolbar'),
+        'add_new'               => __('Adicionar Nova'),
+        'add_new_item'          => __('Adicionar Nova Noticia'),
+        'new_item'              => __('Nova Noticia'),
+        'edit_item'             => __('Editar Noticia'),
+        'view_item'             => __('Ver Noticia'),
+        'all_items'             => __('Todas as Noticias'),
+        'search_items'          => __('Procurar Noticias'),
+        'not_found'             => __('Nenhum Noticia encontrada.'),
+        'not_found_in_trash'    => __('Nenhum Noticia encontrada na lixeira.'),
     );
 
     $args = array(
         'labels'                => $labels,
         'public'                => true,
         'has_archive'           => true,
-        'rewrite'               => array('slug' => 'Mentores'),
+        'rewrite'               => array('slug' => 'noticias'),
         'supports'              => array('title', 'editor', 'thumbnail', 'excerpt'),
         'show_in_rest'          => true, // ativa o suporte ao Gutenberg
-        'menu_icon'             => 'dashicons-businessperson', // Ícone para "Mentores"
+        'menu_icon'             => 'dashicons-businessperson', // Ícone para "noticias"
     );
 
-    register_post_type('mentores', $args);
+    register_post_type('noticias', $args);
 }
 
-add_action('init', 'cpt_mentores');
+add_action('init', 'cpt_noticias');
 
 function cpt_projetos() {
     $labels = array(
@@ -132,3 +132,70 @@ function cpt_projetos() {
 }
 
 add_action('init', 'cpt_projetos');
+
+function custom_breadcrumbs() {
+    // Configurações
+    $separator = ' >> '; // Separador entre os itens
+    $home_title = 'Awe'; // Título do link para a página inicial
+    $show_current = true; // Exibir o título da página atual no breadcrumb
+
+    // Início do breadcrumb
+    echo '<div class="breadcrumbs">';
+    echo '<a href="' . home_url() . '">' . $home_title . '</a>' . $separator;
+
+    // Verifica o tipo de página e constrói o breadcrumb
+    if (is_category() || is_single()) {
+        // Exibir a categoria do post, se existir
+        $category = get_the_category();
+        if ($category) {
+            echo '<a href="' . get_category_link($category[0]->term_id) . '">' . $category[0]->name . '</a>' . $separator;
+        }
+        if (is_single() && $show_current) {
+            echo '<span>' . get_the_title() . '</span>';
+        }
+    } elseif (is_page()) {
+        // Exibe as páginas pai, se existir hierarquia de páginas
+        global $post;
+        if ($post->post_parent) {
+            $ancestors = array_reverse(get_post_ancestors($post->ID));
+            foreach ($ancestors as $ancestor) {
+                echo '<a href="' . get_permalink($ancestor) . '">' . get_the_title($ancestor) . '</a>' . $separator;
+            }
+        }
+        if ($show_current) {
+            echo '<span>' . get_the_title() . '</span>';
+        }
+    } elseif (is_home()) {
+        echo '<span>Blog</span>';
+    } elseif (is_archive()) {
+        echo '<span>' . post_type_archive_title('', false) . '</span>';
+    } elseif (is_search()) {
+        echo '<span>Resultados da pesquisa para: ' . get_search_query() . '</span>';
+    } elseif (is_404()) {
+        echo '<span>Página não encontrada</span>';
+    }
+
+    echo '</div>';
+}
+
+function update_post_slug_on_title_change($post_id) {
+    // Verifica se é uma atualização de título de um post
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
+    if (wp_is_post_revision($post_id)) return;
+
+    // Obtém o post
+    $post = get_post($post_id);
+
+    // Verifica se o post é do tipo 'post' (ou o tipo desejado)
+    if ($post->post_type == 'post') {
+        // Gera um slug baseado no título atualizado
+        $new_slug = sanitize_title($post->post_title);
+
+        // Atualiza o post com o novo slug
+        wp_update_post(array(
+            'ID' => $post_id,
+            'post_name' => $new_slug
+        ));
+    }
+}
+add_action('save_post', 'update_post_slug_on_title_change');
