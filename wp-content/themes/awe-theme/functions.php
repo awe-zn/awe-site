@@ -133,6 +133,37 @@ function cpt_projetos() {
 
 add_action('init', 'cpt_projetos');
 
+function cpt_equipe(){
+    $labels = array(
+        'name' => _x('Equipe', 'Post Type General Name'),
+        'singular_name' => _x('Membro da Equipe', 'Membro da Equipe Post Type Singular Name'),
+        'menu_name' => _x('Equipe', 'Admin Menu text'),
+        'name_admin_bar' => _x('Equipe', 'Add New on Toolbar'),
+        'add_new' => __('Adicionar Novo Membro'),
+        'add_new_item' => __('Adicionar Novo Membro'),
+        'edit_item' => __('Editar Membro'),
+        'new_item' => __('Adicione o novo membro'),
+        'view_item' => __('Ver Membro'),
+        'all_items' => __('Conhecer Equipe'),
+        'search_items' => __('Procurar Membros'),
+        'not_found' => __('Nenhum Membro encontrado'),
+        'not_found_in_trash' => __('Nenhum Membro encontrado na lixeira'),  
+    );
+
+    $args = array (
+        'labels' => $labels,
+        'public' => true,
+        'has_archive' => true,
+        'rewrite' => array('slug' => 'equipe'),
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt')
+        'show_in_rest' => true, // ativa o suporte ao Gutenberg
+        'menu_icon' => 'dashicons-groups', // Ícone para "Especialistas"
+    );
+    register_post_type('equipe', $args)
+}
+
+add_action('init', 'cpt_equipe');
+
 function custom_breadcrumbs() {
     // Configurações
     $separator = ' >> '; // Separador entre os itens
