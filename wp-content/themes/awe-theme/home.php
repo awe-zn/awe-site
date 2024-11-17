@@ -321,7 +321,7 @@
                         </figcaption>
                     </figure>
                 </div>
-                <a class="btn-2 text-decoration-none text-uppercase d-flex align-items-center mt-4 fw-bold px-4 py-3 rounded-3 gap-4 me-auto w-auto" href="<?php echo get_permalink(get_page_by_path('team')); ?>">conhecer
+                <a class="btn-2 text-decoration-none text-uppercase d-flex align-items-center mt-4 fw-bold px-4 py-3 rounded-3 gap-4 me-auto w-auto" href="./equipe">conhecer
                     time completo
                     <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/arrow-right-blue-lighter.svg" alt="arrow-right-blue"></a>
             </div>

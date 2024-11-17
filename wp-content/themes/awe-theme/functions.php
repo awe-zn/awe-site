@@ -155,11 +155,11 @@ function cpt_equipe(){
         'public' => true,
         'has_archive' => true,
         'rewrite' => array('slug' => 'equipe'),
-        'supports' => array('title', 'editor', 'thumbnail', 'excerpt')
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
         'show_in_rest' => true, // ativa o suporte ao Gutenberg
         'menu_icon' => 'dashicons-groups', // Ícone para "Especialistas"
     );
-    register_post_type('equipe', $args)
+    register_post_type('equipe', $args);
 }
 
 add_action('init', 'cpt_equipe');

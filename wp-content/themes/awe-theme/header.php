@@ -16,7 +16,7 @@
         <nav class="navbar container-menu py-3">
             <div class="container">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/awe-site">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/logo.svg" alt="logo AWE">
                 </a>
 

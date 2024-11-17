@@ -1,7 +1,7 @@
 <?php /*get_template_part('team-section'); */?>
 <?php get_header();?>
 
-    <main class="bg-gray-adn-white-white pb-5">
+    <main class="main-equipe bg-gray-adn-white-white pb-5">
         <section class="section-header py-3 bg-primitive-brand-blue-50 color-semantic-neutral-gray-dark">
             <div class="container mx-auto">
                 <p class="fs-small">Você está aqui</p>
@@ -10,7 +10,7 @@
 
         </section>
 
-        <section class="hero container py-5 mb-5">
+        <section class="section-equipe container py-5 mb-5">
             <div class="header-hero mb-5">
                 <p class="color-semantic-neutral-gray-darker fw-light tight">NOSSA EQUIPE</p>
                 <h2 class="title-hero tight color-semantic-primary-blue-main">Conheça nossa equipe topzera</h2>
@@ -65,7 +65,7 @@
                 <div class="sect-cards pt-3 pb-5 row column-gap-4 row-gap-4 ps-3">
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Clayton.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Clayton.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -83,7 +83,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Filipi.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Filipi.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -101,7 +101,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Gabriel P.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Gabriel P.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -119,7 +119,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Eric.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Eric.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -137,7 +137,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Luiz.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Luiz.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -172,7 +172,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ailton.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ailton.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
@@ -190,7 +190,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ana Kezia.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ana Kezia.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -208,7 +208,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Igor.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Igor.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -226,7 +226,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Letícia.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Letícia.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -262,9 +262,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Bianca.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Bianca.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
@@ -282,8 +281,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Melissa.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Melissa.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
@@ -319,8 +318,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Jefferson.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Jefferson.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -338,8 +337,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Yana.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Yana.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -357,8 +356,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Zadoque.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Zadoque.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
@@ -396,8 +395,8 @@
                 <div class="sect-cards pt-3 pb-5 row column-gap-4 row-gap-4 ps-3">
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Erick.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Erick.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -415,7 +414,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Letícia Ribeiro.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Letícia Ribeiro.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -487,8 +486,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Yasmin.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Yasmin.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
@@ -525,8 +524,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ana Beatriz.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ana Beatriz.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -544,8 +543,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Davi Sansão.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Davi Sansão.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -563,8 +562,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Saulo Queiroz.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Saulo Queiroz.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -601,8 +600,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Erica.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Erica.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -638,7 +637,7 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Iasnaya Rodrigues.svg" alt="">
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Iasnaya Rodrigues.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
@@ -656,8 +655,8 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Rayane.svg" alt="">
-                            <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
+                            <img class="" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Rayane.svg" alt="">
+                            <div class="linear-equipe-awe rounded-2  h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
