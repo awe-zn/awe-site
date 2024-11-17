@@ -178,24 +178,13 @@ function custom_breadcrumbs() {
     echo '</div>';
 }
 
-function update_post_slug_on_title_change($post_id) {
-    // Verifica se é uma atualização de título de um post
-    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
-    if (wp_is_post_revision($post_id)) return;
+// Remove o prefixo de categoria da URL
+add_filter('category_link', function($url) {
+    return str_replace('/category/', '/', $url);
+});
 
-    // Obtém o post
-    $post = get_post($post_id);
-
-    // Verifica se o post é do tipo 'post' (ou o tipo desejado)
-    if ($post->post_type == 'post') {
-        // Gera um slug baseado no título atualizado
-        $new_slug = sanitize_title($post->post_title);
-
-        // Atualiza o post com o novo slug
-        wp_update_post(array(
-            'ID' => $post_id,
-            'post_name' => $new_slug
-        ));
-    }
-}
-add_action('save_post', 'update_post_slug_on_title_change');
+add_action('init', function() {
+    global $wp_rewrite;
+    $wp_rewrite->category_base = '';
+    $wp_rewrite->flush_rules();
+});

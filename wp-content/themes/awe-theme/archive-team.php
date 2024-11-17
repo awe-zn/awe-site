@@ -65,91 +65,91 @@
                 <div class="sect-cards pt-3 pb-5 row column-gap-4 row-gap-4 ps-3">
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Clayton.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Clayton.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Clayton Rennan</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2022 e contando...</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2022 e contando...</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Filipi.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Filipi.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Filipi Rafael</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2023 e contando...</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2023 e contando...</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Gabriel P.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Gabriel P.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Gabriel Pessoa</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2023 e contando...</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2023 e contando...</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Eric.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Eric.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Eric Yuri</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador | Trainner</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2023 e contando...</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2023 e contando...</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Luiz.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Luiz.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Luiz Fernando</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Trainner</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2023 e contando...</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2023 e contando...</p>
                         </div>
                     </div>
                 </div>
@@ -172,73 +172,73 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Ailton.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ailton.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Ailton Filho</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador  | Pl</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2021 à 2023</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2021 à 2023</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Ana Kezia.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ana Kezia.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Ana Kezia</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Trainner</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2023 à 2023</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2023 à 2023</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Igor.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Igor.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Igor Gabriel</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador | Trainner</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2023 à 2023</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2023 à 2023</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Letícia.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Letícia.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Letícia Mirelly</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Trainner</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2023 à 2023</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2023 à 2023</p>
                         </div>
                     </div>
                 </div>
@@ -262,40 +262,40 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Bianca.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Bianca.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Bianca Bezerra</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programadora | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Melissa.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Melissa.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Melissa Bianca</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer  | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
                         </div>
                     </div>
 
@@ -303,74 +303,74 @@
                         <figure class="persona-awe position-relative card-img-top">
                             <div class="rect-img rounded-3"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Franklin Felipe</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador  | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Jefferson.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Jefferson.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Jefferson Thawan</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer  | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Yana.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Yana.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Yana Carlisle</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer  | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2021 à 2022</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2021 à 2022</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Zadoque.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Zadoque.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Zadoque Teófilo</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador  | Pl</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2022 à 2022</p>
                         </div>
                     </div>
 
@@ -396,38 +396,38 @@
                 <div class="sect-cards pt-3 pb-5 row column-gap-4 row-gap-4 ps-3">
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Erick.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Erick.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Erick Inácio</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador  | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2021 à 2021</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2021 à 2021</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Letícia Ribeiro.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Letícia Ribeiro.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Letícia Ribeiro</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programadora | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2021 à 2021</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2021 à 2021</p>
                         </div>
                     </div>
                     
@@ -453,17 +453,17 @@
                         <figure class="persona-awe position-relative card-img-top">
                             <div class="rect-img rounded-3"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Daniel Barbosa</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador  | Pl</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2020 à 2020</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2020 à 2020</p>
                         </div>
                     </div>
 
@@ -471,36 +471,36 @@
                         <figure class="persona-awe position-relative card-img-top">
                             <div class="rect-img rounded-3"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Maria Clara</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2020 à 2020</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2020 à 2020</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Yasmin.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Yasmin.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Yasmim Morais</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Pl</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2020 à 2020</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2020 à 2020</p>
                         </div>
                     </div>
                     
@@ -525,58 +525,58 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Ana Beatriz.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Ana Beatriz.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Ana Beatriz</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2018 à 2018</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2018 à 2018</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Davi Sansão.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Davi Sansão.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Davi Sansão</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Atendimento | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2018 à 2018</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2018 à 2018</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Saulo Queiroz.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Saulo Queiroz.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Saulo Queiroz</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2018 à 2018</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2018 à 2018</p>
                         </div>
                     </div>
                     
@@ -601,20 +601,20 @@
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Erica.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Erica.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Érica Dantas</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2017 à 2017</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2017 à 2017</p>
                         </div>
                     </div>
 
@@ -622,54 +622,54 @@
                         <figure class="persona-awe position-relative card-img-top">
                             <div class="rect-img rounded-3"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Gabriel Alexsandro</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Programador | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2017 à 2017</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2017 à 2017</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Iasnaya Rodrigues.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Iasnaya Rodrigues.svg" alt="">
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Iasnaya Rodrigues</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2017 à 2017</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2017 à 2017</p>
                         </div>
                     </div>
 
                     <div class="awe-equipe card border-0 col-auto tab-pane fade show active" role="tabpenel" aria-labelledby="pills-all-tab" tabindex="0">
                         <figure class="persona-awe position-relative card-img-top">
-                            <img class="w-100" src="assets/imgs/Rayane.svg" alt="">
+                            <img class="w-100" src="<?php echo get_template_directory_uri() ?>/assets/imgs/Rayane.svg" alt="">
                             <div class="linear-equipe-awe h-100 w-100 position-absolute top-0"></div>
                             <figcaption class="star-overlay position-absolute bottom-0 pb-4 ps-3">
-                                <img src="assets/imgs/Star-Completa.svg" alt="">
-                                <img src="assets/imgs/Star-half.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-stroke.svg" alt="">
-                                <img src="assets/imgs/star-last.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-Completa.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/Star-half.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-stroke.svg" alt="">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/star-last.svg" alt="">
                             </figcaption>
                         </figure>
                         <div class="card-body pt-3">
                             <h5 class="color-semantic-primary-blue-darker tight mb-1">Rayane Mayara</h5>
                             <p class="color-semantic-primary-blue-dark spaced mb-1">Designer | Jr</p>
-                            <p class="color-semantic-neutral-gray-dark medium"><img src="assets/imgs/calender.svg" alt=""> 2017 à 2017</p>
+                            <p class="color-semantic-neutral-gray-dark medium"><img src="<?php echo get_template_directory_uri() ?>/assets/imgs/calender.svg" alt=""> 2017 à 2017</p>
                         </div>
                     </div>
                     
