@@ -14,7 +14,7 @@
         <div class="container">
             <div class="title-container-projects mb-5">
                 <p class="text-uppercase fs-6">nosos projetos</p>
-                <h2 class="fs-1">Alguns dos nossos projetos</h2>
+                <h2 class="fs-1 color-semantic-primary-blue-main">Alguns dos nossos projetos</h2>
             </div>
             <div class="container-cards-projects d-flex flex-column gap-4 mb-5 mb-sm-0">
                 <div class="row row-gap-4">

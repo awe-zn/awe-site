@@ -179,7 +179,7 @@
     <section class="our-projects">
         <div class="container d-flex flex-column">
             <div class="content-our-project">
-                <h3 class="mb-3">Conheça nossos projetos</h3>
+                <h3 class="mb-3 color-semantic-primary-blue-main">Conheça nossos projetos</h3>
                 <small class="subtitle-our-projects">#estamos desenvolvendo a todo vapor</small>
             </div>
             <div class="row overflow-x-scroll flex-nowrap">
@@ -332,7 +332,7 @@
         <div class="container">
             <div class="row flex-column d-flex gap-5">
                 <div class="title col col-sm-6 d-flex flex-column gap-3">
-                    <h3>_nossos mentores</h3>
+                    <h3 class="color-semantic-primary-blue-main">_nossos mentores</h3>
                     <p class="subtitle">A visão de quem tá no mercado é essencial para alavancar o quê e como
                         aprendemos na escola. Temos a sorte de contar com mentores em diversas áreas que nos ajudam
                         a fazer a diferença.</p>
@@ -341,7 +341,7 @@
                     <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
                         <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/clayton-rennan-mentor-img.svg"
                             alt="clayton-renan-img">
-                        <figcaption class="content-card-team">
+                        <figcaption class="content-card-team color-semantic-primary-blue-main">
                             <p class="name-member fw-bold mb-1">Clayton Rennan</p>
                             <small class="fs-6">Designer JR</small>
                         </figcaption>
@@ -349,7 +349,7 @@
                     <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
                         <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/marcus-vinicius-mentor-img.svg"
                             alt="marcus-vinicius-mentor-img">
-                        <figcaption class="content-card-team">
+                        <figcaption class="content-card-team color-semantic-primary-blue-main">
                             <p class="name-member fw-bold mb-1">Eric Yuri</p>
                             <small class="fs-6">Programador</small>
                         </figcaption>
@@ -357,7 +357,7 @@
                     <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
                         <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/kadja-aleska-mentor-img.svg"
                             alt="kadja-aleska-mentor-img">
-                        <figcaption class="content-card-team">
+                        <figcaption class="content-card-team color-semantic-primary-blue-main">
                             <p class="name-member fw-bold mb-1">Gabriel Pessoa</p>
                             <small class="fs-6">Programador</small>
                         </figcaption>
@@ -365,7 +365,7 @@
                     <figure class="card-team col-3 p-3 d-flex flex-column gap-3">
                         <img class="rounded-3" src="<?php echo get_template_directory_uri() ?>/assets/imgs/otavio-barbosa-mentor-img.svg"
                             alt="Luiz Fernando img">
-                        <figcaption class="content-card-team">
+                        <figcaption class="content-card-team color-semantic-primary-blue-main">
                             <p class="name-member fw-bold mb-1">Luiz Fernando</p>
                             <small class="fs-6">Designer</small>
                         </figcaption>
