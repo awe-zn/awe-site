@@ -41,7 +41,7 @@
                     </h2>
                     <p>Aceleramos a aprendizagem dos alunos nas disciplinas técnicas e seus soft skills. Focamos no
                         mundo do trabalho e seus desafios.</p>
-                    <a target="_blank" href="<?php echo get_template_directory_uri(); ?>/sobre" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
+                    <a target="_blank" href="./sobre" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
                         <br>#PorDentroDaAWE</a>
                 </div>
             </section>
@@ -380,7 +380,7 @@
         const estilo = document.createElement("style");
         estilo.textContent = ".container_advisors .container-testimonials .container-card-view .card-testimonials .container-img::after{background-image:url('<?php echo get_template_directory_uri(); ?>/assets/imgs/pingo.svg');}", document.head.appendChild(estilo);
         document.getElementById("noticias-button").addEventListener("click", function() {
-            window.location.href = "<?php echo get_template_directory_uri(); ?>/noticias";
+            window.location.href = "./noticias";
         });
     </script>
 </main>
