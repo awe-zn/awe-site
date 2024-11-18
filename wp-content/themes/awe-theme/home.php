@@ -236,20 +236,40 @@
         <div class="container">
             <div class="row gap-4 flex-sm-nowrap">
                 <div class="main-news col col-sm-5 d-flex flex-column gap-3">
-                    <img src="<?php echo get_template_directory_uri() ?>/assets/imgs/thumb.svg" alt="rectangle">
-                    <div class="content-text-project">
-                        <small class="title-news mb-3">Publicado em 20.11.2021</small>
-                        <p class="description-news fw-semibold">Delegação da AWE vai ao Paraguai apresentar o
-                            resultado do projeto MapGas. Os alunos Daniel e Jadson representaram o IFRN e fizeram
-                            bonito.</p>
-                    </div>
-                    <a target="_blank" href="#" class="">Continue lendo</a>
+                    <?php
+                    $recent_news_query = new WP_Query([
+                        'post_type' => 'post',
+                        'posts_per_page' => 1, // Limita a consulta a 1 post
+                        'orderby' => 'date', // Ordena pela data
+                        'order' => 'DESC', // Ordena de forma decrescente (mais recente primeiro)
+                    ]);
+
+                    if ($recent_news_query->have_posts()) :
+                        while ($recent_news_query->have_posts()) : $recent_news_query->the_post();
+                    ?>
+                        <?php if (has_post_thumbnail()) : ?>
+                            <img src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title_attribute(); ?>">
+                        <?php else : ?>
+                            <!-- Imagem placeholder caso não haja thumbnail definida -->
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/thumb.svg" alt="Imagem padrão">
+                        <?php endif; ?>
+                        <small class="title-news">Publicado em <?php echo get_the_date('d.m.Y'); ?></small>
+                        <p class="description-news fw-semibold color-semantic-primary-blue-dark excerpt-limited"><?php the_title(); ?></p>
+                        <a target="_blank" href="<?php the_permalink(); ?>" class="">Continue lendo</a>
+                    <?php
+                        endwhile;
+                        wp_reset_postdata();
+                    else :
+                        echo '<p>Nenhuma notícia encontrada.</p>';
+                    endif;
+                    ?>
                 </div>
                 <section class="box-news d-flex flex-column gap-4 col col-sm-7">
                     <?php
                     $news_query = new WP_Query([
                         'post_type' => 'post',
                         'posts_per_page' => 3,
+                        'offset' => 1
                     ]);
 
                     if ($news_query->have_posts()) :
