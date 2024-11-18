@@ -205,7 +205,7 @@ header .container-menu {
 }
 
 .navbar-toggler-icon {
-    background-image: url(../imgs/bt-menu.svg) !important;
+    background-image: url(./assets/imgs/bt-menu.svg) !important;
     background-size: 150% !important;
 }
 
