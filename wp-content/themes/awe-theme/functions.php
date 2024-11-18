@@ -166,7 +166,7 @@ add_action('init', 'cpt_equipe');
 
 function custom_breadcrumbs() {
     // Configurações
-    $separator = ' >> '; // Separador entre os itens
+    $separator = ' / '; // Separador entre os itens
     $home_title = 'Awe'; // Título do link para a página inicial
     $show_current = true; // Exibir o título da página atual no breadcrumb
 
