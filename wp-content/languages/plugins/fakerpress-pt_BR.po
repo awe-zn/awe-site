@@ -1,0 +1,1809 @@
+# Translation of Plugins - FakerPress - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - FakerPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-04 08:09:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - FakerPress - Stable (latest release)\n"
+
+#: src/FakerPress/Module/Attachment.php:178
+msgid "Lorem Picsum"
+msgstr "Lorem Picsum"
+
+#: src/FakerPress/Module/Attachment.php:97
+#: src/FakerPress/Module/Attachment.php:108
+msgid "Invalid image MimeType"
+msgstr "Tipo MIME inválido da imagem"
+
+#: src/templates/pages/users.php:53
+msgid "How many paragraphs we are going to generate of description."
+msgstr "Quantos parágrafos vamos gerar para a descrição."
+
+#: src/templates/pages/users.php:52
+msgid "Description Size"
+msgstr "Tamanho da descrição"
+
+#: src/templates/pages/users.php:39
+msgid "User Description"
+msgstr "Descrição do usuário"
+
+#: src/templates/pages/posts.php:136
+msgid "Post Content"
+msgstr "Publicar conteúdo"
+
+#: src/templates/pages/comments.php:112 src/templates/pages/posts.php:167
+msgid "How many paragraphs we are going to generate of content."
+msgstr "Quantos parágrafos vamos gerar de conteúdo."
+
+#: src/templates/pages/comments.php:111 src/templates/pages/posts.php:166
+msgid "Content Size"
+msgstr "Tamanho do Conteúdo"
+
+#: src/templates/pages/comments.php:98
+msgid "Comment Content"
+msgstr "Conteúdo de Comentário"
+
+#: src/FakerPress/Field.php:1353
+msgid "e.g.: 650"
+msgstr "ex.: 650"
+
+#: src/FakerPress/Field.php:1352
+msgid "e.g.: 125"
+msgstr "ex.: 125"
+
+#: src/FakerPress/Field.php:1350
+msgid "Range of possible height sizes for the image"
+msgstr "Faixa de tamanhos de altura possíveis para a imagem"
+
+#: src/FakerPress/Field.php:1342
+msgid "e.g.: 900"
+msgstr "ex.: 900"
+
+#: src/FakerPress/Field.php:1341
+msgid "e.g.: 350"
+msgstr "ex.: 350"
+
+#: src/FakerPress/Field.php:1339
+msgid "Range of possible width sizes for the image"
+msgstr "Faixa de tamanhos de largura possíveis para a imagem"
+
+#: src/templates/pages/comments.php:73
+msgid "Group of Post Types that the comment can be generate for"
+msgstr "Grupos de tipos de posts em que comentários devem ser gerados"
+
+#: src/templates/pages/comments.php:42
+msgid "Which type of comment are you going to generate?"
+msgstr "Que tipo de comentário deseja gerar?"
+
+#: src/templates/pages/comments.php:15
+msgid "default"
+msgstr "padrão"
+
+#: src/FakerPress/Field.php:1329
+msgid "Select at least one Provider"
+msgstr "Selecione ao menos um provedor"
+
+#: src/FakerPress/Field.php:1321
+msgid "Stored Data"
+msgstr "Dados armazenados"
+
+#: src/FakerPress/Field.php:1320
+msgid "Which value should be saved on the Meta"
+msgstr "Qual valor deve ser salvo no Meta"
+
+#: src/FakerPress/Field.php:1316
+msgid "Attachment URL"
+msgstr "URL do Anexo"
+
+#: src/FakerPress/Field.php:1312
+msgid "Attachment ID"
+msgstr "ID do Anexo"
+
+#: src/FakerPress/Field.php:1302
+msgid "Attachment"
+msgstr "Anexo"
+
+#: src/FakerPress/Field.php:1037
+msgid "How many terms will be selected. <br> E.g.: From 1 to 4 or just fill the first field for an exact number"
+msgstr "Quantos termos deve ser selecionados. <br> Ex: De 1 até 4 ou só deixe o primeiro campo preenchido para usar um número exato"
+
+#: src/FakerPress/Field.php:1007
+msgid "If you do not select any, the plugin will choose from all the existing terms."
+msgstr "Se você não selecionar nenhum, o plugin irá utilizar todos os termos disponíveis para selecionar."
+
+#: src/FakerPress/Field.php:888
+msgid "To"
+msgstr "Até"
+
+#: src/FakerPress/Utils.php:1390
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: src/FakerPress/Utils.php:1385
+msgid "Zambia"
+msgstr "Zambia"
+
+#: src/FakerPress/Utils.php:1380
+msgid "Yemen"
+msgstr "Iêmen"
+
+#: src/FakerPress/Utils.php:1375
+msgid "Western Sahara"
+msgstr "Sara Ocidental"
+
+#: src/FakerPress/Utils.php:1370
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna"
+
+#: src/FakerPress/Utils.php:1365
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: src/FakerPress/Utils.php:1360
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: src/FakerPress/Utils.php:1355
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: src/FakerPress/Utils.php:1350
+msgid "Uzbekistan"
+msgstr "Usbequistão"
+
+#: src/FakerPress/Utils.php:1345
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: src/FakerPress/Utils.php:1340
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: src/FakerPress/Utils.php:1335
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+#: src/FakerPress/Utils.php:1330
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+#: src/FakerPress/Utils.php:1325
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: src/FakerPress/Utils.php:1320
+msgid "Uganda"
+msgstr "Uganda"
+
+#: src/FakerPress/Utils.php:1315
+msgid "Tuvalu"
+msgstr "Turcomenistão"
+
+#: src/FakerPress/Utils.php:1310
+msgid "Turks and Caicos Islands"
+msgstr "Ilhas Turks e Caios"
+
+#: src/FakerPress/Utils.php:1305
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: src/FakerPress/Utils.php:1300
+msgid "Turkey"
+msgstr "Turkey"
+
+#: src/FakerPress/Utils.php:1295
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: src/FakerPress/Utils.php:1290
+msgid "Trinidad and Tobago"
+msgstr "Trinidade e Tobago"
+
+#: src/FakerPress/Utils.php:1285
+msgid "Tonga"
+msgstr "Tonga"
+
+#: src/FakerPress/Utils.php:1280
+msgid "Tokelau"
+msgstr "Toquelau"
+
+#: src/FakerPress/Utils.php:1275
+msgid "Togo"
+msgstr "Tôgo"
+
+#: src/FakerPress/Utils.php:1270
+msgid "East Timor"
+msgstr "East Timor"
+
+#: src/FakerPress/Utils.php:1265
+msgid "Thailand"
+msgstr "Thailand"
+
+#: src/FakerPress/Utils.php:1260
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: src/FakerPress/Utils.php:1255
+msgid "Tajikistan"
+msgstr "Tajiquirstão"
+
+#: src/FakerPress/Utils.php:1250
+msgid "Taiwan"
+msgstr "Taiwan (Ilha Formosa)"
+
+#: src/FakerPress/Utils.php:1245
+msgid "Syria"
+msgstr "Syria"
+
+#: src/FakerPress/Utils.php:1240
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: src/FakerPress/Utils.php:1235
+msgid "Sweden"
+msgstr "Sweden"
+
+#: src/FakerPress/Utils.php:1230
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: src/FakerPress/Utils.php:1225
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard and Jan Mayen"
+
+#: src/FakerPress/Utils.php:1220
+msgid "Suriname"
+msgstr "Surname"
+
+#: src/FakerPress/Utils.php:1215
+msgid "Sudan"
+msgstr "Sudan"
+
+#: src/FakerPress/Utils.php:1210
+msgid "Sri Lanka"
+msgstr "Siri Lanka"
+
+#: src/FakerPress/Utils.php:1205
+msgid "Spain"
+msgstr "Spain"
+
+#: src/FakerPress/Utils.php:1200
+msgid "South Sudan"
+msgstr "South Sudan"
+
+#: src/FakerPress/Utils.php:1195
+msgid "South Korea"
+msgstr "Koréia do Sul"
+
+#: src/FakerPress/Utils.php:1190
+msgid "South Georgia"
+msgstr "Geórgia do Sul"
+
+#: src/FakerPress/Utils.php:1185
+msgid "South Africa"
+msgstr "South Africa"
+
+#: src/FakerPress/Utils.php:1180
+msgid "Somalia"
+msgstr "Somalia"
+
+#: src/FakerPress/Utils.php:1175
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+#: src/FakerPress/Utils.php:1170
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: src/FakerPress/Utils.php:1165
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: src/FakerPress/Utils.php:1160
+msgid "Sint Maarten"
+msgstr "Sint Maarten"
+
+#: src/FakerPress/Utils.php:1155
+msgid "Singapore"
+msgstr "Singapora"
+
+#: src/FakerPress/Utils.php:1150
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: src/FakerPress/Utils.php:1145
+msgid "Seychelles"
+msgstr "Seicheles"
+
+#: src/FakerPress/Utils.php:1140
+msgid "Serbia"
+msgstr "Serbia"
+
+#: src/FakerPress/Utils.php:1135
+msgid "Senegal"
+msgstr "Senegal"
+
+#: src/FakerPress/Utils.php:1130
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: src/FakerPress/Utils.php:1125
+msgid "São Tomé and Príncipe"
+msgstr "São Tomé e Príncipe"
+
+#: src/FakerPress/Utils.php:1120
+msgid "San Marino"
+msgstr "São Marinho"
+
+#: src/FakerPress/Utils.php:1115
+msgid "Samoa"
+msgstr "Samoa"
+
+#: src/FakerPress/Utils.php:1110
+msgid "Saint Vincent and the Grenadines"
+msgstr "São Vicente e Grenadinas"
+
+#: src/FakerPress/Utils.php:1105
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre e Miquelon"
+
+#: src/FakerPress/Utils.php:1100
+msgid "Saint Martin"
+msgstr "Saint Martin"
+
+#: src/FakerPress/Utils.php:1095
+msgid "Saint Lucia"
+msgstr "Santa Lucia"
+
+#: src/FakerPress/Utils.php:1090
+msgid "Saint Kitts and Nevis"
+msgstr "São Kitts e Nevis"
+
+#: src/FakerPress/Utils.php:1085
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: src/FakerPress/Utils.php:1080
+msgid "Saint Barthélemy"
+msgstr "São Bartolomeu"
+
+#: src/FakerPress/Utils.php:1075
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: src/FakerPress/Utils.php:1070
+msgid "Russia"
+msgstr "Russia"
+
+#: src/FakerPress/Utils.php:1065
+msgid "Romania"
+msgstr "Romania"
+
+#: src/FakerPress/Utils.php:1060
+msgid "Réunion"
+msgstr "Réunion"
+
+#: src/FakerPress/Utils.php:1055
+msgid "Republic of Kosovo"
+msgstr "República do Kosovo"
+
+#: src/FakerPress/Utils.php:1050
+msgid "Qatar"
+msgstr "Catar"
+
+#: src/FakerPress/Utils.php:1045
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: src/FakerPress/Utils.php:1040
+msgid "Portugal"
+msgstr "Portugal"
+
+#: src/FakerPress/Utils.php:1035
+msgid "Poland"
+msgstr "Poland"
+
+#: src/FakerPress/Utils.php:1030
+msgid "Pitcairn Islands"
+msgstr "Ilhas Pitcairn"
+
+#: src/FakerPress/Utils.php:1025
+msgid "Philippines"
+msgstr "Philippines"
+
+#: src/FakerPress/Utils.php:1020
+msgid "Peru"
+msgstr "Perú"
+
+#: src/FakerPress/Utils.php:1015
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: src/FakerPress/Utils.php:1010
+msgid "Papua New Guinea"
+msgstr "Papua Nova Guiné"
+
+#: src/FakerPress/Utils.php:1005
+msgid "Panama"
+msgstr "Pánama"
+
+#: src/FakerPress/Utils.php:1000
+msgid "Palestine"
+msgstr "Palestina"
+
+#: src/FakerPress/Utils.php:995
+msgid "Palau"
+msgstr "Palau"
+
+#: src/FakerPress/Utils.php:990
+msgid "Pakistan"
+msgstr "Pquistão"
+
+#: src/FakerPress/Utils.php:985
+msgid "Oman"
+msgstr "Oman"
+
+#: src/FakerPress/Utils.php:980
+msgid "Norway"
+msgstr "Norway"
+
+#: src/FakerPress/Utils.php:975
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: src/FakerPress/Utils.php:970
+msgid "North Korea"
+msgstr "North Korea"
+
+#: src/FakerPress/Utils.php:965
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: src/FakerPress/Utils.php:960
+msgid "Niue"
+msgstr "Niue"
+
+#: src/FakerPress/Utils.php:955
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: src/FakerPress/Utils.php:950
+msgid "Niger"
+msgstr "Niger"
+
+#: src/FakerPress/Utils.php:945
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: src/FakerPress/Utils.php:940
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: src/FakerPress/Utils.php:935
+msgid "New Caledonia"
+msgstr "Nova discussão"
+
+#: src/FakerPress/Utils.php:930
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: src/FakerPress/Utils.php:925
+msgid "Nepal"
+msgstr "República Democrática Federal do Nepal"
+
+#: src/FakerPress/Utils.php:920
+msgid "Nauru"
+msgstr "Nauru"
+
+#: src/FakerPress/Utils.php:915
+msgid "Namibia"
+msgstr "Namibia"
+
+#: src/FakerPress/Utils.php:910
+msgid "Myanmar"
+msgstr "Mianmar"
+
+#: src/FakerPress/Utils.php:905
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: src/FakerPress/Utils.php:900
+msgid "Morocco"
+msgstr "Morocco"
+
+#: src/FakerPress/Utils.php:895
+msgid "Montserrat"
+msgstr "Monserrate"
+
+#: src/FakerPress/Utils.php:890
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: src/FakerPress/Utils.php:885
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: src/FakerPress/Utils.php:880
+msgid "Monaco"
+msgstr "Monaco"
+
+#: src/FakerPress/Utils.php:875
+msgid "Moldova"
+msgstr "Moldova"
+
+#: src/FakerPress/Utils.php:870
+msgid "Federated States of Micronesia"
+msgstr "Estados Federados da Micronesia"
+
+#: src/FakerPress/Utils.php:865
+msgid "Mexico"
+msgstr "Mécio"
+
+#: src/FakerPress/Utils.php:860
+msgid "Mayotte"
+msgstr "Maiote"
+
+#: src/FakerPress/Utils.php:855
+msgid "Mauritius"
+msgstr "Maurícia"
+
+#: src/FakerPress/Utils.php:850
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: src/FakerPress/Utils.php:845
+msgid "Martinique"
+msgstr "Martinique"
+
+#: src/FakerPress/Utils.php:840
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+#: src/FakerPress/Utils.php:835
+msgid "Malta"
+msgstr "Malta"
+
+#: src/FakerPress/Utils.php:830
+msgid "Mali"
+msgstr "Mali"
+
+#: src/FakerPress/Utils.php:825
+msgid "Maldives"
+msgstr "Maldives"
+
+#: src/FakerPress/Utils.php:820
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: src/FakerPress/Utils.php:815
+msgid "Malawi"
+msgstr "Maláui"
+
+#: src/FakerPress/Utils.php:810
+msgid "Madagascar"
+msgstr "Madagáscar"
+
+#: src/FakerPress/Utils.php:805
+msgid "Republic of Macedonia"
+msgstr "República da Macedonia"
+
+#: src/FakerPress/Utils.php:800
+msgid "Macau"
+msgstr "Macau"
+
+#: src/FakerPress/Utils.php:795
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: src/FakerPress/Utils.php:790
+msgid "Lithuania"
+msgstr "Lithuania"
+
+#: src/FakerPress/Utils.php:785
+msgid "Liechtenstein"
+msgstr "Principado de Liechtenstein"
+
+#: src/FakerPress/Utils.php:780
+msgid "Libya"
+msgstr "Libya"
+
+#: src/FakerPress/Utils.php:775
+msgid "Liberia"
+msgstr "Liberia"
+
+#: src/FakerPress/Utils.php:770
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: src/FakerPress/Utils.php:765
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: src/FakerPress/Utils.php:760
+msgid "Latvia"
+msgstr "Letônia"
+
+#: src/FakerPress/Utils.php:755
+msgid "Laos"
+msgstr "Laos"
+
+#: src/FakerPress/Utils.php:750
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: src/FakerPress/Utils.php:745
+msgid "Kuwait"
+msgstr "Kuweit"
+
+#: src/FakerPress/Utils.php:740
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: src/FakerPress/Utils.php:735
+msgid "Kenya"
+msgstr "Kenya"
+
+#: src/FakerPress/Utils.php:730
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: src/FakerPress/Utils.php:725
+msgid "Jordan"
+msgstr "Jordan"
+
+#: src/FakerPress/Utils.php:720
+msgid "Jersey"
+msgstr "Jersey"
+
+#: src/FakerPress/Utils.php:715
+msgid "Japan"
+msgstr "Japan"
+
+#: src/FakerPress/Utils.php:710
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: src/FakerPress/Utils.php:705
+msgid "Italy"
+msgstr "Italy"
+
+#: src/FakerPress/Utils.php:700
+msgid "Israel"
+msgstr "Israel"
+
+#: src/FakerPress/Utils.php:695
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: src/FakerPress/Utils.php:690
+msgid "Republic of Ireland"
+msgstr "República da Irlanda"
+
+#: src/FakerPress/Utils.php:685
+msgid "Iraq"
+msgstr "Iraq"
+
+#: src/FakerPress/Utils.php:680
+msgid "Iran"
+msgstr "Iran"
+
+#: src/FakerPress/Utils.php:675
+msgid "Ivory Coast"
+msgstr "Ivory Coast"
+
+#: src/FakerPress/Utils.php:670
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: src/FakerPress/Utils.php:665
+msgid "India"
+msgstr "India"
+
+#: src/FakerPress/Utils.php:660
+msgid "Iceland"
+msgstr "Iceland"
+
+#: src/FakerPress/Utils.php:655
+msgid "Hungary"
+msgstr "Hungary"
+
+#: src/FakerPress/Utils.php:650
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: src/FakerPress/Utils.php:645
+msgid "Honduras"
+msgstr "Honduras"
+
+#: src/FakerPress/Utils.php:640
+msgid "Heard Island and McDonald Islands"
+msgstr "Ilhas Heard e McDonald"
+
+#: src/FakerPress/Utils.php:635
+msgid "Haiti"
+msgstr "Haiti"
+
+#: src/FakerPress/Utils.php:630
+msgid "Guyana"
+msgstr "Guyana"
+
+#: src/FakerPress/Utils.php:625
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: src/FakerPress/Utils.php:620
+msgid "Guinea"
+msgstr "Guinea"
+
+#: src/FakerPress/Utils.php:615
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: src/FakerPress/Utils.php:610
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: src/FakerPress/Utils.php:605
+msgid "Guam"
+msgstr "Guame"
+
+#: src/FakerPress/Utils.php:600
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: src/FakerPress/Utils.php:595
+msgid "Grenada"
+msgstr "Granada"
+
+#: src/FakerPress/Utils.php:590
+msgid "Greenland"
+msgstr "Groelândia"
+
+#: src/FakerPress/Utils.php:585
+msgid "Greece"
+msgstr "Greece"
+
+#: src/FakerPress/Utils.php:580
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: src/FakerPress/Utils.php:575
+msgid "Ghana"
+msgstr "Ghana"
+
+#: src/FakerPress/Utils.php:570
+msgid "Germany"
+msgstr "Germany"
+
+#: src/FakerPress/Utils.php:565
+msgid "Georgia"
+msgstr "Geórgia"
+
+#: src/FakerPress/Utils.php:560
+msgid "The Gambia"
+msgstr "A Gambia"
+
+#: src/FakerPress/Utils.php:555
+msgid "Gabon"
+msgstr "Gabon"
+
+#: src/FakerPress/Utils.php:550
+msgid "French Southern and Antarctic Lands"
+msgstr "Terras Austrais e Antárticas Francesas"
+
+#: src/FakerPress/Utils.php:545
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+#: src/FakerPress/Utils.php:540
+msgid "French Guiana"
+msgstr "Guina Francesa"
+
+#: src/FakerPress/Utils.php:535
+msgid "France"
+msgstr "France"
+
+#: src/FakerPress/Utils.php:530
+msgid "Finland"
+msgstr "Finlandia"
+
+#: src/FakerPress/Utils.php:525
+msgid "Fiji"
+msgstr "Fiji"
+
+#: src/FakerPress/Utils.php:520
+msgid "Faroe Islands"
+msgstr "Ilhas Faroé"
+
+#: src/FakerPress/Utils.php:515
+msgid "Falkland Islands"
+msgstr "Ilhas Falkland"
+
+#: src/FakerPress/Utils.php:510
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+#: src/FakerPress/Utils.php:505
+msgid "Estonia"
+msgstr "Estonia"
+
+#: src/FakerPress/Utils.php:500
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: src/FakerPress/Utils.php:495
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: src/FakerPress/Utils.php:490
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: src/FakerPress/Utils.php:485
+msgid "Egypt"
+msgstr "Egypt"
+
+#: src/FakerPress/Utils.php:480
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: src/FakerPress/Utils.php:475
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+#: src/FakerPress/Utils.php:470
+msgid "Dominica"
+msgstr "Domínica"
+
+#: src/FakerPress/Utils.php:465
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: src/FakerPress/Utils.php:460
+msgid "Denmark"
+msgstr "Denmark"
+
+#: src/FakerPress/Utils.php:455
+msgid "Czech Republic"
+msgstr "Republica Tcheca"
+
+#: src/FakerPress/Utils.php:450
+msgid "Cyprus"
+msgstr "Ciprus"
+
+#: src/FakerPress/Utils.php:445
+msgid "Curaçao"
+msgstr "Curaçao"
+
+#: src/FakerPress/Utils.php:440
+msgid "Cuba"
+msgstr "Cuba"
+
+#: src/FakerPress/Utils.php:435
+msgid "Croatia"
+msgstr "Croatia"
+
+#: src/FakerPress/Utils.php:430
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: src/FakerPress/Utils.php:425
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+#: src/FakerPress/Utils.php:420
+msgid "Democratic Republic of the Congo"
+msgstr "República Democrática do Congo"
+
+#: src/FakerPress/Utils.php:415
+msgid "Republic of the Congo"
+msgstr "Reúplica do Congo"
+
+#: src/FakerPress/Utils.php:410
+msgid "Comoros"
+msgstr "Comoros"
+
+#: src/FakerPress/Utils.php:405
+msgid "Colombia"
+msgstr "Colombia"
+
+#: src/FakerPress/Utils.php:400
+msgid "Cocos (Keeling) Islands"
+msgstr "Ilhas Cocos (Keeling)"
+
+#: src/FakerPress/Utils.php:395
+msgid "Christmas Island"
+msgstr "Ilhas Christmas"
+
+#: src/FakerPress/Utils.php:390
+msgid "China"
+msgstr "China"
+
+#: src/FakerPress/Utils.php:385
+msgid "Chile"
+msgstr "Chile"
+
+#: src/FakerPress/Utils.php:380
+msgid "Chad"
+msgstr "Chad"
+
+#: src/FakerPress/Utils.php:375
+msgid "Central African Republic"
+msgstr "República Central Africana"
+
+#: src/FakerPress/Utils.php:370
+msgid "Cayman Islands"
+msgstr "Ilhas Caymans"
+
+#: src/FakerPress/Utils.php:365
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: src/FakerPress/Utils.php:360
+msgid "Canada"
+msgstr "Canada"
+
+#: src/FakerPress/Utils.php:355
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: src/FakerPress/Utils.php:350
+msgid "Cambodia"
+msgstr "Cambodia"
+
+#: src/FakerPress/Utils.php:345
+msgid "Burundi"
+msgstr "Burundi"
+
+#: src/FakerPress/Utils.php:340
+msgid "Burkina Faso"
+msgstr "Burquina Faso"
+
+#: src/FakerPress/Utils.php:335
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: src/FakerPress/Utils.php:330
+msgid "Brunei"
+msgstr "Brunei"
+
+#: src/FakerPress/Utils.php:325
+msgid "British Virgin Islands"
+msgstr "British Virgin Islands"
+
+#: src/FakerPress/Utils.php:320
+msgid "United States Minor Outlying Islands"
+msgstr "United States Minor Outlying Islands"
+
+#: src/FakerPress/Utils.php:315
+msgid "British Indian Ocean Territory"
+msgstr "Territórios oceânicos indianos britânicos"
+
+#: src/FakerPress/Utils.php:310
+msgid "Brazil"
+msgstr "Brazil"
+
+#: src/FakerPress/Utils.php:305
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: src/FakerPress/Utils.php:300
+msgid "Botswana"
+msgstr "Botswana"
+
+#: src/FakerPress/Utils.php:295
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia & Herzegovina"
+
+#: src/FakerPress/Utils.php:290
+msgid "Bonaire"
+msgstr "Bonaire"
+
+#: src/FakerPress/Utils.php:285
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: src/FakerPress/Utils.php:280
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: src/FakerPress/Utils.php:275
+msgid "Bermuda"
+msgstr "Bermudas"
+
+#: src/FakerPress/Utils.php:270
+msgid "Benin"
+msgstr "Benin"
+
+#: src/FakerPress/Utils.php:265
+msgid "Belize"
+msgstr "Belize"
+
+#: src/FakerPress/Utils.php:260
+msgid "Belgium"
+msgstr "Belgium"
+
+#: src/FakerPress/Utils.php:255
+msgid "Belarus"
+msgstr "Belarus"
+
+#: src/FakerPress/Utils.php:250
+msgid "Barbados"
+msgstr "Barbados"
+
+#: src/FakerPress/Utils.php:245
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: src/FakerPress/Utils.php:240
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: src/FakerPress/Utils.php:235
+msgid "The Bahamas"
+msgstr "As Bahamas"
+
+#: src/FakerPress/Utils.php:230
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: src/FakerPress/Utils.php:225
+msgid "Austria"
+msgstr "Austria"
+
+#: src/FakerPress/Utils.php:220
+msgid "Australia"
+msgstr "Australia"
+
+#: src/FakerPress/Utils.php:215
+msgid "Aruba"
+msgstr "Aruba"
+
+#: src/FakerPress/Utils.php:210
+msgid "Armenia"
+msgstr "Armenia"
+
+#: src/FakerPress/Utils.php:205
+msgid "Argentina"
+msgstr "Argentina"
+
+#: src/FakerPress/Utils.php:200
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+#: src/FakerPress/Utils.php:195
+msgid "Anguilla"
+msgstr "Anguila"
+
+#: src/FakerPress/Utils.php:190
+msgid "Angola"
+msgstr "Angola"
+
+#: src/FakerPress/Utils.php:185
+msgid "Andorra"
+msgstr "Andorra"
+
+#: src/FakerPress/Utils.php:180
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: src/FakerPress/Utils.php:175
+msgid "Algeria"
+msgstr "Algéria"
+
+#: src/FakerPress/Utils.php:170
+msgid "Albania"
+msgstr "Albania"
+
+#: src/FakerPress/Utils.php:165
+msgid "Åland Islands"
+msgstr "Ilhas Åland"
+
+#: src/FakerPress/Utils.php:160
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: src/FakerPress/Field.php:1607
+msgid "Country ABBR (e.g.: USA"
+msgstr "Abreviação de Pais (Ex: USA)"
+
+#: src/FakerPress/Field.php:1603
+msgid "Country Code (e.g.: US)"
+msgstr "Código de País (Ex: US)"
+
+#. Author of the plugin
+#: fakerpress.php
+msgid "Gustavo Bordoni"
+msgstr "Gustavo Bordoni"
+
+#. Plugin URI of the plugin
+#: fakerpress.php
+msgid "https://fakerpress.com"
+msgstr "https://fakerpress.com"
+
+#: src/templates/pages/users.php:97
+msgid "Use the fields below to configure a set of rules for your generated users"
+msgstr "Use os campos abaixo para configurar um conjunto de regras para seus usuários gerados."
+
+#: src/templates/pages/users.php:32
+msgid "Sampling roles to be used"
+msgstr "Amostragem de cargos que será usada"
+
+#: src/templates/pages/users.php:31
+msgid "Roles"
+msgstr "Cargos"
+
+#: src/templates/pages/users.php:86
+msgid "Select the group of tags that can be selected to print on the User Description."
+msgstr "Selecione o grupo de tags que podem ser selecionadas para aparecer no Conteúdo do Usuário."
+
+#: src/templates/pages/users.php:63
+msgid "Use HTML on your randomized user description?"
+msgstr "Usar HTML no conteúdo do seu usuário randômico?"
+
+#: src/templates/pages/users.php:9
+msgid "How many users should be generated, use both fields to get a randomized number of users within the given range."
+msgstr "Quantos usuários devem ser gerados, use ambos os campos para obter um número randomizado de usuários dentro do intervalo dado."
+
+#: src/templates/pages/terms.php:58
+msgid "Use the fields below to configure a set of rules for your generated Terms"
+msgstr "Use os campos abaixo para configurar um conjunto de regras para seus Termos criados"
+
+#: src/templates/pages/terms.php:46
+msgid "Group of taxonomies that the terms will be created within"
+msgstr "Grupo de taxonomias que os termos serão criados"
+
+#: src/templates/pages/terms.php:22
+msgid "What is the size of the Term name"
+msgstr "Qual o tamanho máximo do nome do Termo?"
+
+#: src/templates/pages/terms.php:21
+msgid "Name Size"
+msgstr "Tamanho do Nome"
+
+#: src/templates/pages/terms.php:9
+msgid "How many terms should be generated, use both fields to get a randomized number of terms within the given range."
+msgstr "Quantos termos devem ser gerados, use ambos os campos para obter um número randomizado de termos dentro do intervalo dado."
+
+#: src/templates/pages/settings.php:20
+msgid "Delete!"
+msgstr "Deletar!"
+
+#: src/templates/pages/settings.php:17
+msgid "Erase faked data"
+msgstr "Apagar dados Falsos"
+
+#: src/templates/pages/posts.php:222
+msgid "Use the fields below to configure the rules for the Taxonomy and Terms selected"
+msgstr "Use os campos abaixo para configurar as regras de criação para Taxonomias e Terms"
+
+#: src/templates/pages/posts.php:221
+msgid "Taxonomy Field Rules"
+msgstr "Regras para Taxonomias"
+
+#: src/FakerPress/Field.php:1330 src/templates/pages/posts.php:197
+msgid "Which image services will the generator use?"
+msgstr "Qual o serviço de imagens poderão ser usados."
+
+#: src/templates/pages/posts.php:196
+msgid "Image Providers"
+msgstr "Provedores de Imagem"
+
+#: src/templates/pages/posts.php:61
+msgid "Sampling group of Post Types"
+msgstr "Grupo de amostragem de tipos de Post"
+
+#: src/templates/pages/comments.php:72 src/templates/pages/posts.php:60
+msgid "Post Type"
+msgstr "Tipo de Post"
+
+#: src/templates/pages/error.php:16
+msgid ""
+"Yeah... Something went very wrong somewhere along your last actions.\n"
+"\n"
+"Right now we feel ashamed about this problem, <a href='%s' target='_blank'>poke us on twitter!</a>"
+msgstr ""
+"É... Algo deu muito errado agora pouco.\n"
+"\n"
+"Nos sentimos extremamente envergonhados pelo problema, <a href='%s' target='_blank'>fale conosco no twitter</a>!"
+
+#: src/templates/pages/error.php:14
+msgid "Oops, 404 Error!"
+msgstr "Ihhh, Erro 404!"
+
+#: src/templates/pages/comments.php:156
+msgid "Use the fields below to configure a set of rules for your generated Comments"
+msgstr "Use os campos abaixo para configurar um conjunto de regras para os dados personalizados dos comentários."
+
+#: src/templates/pages/comments.php:145
+msgid "Select the group of tags that can be selected to print on the Comment Content."
+msgstr "Selecione o grupo de tags que podem ser selecionadas para aparecer no Conteúdo do Post."
+
+#: src/templates/pages/comments.php:123
+msgid "Use HTML on your randomized comment content?"
+msgstr "Usar HTML no conteúdo do seu comentário randômico?"
+
+#: src/templates/pages/comments.php:82
+msgid "How many comments should be generated, use both fields to get a randomized number of comments within the given range."
+msgstr "Quantos comentários devem ser gerados, use ambos os campos para obter um número randomizado de comentários dentro do intervalo dado."
+
+#: src/templates/pages/changelog.php:19
+msgid "What has Changed in FakerPress"
+msgstr "O Que mudou no FakerPress"
+
+#: src/templates/pages/attachments.php:212 src/templates/pages/comments.php:179
+#: src/templates/pages/posts.php:260 src/templates/pages/terms.php:76
+#: src/templates/pages/users.php:118
+msgid "Generate"
+msgstr "Gerar"
+
+#: src/templates/pages/attachments.php:183 src/templates/pages/posts.php:241
+msgid "Use the fields below to configure a set of rules for your generated Posts"
+msgstr "Use os campos abaixo para configurar um conjunto de regras para as suas postagens geradas"
+
+#: src/templates/pages/attachments.php:182 src/templates/pages/comments.php:155
+#: src/templates/pages/posts.php:240 src/templates/pages/terms.php:57
+#: src/templates/pages/users.php:96
+msgid "Meta Field Rules"
+msgstr "Regras do Campo Meta"
+
+#: src/templates/pages/attachments.php:171 src/templates/pages/posts.php:129
+msgid "Choose some users to be authors of posts generated."
+msgstr "Escolha os usuários que poderão ser autores dos posts"
+
+#: src/templates/pages/attachments.php:170 src/templates/pages/posts.php:128
+msgid "Author"
+msgstr "Autor"
+
+#: src/templates/pages/attachments.php:99 src/templates/pages/posts.php:183
+msgid "Select the group of tags that can be selected to print on the Post Content"
+msgstr "Selecione o grupo de tags que podem ser selecionadas para aparecer no Conteúdo da Postagem."
+
+#: src/templates/pages/attachments.php:98 src/templates/pages/comments.php:144
+#: src/templates/pages/posts.php:182 src/templates/pages/users.php:85
+msgid "HTML tags"
+msgstr "HTML tags"
+
+#: src/templates/pages/attachments.php:83 src/templates/pages/comments.php:129
+#: src/templates/pages/posts.php:154 src/templates/pages/users.php:70
+msgid "Use HTML"
+msgstr "Usar HTML"
+
+#: src/templates/pages/attachments.php:76 src/templates/pages/posts.php:147
+msgid "Use HTML on your randomized post content?"
+msgstr "Usar HTML no conteúdo da sua postagem randômica?"
+
+#: src/templates/pages/attachments.php:66 src/templates/pages/posts.php:98
+msgid "Sampling group of options for the comment status of the posts"
+msgstr "O grupo de escolha para a permissão de comentários dos Posts"
+
+#: src/templates/pages/attachments.php:65 src/templates/pages/posts.php:97
+msgid "Comments Status"
+msgstr "Status do Comentário"
+
+#: src/templates/pages/attachments.php:60 src/templates/pages/posts.php:92
+msgid "Comments closed"
+msgstr "Comentários desabilitados"
+
+#: src/templates/pages/attachments.php:56 src/templates/pages/posts.php:88
+msgid "Allow Comments"
+msgstr "Permitir Comentários"
+
+#: src/templates/pages/attachments.php:43 src/templates/pages/posts.php:75
+msgid "What posts can be choosen as Parent to the ones created"
+msgstr "Quais posts podem ser escolhidos para ser um Pai"
+
+#: src/templates/pages/attachments.php:42 src/templates/pages/posts.php:74
+msgid "Parents"
+msgstr "Pais"
+
+#: src/templates/pages/attachments.php:29 src/templates/pages/comments.php:91
+#: src/templates/pages/posts.php:30
+msgid "Choose the range for the posts dates."
+msgstr "Escolha um espaço de tempo onde os posts serão criados"
+
+#: src/templates/pages/attachments.php:17 src/templates/pages/posts.php:18
+msgid "How many posts should be generated, use both fields to get a randomized number of posts within the given range."
+msgstr "Quantas postagens devem ser geradas, use ambos os campos para obter um número randomizado de postagens dentro do intervalo dado."
+
+#: src/FakerPress/Admin/View/Attachment_View.php:66
+#: src/FakerPress/Admin/View/User_View.php:77
+msgid "user"
+msgid_plural "users"
+msgstr[0] "usuário"
+msgstr[1] "usuários"
+
+#: src/FakerPress/Module/User.php:136
+msgid "Zero is not a good number of users to fake..."
+msgstr "Zero não é uma boa quantidade de usuários para gerar..."
+
+#: src/FakerPress/Admin/View/User_View.php:37
+msgid "Generate Users"
+msgstr "Gerar Usuários"
+
+#: src/FakerPress/Admin/View/User_View.php:30
+msgid "Users"
+msgstr "Usuários"
+
+#: src/FakerPress/Admin/View/Term_View.php:79
+msgid "term"
+msgid_plural "terms"
+msgstr[0] "termo"
+msgstr[1] "termos"
+
+#: src/FakerPress/Module/Term.php:105
+msgid "Zero is not a good number of terms to fake..."
+msgstr "Zero não é uma boa quantidade de termos para gerar..."
+
+#: src/FakerPress/Admin/View/Term_View.php:37
+msgid "Generate Terms"
+msgstr "Gerar Termos"
+
+#: src/FakerPress/Admin/View/Post_View.php:77
+msgid "post"
+msgid_plural "posts"
+msgstr[0] "post"
+msgstr[1] "posts"
+
+#: src/FakerPress/Module/Post.php:140
+msgid "Zero is not a good number of posts to fake..."
+msgstr "Zero não é uma boa quantidade de posts para gerar..."
+
+#: src/FakerPress/Admin/View/Post_View.php:37
+msgid "Generate Posts"
+msgstr "Gerar Postagens"
+
+#: src/FakerPress/Admin/View/Post_View.php:30
+msgid "Posts"
+msgstr "Posts"
+
+#: src/FakerPress/Admin/View/Comment_View.php:78
+msgid "comment"
+msgid_plural "comments"
+msgstr[0] "comentário"
+msgstr[1] "comentários"
+
+#: src/FakerPress/Admin/View/Attachment_View.php:64
+#: src/FakerPress/Admin/View/Comment_View.php:76
+#: src/FakerPress/Admin/View/Post_View.php:75
+#: src/FakerPress/Admin/View/Term_View.php:77
+#: src/FakerPress/Admin/View/User_View.php:75
+msgid "Faked %d new %s: [ %s ]"
+msgstr "Foram criados %d novos %s [ %s ]"
+
+#: src/FakerPress/Module/Comment.php:128
+msgid "Zero is not a good number of comments to fake..."
+msgstr "Zero não é uma boa quantidade de comentários para gerar..."
+
+#: src/FakerPress/Admin/View/Comment_View.php:38
+msgid "Generate Comments"
+msgstr "Gerar Comentários"
+
+#: src/FakerPress/Admin/View/Comment_View.php:31
+msgid "Comments"
+msgstr "Comentários"
+
+#: src/FakerPress/Field.php:1827
+msgid "Select an Interval"
+msgstr "Selecione um Intervalo"
+
+#: src/FakerPress/Field.php:1811 src/FakerPress/Field.php:1820
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#: src/FakerPress/Field.php:1783
+msgid "Browser User Agent"
+msgstr "Navegador"
+
+#: src/FakerPress/Field.php:1773
+msgid "IP"
+msgstr "IP"
+
+#: src/FakerPress/Field.php:1763
+msgid "Domain"
+msgstr "Domínio"
+
+#: src/FakerPress/Field.php:1753
+msgid "Email"
+msgstr "Email"
+
+#: src/FakerPress/Field.php:1743
+msgid "TimeZone"
+msgstr "Fuso Horário"
+
+#: src/FakerPress/Field.php:1731
+msgid "Date Format <b space>&mdash;</b> See <a href=\"http://php.net/manual/function.date.php\" target=\"_blank\">PHP Date</a>"
+msgstr "Formatação de Data <b space>&mdash;</b> Veja <a href=\"http://php.net/manual/pt_BR/function.date.php\" target=\"_blank\">PHP Date</a>"
+
+#: src/FakerPress/Field.php:1717 src/templates/pages/attachments.php:28
+#: src/templates/pages/comments.php:90 src/templates/pages/posts.php:29
+msgid "Date"
+msgstr "Data"
+
+#: src/FakerPress/Field.php:1706
+msgid "Company Format"
+msgstr "Formato da Compania"
+
+#: src/FakerPress/Field.php:1691
+msgid "BS"
+msgstr "BS"
+
+#: src/FakerPress/Field.php:1687
+msgid "Catch Phrase"
+msgstr "Frase Marcante"
+
+#: src/FakerPress/Field.php:1677 src/FakerPress/Field.php:1695
+msgid "Company"
+msgstr "Compania"
+
+#: src/FakerPress/Field.php:1666
+msgid "Address Format"
+msgstr "Formato do Endereço"
+
+#: src/FakerPress/Field.php:1659
+msgid "Longitude"
+msgstr "Longitude"
+
+#: src/FakerPress/Field.php:1655
+msgid "Latitude"
+msgstr "Latitude"
+
+#: src/FakerPress/Field.php:1651
+msgid "Postal Code"
+msgstr "Código Postal"
+
+#: src/FakerPress/Field.php:1647
+msgid "Street Address"
+msgstr "Logradouro"
+
+#: src/FakerPress/Field.php:1643
+msgid "Street Name"
+msgstr "Rua"
+
+#: src/FakerPress/Field.php:1639
+msgid "Building Number"
+msgstr "Número"
+
+#: src/FakerPress/Field.php:1635
+msgid "Secondary Address"
+msgstr "Endereço Secundário"
+
+#: src/FakerPress/Field.php:1631
+msgid "Address"
+msgstr "Endereço"
+
+#: src/FakerPress/Field.php:1627
+msgid "State Abbr"
+msgstr "Abrev. de Estado"
+
+#: src/FakerPress/Field.php:1623
+msgid "State"
+msgstr "Estado"
+
+#: src/FakerPress/Field.php:1619
+msgid "City"
+msgstr "Cidade"
+
+#: src/FakerPress/Field.php:1615
+msgid "City Suffix"
+msgstr "Sufixo da Cidade"
+
+#: src/FakerPress/Field.php:1611
+msgid "City Prefix"
+msgstr "Prefixo da Cidade"
+
+#: src/FakerPress/Field.php:1599
+msgid "Country"
+msgstr "País"
+
+#: src/FakerPress/Field.php:1589
+msgid "Geo Information"
+msgstr "Informação Geográfica"
+
+#: src/FakerPress/Field.php:1572
+msgid "Female"
+msgstr "Feminino"
+
+#: src/FakerPress/Field.php:1568
+msgid "Male"
+msgstr "Masculino"
+
+#: src/FakerPress/Field.php:1560
+msgid "Name Template"
+msgstr "Nome do Modelo"
+
+#: src/FakerPress/Field.php:1552 src/FakerPress/Field.php:1699
+msgid "Suffix"
+msgstr "Sufixo"
+
+#: src/FakerPress/Field.php:1548
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: src/FakerPress/Field.php:1544
+msgid "First Name"
+msgstr "Nome"
+
+#: src/FakerPress/Field.php:1540
+msgid "Title"
+msgstr "Título"
+
+#: src/FakerPress/Field.php:1530
+msgid "Person"
+msgstr "Pessoa"
+
+#: src/FakerPress/Field.php:1519
+msgid "[A-Z0-9._%+-]+@[A-Z0-9.-] <b spacer>&raquo;</b> sm0@y8k96a"
+msgstr "[A-Z0-9._%+-]+@[A-Z0-9.-] <b spacer>&raquo;</b> sm0@y8k96a"
+
+#: src/FakerPress/Field.php:1518
+msgid "E.g.: [A-Z0-9._%+-]+@[A-Z0-9.-]"
+msgstr "Ex.: [A-Z0-9._%+-]+@[A-Z0-9.-]"
+
+#: src/FakerPress/Field.php:1511
+msgid "Regexify"
+msgstr "Trocar Regex"
+
+#: src/FakerPress/Field.php:1500
+msgid "John **** <b spacer>&raquo;</b> John r9\"+"
+msgstr "João **** <b spacer>&raquo;</b> João r9\"+"
+
+#: src/FakerPress/Field.php:1499
+msgid "E.g.: John ****"
+msgstr "Ex.: João ****"
+
+#: src/FakerPress/Field.php:1492
+msgid "Asciify"
+msgstr "Trocar Ascii"
+
+#: src/FakerPress/Field.php:1481
+msgid "John ##?? <b spacer>&raquo;</b> John 29ze"
+msgstr "João ##?? <b spacer>&raquo;</b> João 29ze"
+
+#: src/FakerPress/Field.php:1480
+msgid "E.g.: John ##??"
+msgstr "Ex.: João ##??"
+
+#: src/FakerPress/Field.php:1473
+msgid "Lexify"
+msgstr "Lexificar"
+
+#: src/FakerPress/Field.php:1461
+msgid "HTML Tags, without &lt; or &gt;"
+msgstr "HTML Tags, sem &lt; ou &gt;"
+
+#: src/FakerPress/Field.php:1450
+msgid "HTML"
+msgstr "HTML"
+
+#: src/FakerPress/Field.php:1437
+msgid "Separator <b space>&mdash;</b> New Line: \"\\n\""
+msgstr "Separador <b space>&mdash;</b> Nova Linha: \"\\n\""
+
+#: src/FakerPress/Field.php:1428
+msgid "Paragraphs"
+msgstr "Parágrafos"
+
+#: src/FakerPress/Field.php:1424
+msgid "Sentences"
+msgstr "Sentenças"
+
+#: src/FakerPress/Field.php:1416
+msgid "Text"
+msgstr "Texto"
+
+#: src/FakerPress/Field.php:1404
+msgid "Words"
+msgstr "Palavras"
+
+#: src/FakerPress/Field.php:1394
+msgid "Letter"
+msgstr "Carta"
+
+#: src/FakerPress/Field.php:1380
+msgid "Type all possible elements (Tab or Return)"
+msgstr "Digite todos os termos possíveis (Tab ou Enter)"
+
+#: src/FakerPress/Field.php:1370
+msgid "Elements"
+msgstr "Elementos"
+
+#: src/FakerPress/Field.php:1291
+msgid "Uses <a href=\"http://codex.wordpress.org/Class_Reference/WP_Query\" target=\"_blank\">WP_Query</a>"
+msgstr "Baseado na <a href=\"http://codex.wordpress.org/Class_Reference/WP_Query\" target=\"_blank\">WP_Query</a>"
+
+#: src/FakerPress/Field.php:1290
+msgid "category=2&posts_per_page=10"
+msgstr "category=2&posts_per_page=10"
+
+#: src/FakerPress/Field.php:1282
+msgid "WP_Query"
+msgstr "WP_Query"
+
+#: src/FakerPress/Field.php:1270
+msgid "Range of possible numbers"
+msgstr "Variação de possíveis números"
+
+#: src/FakerPress/Field.php:1263
+msgid "Number"
+msgstr "Número"
+
+#: src/FakerPress/Field.php:1247
+msgid "Weight"
+msgstr "Peso"
+
+#: src/FakerPress/Field.php:1246
+msgid "E.g.: 55"
+msgstr "Ex: 55"
+
+#: src/FakerPress/Field.php:1236
+msgid "Separator"
+msgstr "Separador"
+
+#: src/FakerPress/Field.php:1235
+msgid "E.g.: , "
+msgstr "Ex: ,"
+
+#: src/FakerPress/Field.php:1157
+msgid "Newborn Meta needs a Name, E.g.: _new_image"
+msgstr "Ex: _new_image"
+
+#: src/FakerPress/Field.php:1147
+msgid "Select a Field type"
+msgstr "Selecione um tipo de campo"
+
+#: src/FakerPress/Field.php:1183
+msgid "Configuration"
+msgstr "Configuração"
+
+#: src/FakerPress/Field.php:1176
+msgid "Select the name for Meta Field"
+msgstr "Selecione um nome para o Campo Meta"
+
+#: src/FakerPress/Field.php:1175
+msgid "Name"
+msgstr "Nome"
+
+#: src/FakerPress/Field.php:1168
+msgid "Select a type of the Meta Field"
+msgstr "Selecione um tipo de Campo Meta"
+
+#: src/FakerPress/Field.php:1167 src/templates/pages/comments.php:41
+msgid "Type"
+msgstr "Tipo"
+
+#: src/FakerPress/Field.php:1036 src/FakerPress/Field.php:1254
+#: src/templates/pages/attachments.php:16 src/templates/pages/comments.php:81
+#: src/templates/pages/posts.php:17 src/templates/pages/terms.php:8
+#: src/templates/pages/users.php:8
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: src/FakerPress/Field.php:1019
+msgid "Percentage rate of posts that will have terms generated for the amount below"
+msgstr "Quantos porcento dos posts terão termso gerados para a quantidade abaixo"
+
+#: src/FakerPress/Field.php:1018 src/FakerPress/Field.php:1026
+msgid "Rate"
+msgstr "Quantidade"
+
+#: src/FakerPress/Field.php:1011
+msgid "Which terms can be used"
+msgstr "Quais termos podem ser usados"
+
+#: src/FakerPress/Admin/View/Term_View.php:30 src/FakerPress/Field.php:998
+msgid "Terms"
+msgstr "Termos"
+
+#: src/FakerPress/Field.php:991
+msgid "Select Which taxonomies"
+msgstr "Escolha quais taxonomias"
+
+#: src/FakerPress/Field.php:970 src/templates/pages/terms.php:45
+msgid "Taxonomies"
+msgstr "Taxonomias"
+
+#: src/FakerPress/Field.php:882
+msgid "e.g.: 12"
+msgstr "ex: 12"
+
+#: src/FakerPress/Field.php:854
+msgid "e.g.: 3"
+msgstr "ex: 3"
+
+#: src/FakerPress/Dates.php:56
+msgid "Next 15 Days"
+msgstr "Próximos 15 dias"
+
+#: src/FakerPress/Dates.php:50
+msgid "Last 15 days"
+msgstr "Últimos 15 dias"
+
+#: src/FakerPress/Dates.php:44
+msgid "This year"
+msgstr "Ano atual"
+
+#: src/FakerPress/Dates.php:38
+msgid "This month"
+msgstr "Mês atual"
+
+#: src/FakerPress/Dates.php:32
+msgid "This week"
+msgstr "Semana atual"
+
+#: src/FakerPress/Dates.php:26
+msgid "Tomorrow"
+msgstr "Amanha"
+
+#: src/FakerPress/Dates.php:20
+msgid "Yesterday"
+msgstr "Ontem"
+
+#: src/FakerPress/Dates.php:14
+msgid "Today"
+msgstr "Hoje"
+
+#: src/FakerPress/Ajax.php:139 src/FakerPress/Ajax.php:217
+#: src/FakerPress/Ajax.php:267
+msgid "Request successful"
+msgstr "Requisição feita com sucesso"
+
+#: src/FakerPress/Ajax.php:35
+msgid "Security fail, refresh the page and try again!"
+msgstr "Falha de segurança, recarregue a página e tente novamente!"
+
+#: src/FakerPress/Ajax.php:20 src/FakerPress/Ajax.php:100
+#: src/FakerPress/Ajax.php:183 src/FakerPress/Ajax.php:235
+msgid "Your request has failed"
+msgstr "Sua requisição falhou"
+
+#: src/FakerPress/Admin/View/Settings_View.php:120
+msgid "All data is gone for good."
+msgstr "Todos os dados foram pra sempre."
+
+#: src/FakerPress/Admin/View/Settings_View.php:99
+msgid "The verification to erase the data has failed, you have to let it go..."
+msgstr "A verificação para deletar os dados falhou."
+
+#: src/FakerPress/Admin.php:267
+msgid "View what changed in this version"
+msgstr "Veja o que mudou nessa versão"
+
+#: src/FakerPress/Admin.php:261
+msgid "Help us with Translations for the FakerPress project"
+msgstr "Nos ajude com traduções para o projeto FakerPress"
+
+#: src/FakerPress/Admin.php:231
+msgid "Add your [stars] on [wp.org] to spread the love."
+msgstr "Dê [stars] para nós no [wp.org] para ajudar o Plugin"
+
+#: src/FakerPress/Admin.php:224
+msgid "Contact Support"
+msgstr "Contacte o Suporte"
+
+#: src/FakerPress/Admin.php:152
+msgid "%s on FakerPress"
+msgstr "%s no FakerPress"
+
+#: src/FakerPress/Admin/View/Error_View.php:31
+msgid "Not Found (404)"
+msgstr "Não encontrado (404)"
+
+#: src/FakerPress/Admin/View/Changelog_View.php:24
+msgid "Changelog"
+msgstr "Mudanças"
+
+#. Plugin Name of the plugin
+#: fakerpress.php src/FakerPress/Admin/View/Settings_View.php:47
+msgid "FakerPress"
+msgstr "FakerPress"
+
+#: src/FakerPress/Admin/Menu.php:202
+#: src/FakerPress/Admin/View/Settings_View.php:54
+msgid "Settings"
+msgstr "Configurações"
