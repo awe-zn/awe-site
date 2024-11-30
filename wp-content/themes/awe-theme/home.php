@@ -41,7 +41,7 @@
                     </h2>
                     <p>Aceleramos a aprendizagem dos alunos nas disciplinas técnicas e seus soft skills. Focamos no
                         mundo do trabalho e seus desafios.</p>
-                    <a target="_blank" href="./sobre" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
+                    <a href="./sobre" class="fs-6 fw-bold text-decoration-none">Quer saber mais sobre o que fazemos?
                         <br>#PorDentroDaAWE</a>
                 </div>
             </section>
@@ -210,7 +210,7 @@
                                 <p class="title-project fw-bold mb-2"><?php the_title(); ?></p>
                                 <p class="description-project"><?php the_excerpt(); ?></p>
                             </div>
-                            <a target="_blank" href="<?php the_permalink(); ?>" class="normal-text">Acesse o projeto</a>
+                            <a href="<?php the_permalink(); ?>" class="normal-text">Acesse o projeto</a>
                         </div>
 
                 <?php endwhile;
@@ -255,7 +255,7 @@
                         <?php endif; ?>
                         <small class="title-news">Publicado em <?php echo get_the_date('d.m.Y'); ?></small>
                         <p class="description-news fw-semibold color-semantic-primary-blue-dark excerpt-limited"><?php the_title(); ?></p>
-                        <a target="_blank" href="<?php the_permalink(); ?>" class="">Continue lendo</a>
+                        <a href="<?php the_permalink(); ?>" class="">Continue lendo</a>
                     <?php
                         endwhile;
                         wp_reset_postdata();

@@ -46,7 +46,7 @@
                                     <img src="<?php the_post_thumbnail_url('medium'); ?>" alt="<?php the_title_attribute(); ?>">
                                 <?php else : ?>
                                     <!-- Imagem placeholder caso não haja thumbnail definida -->
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/rectangle.png" alt="Imagem padrão">
+                                    <!--Sem imagem-->
                                 <?php endif; ?>
                                     <p class="date-noticia">Publicado em <?php echo get_the_date('d/m/Y'); ?></p>
                                     <h4 class="title-noticia fw-bold mb-2"><?php the_title(); ?></h4>

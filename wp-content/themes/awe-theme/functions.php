@@ -31,7 +31,8 @@ function awe_site_enqueue_style()
 
 add_action('wp_enqueue_scripts', 'awe_site_enqueue_style');
 
-function awe_site_scripts() {
+function awe_site_scripts()
+{
     wp_enqueue_script(
         'meu-script',
         get_template_directory_uri() . '/assets/js/index.js',
@@ -69,7 +70,8 @@ add_action('wp_enqueue_scripts', 'awe_site_scripts');
 
 // custom post type
 
-function cpt_noticias() {
+function cpt_noticias()
+{
     $labels = array(
         'name'                  => _x('Noticias', 'Post type general name'),
         'singular_name'         => _x('Noticia', 'Post type singular name'),
@@ -101,7 +103,8 @@ function cpt_noticias() {
 
 add_action('init', 'cpt_noticias');
 
-function cpt_projetos() {
+function cpt_projetos()
+{
     $labels = array(
         'name'                  => _x('Projetos', 'Post type general name'),
         'singular_name'         => _x('Projeto', 'Post type singular name'),
@@ -133,7 +136,8 @@ function cpt_projetos() {
 
 add_action('init', 'cpt_projetos');
 
-function cpt_equipe(){
+function cpt_equipe()
+{
     $labels = array(
         'name' => _x('Equipe', 'Post Type General Name'),
         'singular_name' => _x('Membro da Equipe', 'Membro da Equipe Post Type Singular Name'),
@@ -147,10 +151,10 @@ function cpt_equipe(){
         'all_items' => __('Conhecer Equipe'),
         'search_items' => __('Procurar Membros'),
         'not_found' => __('Nenhum Membro encontrado'),
-        'not_found_in_trash' => __('Nenhum Membro encontrado na lixeira'),  
+        'not_found_in_trash' => __('Nenhum Membro encontrado na lixeira'),
     );
 
-    $args = array (
+    $args = array(
         'labels' => $labels,
         'public' => true,
         'has_archive' => true,
@@ -164,7 +168,8 @@ function cpt_equipe(){
 
 add_action('init', 'cpt_equipe');
 
-function custom_breadcrumbs() {
+function custom_breadcrumbs()
+{
     // Configurações
     $separator = ' / '; // Separador entre os itens
     $home_title = 'Awe'; // Título do link para a página inicial
@@ -175,15 +180,26 @@ function custom_breadcrumbs() {
     echo '<a href="' . home_url() . '">' . $home_title . '</a>' . $separator;
 
     // Verifica o tipo de página e constrói o breadcrumb
-    if (is_category() || is_single()) {
+    if (is_single()) {
+        // Obter o tipo de post
+        $post_type = get_post_type();
+        if ($post_type && $post_type !== 'post') {
+            $post_type_obj = get_post_type_object($post_type);
+            echo '<a href="' . get_post_type_archive_link($post_type) . '">' . $post_type_obj->labels->singular_name . '</a>' . $separator;
+        }
+
         // Exibir a categoria do post, se existir
         $category = get_the_category();
         if ($category) {
             echo '<a href="' . get_category_link($category[0]->term_id) . '">' . $category[0]->name . '</a>' . $separator;
         }
-        if (is_single() && $show_current) {
+
+        if ($show_current) {
             echo '<span>' . get_the_title() . '</span>';
         }
+    } elseif (is_category()) {
+        // Categoria
+        echo '<span>' . single_cat_title('', false) . '</span>';
     } elseif (is_page()) {
         // Exibe as páginas pai, se existir hierarquia de páginas
         global $post;
@@ -199,6 +215,7 @@ function custom_breadcrumbs() {
     } elseif (is_home()) {
         echo '<span>Blog</span>';
     } elseif (is_archive()) {
+        // Arquivo de tipo de post ou taxonomia
         echo '<span>' . post_type_archive_title('', false) . '</span>';
     } elseif (is_search()) {
         echo '<span>Resultados da pesquisa para: ' . get_search_query() . '</span>';
@@ -209,12 +226,13 @@ function custom_breadcrumbs() {
     echo '</div>';
 }
 
+
 // Remove o prefixo de categoria da URL
-add_filter('category_link', function($url) {
+add_filter('category_link', function ($url) {
     return str_replace('/category/', '/', $url);
 });
 
-add_action('init', function() {
+add_action('init', function () {
     global $wp_rewrite;
     $wp_rewrite->category_base = '';
     $wp_rewrite->flush_rules();
